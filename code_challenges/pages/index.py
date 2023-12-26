@@ -49,16 +49,16 @@ FAQ_LIST = [
 def index() -> rx.Component:
     return rx.box(
         utils.lang(),
-        # navbar(ROUTE),
+        navbar(ROUTE),
         rx.center(
             rx.vstack(
                 header(),
-                # challenges(),
-                # featured_challenge(
-                #     f"{Route.ROADMAP.value}#last",
-                #     last_roadmap_challenge
-                # ),
-                # faq(FAQ_LIST),
+                challenges(),
+                featured_challenge(
+                    f"{Route.ROADMAP.value}#last",
+                    last_roadmap_challenge
+                ),
+                faq(FAQ_LIST),
                 languages(ROUTE),
                 footer(),
                 spacing=Size.VERY_BIG.value,

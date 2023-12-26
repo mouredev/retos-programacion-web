@@ -6,4 +6,5 @@ reflex export --frontend-only
 rm -rf public
 unzip frontend.zip -d public
 rm -f frontend.zip
+cp vercel.json public/
 deactivate

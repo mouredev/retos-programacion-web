@@ -30,7 +30,7 @@ FAQ_LIST = [
     ),
     FAQ(
         "¿Existe algún orden para resolver los ejercicios?",
-        "Los retos están organizados siguiendo una ruta de estudio que hará un repaso por todos los fundamentos comunes de la gran mayoría de lenguajes de programación usados en la actualidad. Te recomiendo seguir su numeráción."
+        "Los retos están organizados siguiendo una ruta de estudio que hará un repaso por todos los fundamentos comunes de la gran mayoría de lenguajes de programación usados en la actualidad. Te recomiendo seguir su numeración."
     ),
     FAQ(
         "¿Cuándo se publican los retos?",

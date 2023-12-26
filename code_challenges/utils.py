@@ -38,7 +38,7 @@ meta_roadmap = [
     {"name": "og:description", "content": description_roadmap},
     {"name": "og:image", "content": preview_roadmap}
 ]
-meta_index.extend(meta)
+meta_roadmap.extend(meta)
 
 # Ejercicios
 
@@ -51,7 +51,7 @@ meta_exercises = [
     {"name": "og:description", "content": description_exercises},
     {"name": "og:image", "content": preview_exercises}
 ]
-meta_index.extend(meta)
+meta_exercises.extend(meta)
 
 # Proyectos
 
@@ -64,4 +64,4 @@ meta_projects = [
     {"name": "og:description", "content": description_projects},
     {"name": "og:image", "content": preview_projects}
 ]
-meta_index.extend(meta)
+meta_projects.extend(meta)

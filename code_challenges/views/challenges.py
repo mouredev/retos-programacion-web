@@ -59,7 +59,7 @@ def _exercises_card() -> rx.Component:
     return card(
         Route.EXERCISES.value,
         "Ejercicios lógicos",
-        "101 retos de código para pacticar tus habilidades con cualquier lenguaje de programación.",
+        "101 retos de código para practicar tus habilidades con cualquier lenguaje de programación.",
         TextColor.GREEN
     )
 

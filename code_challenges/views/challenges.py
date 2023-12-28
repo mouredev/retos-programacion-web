@@ -9,7 +9,7 @@ from code_challenges.components.card import card
 def challenges() -> rx.Component:
     return rx.vstack(
         paragraph(
-            "Mejora tus habilidades",
+            "Mejora tus habilidades.",
             "Resuelve a tu ritmo ejercicios inspirados en pruebas técnicas usando el lenguaje de programación que tú quieras.",
             "Totalmente gratis y en constante actualización, con correcciones en directo y el apoyo de la comunidad."
         ),

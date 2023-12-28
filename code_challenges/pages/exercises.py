@@ -65,7 +65,7 @@ def exercises() -> rx.Component:
                 ),
                 rx.vstack(
                     paragraph(
-                        "Mejora tus habilidades.",
+                        "Mejora tu lógica de programación.",
                         "Utiliza el lenguaje de programación que tú quieras para resolver ejercicios que te ayudarán a mejorar tu forma de pensar y enfrentarte a retos de código.",
                         "Consulta correcciones de la comunidad en los repositorios de código de los diferentes retos. Se han dividido entre los resueltos en 2022 y 2023 (consulta su etiqueta)."
                     ),

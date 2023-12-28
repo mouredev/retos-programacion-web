@@ -71,7 +71,7 @@ def roadmap() -> rx.Component:
                 ),
                 rx.vstack(
                     paragraph(
-                        "Mejora tu lógica de programación.",
+                        "Una guía que te ayuda a mejorar.",
                         "Sigue la ruta de estudio para aprender los fundamentos del lenguaje de programación que quieras desde su base, de manera práctica, paso a paso y en comunidad.",
                         "Cada semana se propondrá y explicará un nuevo ejercicio que te servirá para mejorar tu lógica de programación mientras estudias todas las características del lenguaje."
                     ),

@@ -60,7 +60,7 @@ def exercises() -> rx.Component:
             rx.vstack(
                 header(
                     "ejercicios",
-                    "101 ejercicios para practicar lógica de programacion",
+                    "101 ejercicios para practicar lógica de programación",
                     constants.GITHUB_EXERCISES_REPO_URL
                 ),
                 rx.vstack(

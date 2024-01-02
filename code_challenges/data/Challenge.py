@@ -69,9 +69,10 @@ roadmap_challenges = [
         item.get("solution", ""),
         item.get("community", ""),
         item.get("video", ""),
-        level=item.get("level", 0),
-        date=item.get("date", ""),
-        event=item.get("event", "")
+        item.get("video_title", ""),
+        item.get("level", 0),
+        item.get("date", ""),
+        item.get("event", "")
     )
     for item in roadmap_data
 ]

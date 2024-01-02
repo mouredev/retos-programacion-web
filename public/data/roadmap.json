@@ -27,18 +27,47 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "26/12/2023 - 02/01/2024",
-        "event": "https://discord.gg/mouredev?event=1189147970021642271"
+        "date": "26/12/2023 - 02/01/2024"
     },
     {
-        "title": "#01 NUEVO EJERCICIO",
+        "title": "#01 OPERADORES Y ESTRUCTURAS DE CONTROL",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:",
+            " *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...",
+            " *   (Ten en cuenta que cada lenguaje puede poseer unos diferentes)",
+            " * - Utilizando las operaciones con operadores que tú quieras, crea ejemplos",
+            " *   que representen todos los tipos de estructuras de control que existan",
+            " *   en tu lenguaje:",
+            " *   Condicionales, iterativas, excepciones...",
+            " * - Debes hacer print por consola del resultado de todos los ejemplos.",
+            " *",
+            " * DIFICULTAD EXTRA:",
+            " * Crea un programa que imprima por consola todos los números comprendidos",
+            " * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.",
+            " *",
+            " * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/01%20-%20OPERADORES%20Y%20ESTRUCTURAS%20DE%20CONTROL/ejercicio.md",
+        "level": 1,
+        "date": "02/01/2024 - 08/01/2024",
+        "event": "https://discord.gg/mouredev?event=1191684000465567774"
+    },
+    {
+        "title": "#02 NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "02/01/2024",
-        "event": "https://discord.gg/mouredev?event=1189147970021642271"
+        "date": "08/01/2024",
+        "event": "https://discord.gg/mouredev?event=1191684000465567774"
     }
 ]

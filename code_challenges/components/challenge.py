@@ -82,7 +82,7 @@ def challenge(data: Challenge, roadmap=False, id=None) -> rx.Component:
                             rx.box(
                                 rx.tablet_and_desktop(
                                     button(
-                                        "Vídeo",
+                                        data.video_title if data.video_title != "" else "Vídeo",
                                         data.video,
                                         "/icons/light/youtube.svg",
                                         True

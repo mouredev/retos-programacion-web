@@ -134,5 +134,5 @@ roadmap_path_style = {
     "-webkit-user-select": "none",
     "-moz-user-select": "none",
     "-ms-user-select": "none",
-    "z_index": "999"
+    "z_index": "1"
 }

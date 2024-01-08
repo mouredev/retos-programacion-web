@@ -53,7 +53,7 @@ Curso gratis para aprender desarrollo frontend Web con Python puro desde cero co
 ![GitHub Followers](https://img.shields.io/github/followers/mouredev?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/mouredev?style=social)
 
-Soy ingeniero de software desde 2010. Desde 2018 años combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
+Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
 
 ### En mi perfil de GitHub tienes más información
 

@@ -14,8 +14,7 @@ def challenge_list(challenges: list[Challenge], roadmap=False) -> rx.Component:
                     challenge(
                         data,
                         roadmap,
-                        "last" if index == len(challenges) - (2 if roadmap else 1)
-                        else None
+                        "last" if index == 1 and roadmap else None
                     )
                     for index, data in enumerate(challenges)
                 ],

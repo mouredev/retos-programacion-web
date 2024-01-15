@@ -88,18 +88,46 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/02%20-%20FUNCIONES%20Y%20ALCANCE/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/02%20-%20FUNCIONES%20Y%20ALCANCE/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/02%20-%20FUNCIONES%20Y%20ALCANCE/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "08/01/2024 - 15/01/2024",
-        "event": "https://discord.gg/mouredev?event=1193838918689374298"
+        "date": "08/01/2024 - 15/01/2024"
     },
     {
-        "title": "#03 NUEVO EJERCICIO",
+        "title": "#03 ESTRUCTURAS DE DATOS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto en tu lenguaje.",
+            " * - Utiliza operaciones de inserción, borrado, actualización y ordenación.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea una agenda de contactos por terminal.",
+            " * - Debes implementar funcionalidades de búsqueda, inserción, actualización",
+            " *   y eliminación de contactos.",
+            " * - Cada contacto debe tener un nombre y un número de teléfono.",
+            " * - El programa solicita en primer lugar cuál es la operación que se quiere realizar,",
+            " *   y a continuación los datos necesarios para llevarla a cabo.",
+            " * - El programa no puede dejar introducir números de teléfono no númericos y con más",
+            " *   de 11 dígitos (o el número de dígitos que quieras).",
+            " * - También se debe proponer una operación de finalización del programa.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/03%20-%20ESTRUCTURAS%20DE%20DATOS/ejercicio.md",
+        "level": 2,
+        "date": "15/01/2024 - 22/01/2024",
+        "event": "https://discord.gg/y5F58wEX?event=1196482983721455729"
+    },
+    {
+        "title": "#04 NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "15/01/2024",
-        "event": "https://discord.gg/mouredev?event=1193838918689374298"
+        "date": "22/01/2024",
+        "event": "https://discord.gg/y5F58wEX?event=1196482983721455729"
     }
 ]

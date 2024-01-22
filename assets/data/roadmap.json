@@ -115,18 +115,45 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/03%20-%20ESTRUCTURAS%20DE%20DATOS/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/03%20-%20ESTRUCTURAS%20DE%20DATOS/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/03%20-%20ESTRUCTURAS%20DE%20DATOS/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "15/01/2024 - 22/01/2024",
-        "event": "https://discord.gg/y5F58wEX?event=1196482983721455729"
+        "date": "15/01/2024 - 22/01/2024"
     },
     {
-        "title": "#04 NUEVO EJERCICIO",
+        "title": "#04 CADENAS DE CARACTERES",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Muestra ejemplos de todas las operaciones que puedes realizar con cadenas de caracteres",
+            " * en tu lenguaje. Algunas de esas operaciones podrían ser (busca todas las que puedas):",
+            " * - Acceso a caracteres específicos, subcadenas, longitud, concatenación, repetición,",
+            " *   recorrido, conversión a mayúsculas y minúsculas, reemplazo, división, unión,",
+            " *   interpolación, verificación...",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un programa que analice dos palabras diferentes y realice comprobaciones",
+            " * para descubrir si son:",
+            " * - Palíndromos",
+            " * - Anagramas",
+            " * - Isogramas",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/04%20-%20CADENAS%20DE%20CARACTERES/ejercicio.md",
+        "level": 2,
+        "date": "22/01/2024 - 29/01/2024",
+        "event": "https://discord.gg/mouredev?event=1198925143242711040"
+    },
+    {
+        "title": "#05 NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "22/01/2024",
-        "event": "https://discord.gg/y5F58wEX?event=1196482983721455729"
+        "date": "29/01/2024",
+        "event": "https://discord.gg/mouredev?event=1198925143242711040"
     }
 ]

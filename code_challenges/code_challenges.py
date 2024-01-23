@@ -23,11 +23,3 @@ gtag('config', '{constants.GOOGLE_ANALYTICS_TAG}');
         ),
     ],
 )
-
-# No es necesario con @rx.page
-# app.add_page(index)
-# app.add_page(roadmap)
-# app.add_page(exercises)
-# app.add_page(projects)
-
-app.compile()

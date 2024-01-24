@@ -40,6 +40,18 @@ meta_roadmap = [
 ]
 meta_roadmap.extend(meta)
 
+# Roadmap Ranking
+
+title_roadmap_ranking = "Ranking Roadmap de Retos de Programación | by MoureDev"
+description_roadmap_ranking = "Ranking de la ruta de estudio con ejercicios para mejorar tu lógica de programación y aprender cualquier lenguaje. Gratis, a tu ritmo y en comunidad."
+
+meta_roadmap_ranking = [
+    {"name": "og:title", "content": title_roadmap_ranking},
+    {"name": "og:description", "content": description_roadmap_ranking},
+    {"name": "og:image", "content": preview_roadmap}
+]
+meta_roadmap_ranking.extend(meta)
+
 # Ejercicios
 
 title_exercises = "Ejercicios de Programación | by MoureDev"

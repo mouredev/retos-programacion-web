@@ -8,6 +8,7 @@ from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.views.featured_challenge import featured_challenge
 from code_challenges.views.challenge_list import challenge_list
+from code_challenges.views.stats import stats
 from code_challenges.views.faq import faq, FAQ
 from code_challenges.views.languages import languages
 from code_challenges.views.more import more
@@ -16,6 +17,7 @@ from code_challenges.components.heading import heading
 from code_challenges.components.paragraph import paragraph
 from code_challenges.components.button import button
 from code_challenges.data.Challenge import roadmap_challenges, last_roadmap_challenge
+from code_challenges.data.Stats import roadmap_stats
 
 ROUTE = Route.ROADMAP
 
@@ -86,6 +88,7 @@ def roadmap() -> rx.Component:
                     spacing=Size.BIG.value,
                     style=styles.max_width_style
                 ),
+                stats(roadmap_stats),
                 challenge_list(roadmap_challenges, True),
                 faq(FAQ_LIST),
                 more(ROUTE),

@@ -28,7 +28,8 @@ class Size(Enum):
 STYLESHEETS = [
     "css/main.css",
     "fonts/fonts.css",
-    "https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap"
+    "https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 ]
 
 BASE_STYLE = {

@@ -169,18 +169,42 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/05%20-%20VALOR%20Y%20REFERENCIA/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/05%20-%20VALOR%20Y%20REFERENCIA/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/05%20-%20VALOR%20Y%20REFERENCIA/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
         "date": "29/01/2024 - 05/02/2024",
         "event": "https://discord.gg/YEU3gzfe?event=1201413529924796416"
     },
     {
-        "title": "#06 NUEVO EJERCICIO",
+        "title": "#06 RECURSIVIDAD",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Entiende el concepto de recursividad creando una función recursiva que imprima",
+            " * números del 100 al 0.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Utiliza el concepto de recursividad para:",
+            " * - Calcular el factorial de un número concreto (la función recibe ese número).",
+            " * - Calcular el valor de un elemento concreto (según su posición) en la ",
+            " *   sucesión de Fibonacci (la función recibe la posición).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/06%20-%20RECURSIVIDAD/ejercicio.md",
+        "level": 3,
+        "date": "05/02/2024 - 12/02/2024",
+        "event": "https://discord.gg/mouredev?event=1204001786575200306"
+    },
+    {
+        "title": "#07 NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "05/02/2024",
-        "event": "https://discord.gg/YEU3gzfe?event=1201413529924796416"
+        "date": "12/02/2024",
+        "event": "https://discord.gg/mouredev?event=1204001786575200306"
     }
 ]

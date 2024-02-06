@@ -7,26 +7,18 @@ from code_challenges.data.Challenge import Challenge
 
 def challenge_list(challenges: list[Challenge], roadmap=False) -> rx.Component:
     return rx.box(
-        rx.cond(
-            roadmap,
-            rx.vstack(
-                *[
-                    challenge(
-                        data,
-                        roadmap,
-                        "last" if index == 1 and roadmap else None
-                    )
-                    for index, data in enumerate(challenges)
-                ],
-                spacing="6em",
-            ),
-            rx.vstack(
-                *[
-                    challenge(data)
-                    for data in challenges
-                ],
-                spacing=Size.BIG.value,
-            )
+        rx.accordion(
+            *[
+                challenge(
+                    data,
+                    "last" if (index == 0 and roadmap) else str(index),
+                    roadmap,
+                    index == len(challenges) - 1
+                )
+                for index, data in enumerate(challenges)
+            ],
+            allow_toggle=True,
+            default_index=[1 if roadmap else None]
         ),
         style=styles.max_width_style
     )

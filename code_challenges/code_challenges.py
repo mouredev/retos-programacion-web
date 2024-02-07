@@ -3,7 +3,7 @@ import code_challenges.constants as constants
 import code_challenges.styles.styles as styles
 from code_challenges.pages.index import index
 from code_challenges.pages.roadmap import roadmap
-# from code_challenges.pages.roadmap_ranking import roadmap_ranking
+from code_challenges.pages.roadmap_ranking import roadmap_ranking
 from code_challenges.pages.exercises import exercises
 from code_challenges.pages.projects import projects
 

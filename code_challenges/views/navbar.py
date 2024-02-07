@@ -6,6 +6,8 @@ from code_challenges.styles.colors import TextColor
 from code_challenges.components.title import title
 from code_challenges.components.badge import badge
 
+FONT_SIZE = [Size.DEFAULT_MEDIUM.value, Size.DEFAULT_BIG.value]
+
 
 def navbar(route: Route) -> rx.Component:
     return rx.vstack(
@@ -15,24 +17,29 @@ def navbar(route: Route) -> rx.Component:
                     title(
                         "{",
                         Font.ARGON,
-                        color=TextColor.BLUE
+                        color=TextColor.BLUE,
+                        size=FONT_SIZE
                     ),
                     title(
                         "Retos",
                         Font.NEON,
+                        size=FONT_SIZE
                     ),
                     title(
                         "de",
                         Font.RADON,
+                        size=FONT_SIZE
                     ),
                     title(
                         "Programación",
                         Font.NEON,
+                        size=FONT_SIZE
                     ),
                     title(
                         "}",
                         Font.ARGON,
-                        color=TextColor.BLUE
+                        color=TextColor.BLUE,
+                        size=FONT_SIZE
                     )
                 ),
                 href=Route.INDEX.value

@@ -9,37 +9,37 @@ from code_challenges.components.button import button
 
 def stats(stats: Stats) -> rx.Component:
     return rx.vstack(
-        # rx.link(
-        rx.stack(
-            milestone(
-                stats.languages_total,
-                "Lenguajes",
-                _languages(stats.languages_ranking),
-                TextColor.YELLOW
+        rx.link(
+            rx.stack(
+                milestone(
+                    stats.languages_total,
+                    "Lenguajes",
+                    _languages(stats.languages_ranking),
+                    TextColor.YELLOW
+                ),
+                milestone(
+                    stats.files_total,
+                    "Contribuciones",
+                    _challenges(stats.challenges_ranking),
+                    TextColor.GREEN
+                ),
+                milestone(
+                    stats.users_total,
+                    "Usuarios",
+                    _users(stats.users_ranking),
+                    TextColor.PINK
+                ),
+                spacing=Size.BIG.value,
+                direction=styles.STACK_DIRECTION
             ),
-            milestone(
-                stats.files_total,
-                "Contribuciones",
-                _challenges(stats.challenges_ranking),
-                TextColor.GREEN
-            ),
-            milestone(
-                stats.users_total,
-                "Usuarios",
-                _users(stats.users_ranking),
-                TextColor.PINK
-            ),
-            spacing=Size.BIG.value,
-            width="100%",
-            direction=styles.STACK_DIRECTION
+            href=Route.ROADMAP_RANKING.value,
+            width="100%"
         ),
-        # href=Route.ROADMAP_RANKING.value,
-        # ),
-        # button(
-        #     "Ver el ranking completo",
-        #     Route.ROADMAP_RANKING.value,
-        #     is_external=False
-        # ),
+        button(
+            "Ver el ranking completo",
+            Route.ROADMAP_RANKING.value,
+            is_external=False
+        ),
         spacing=Size.BIG.value,
         style=styles.max_width_style
     )

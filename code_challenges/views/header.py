@@ -7,7 +7,7 @@ from code_challenges.styles.colors import TextColor
 from code_challenges.components.title import title
 from code_challenges.components.button import button
 
-TITLE_SIZE = ["2.8em", Size.VERY_BIG.value]
+TITLE_SIZE = ["2.2em", Size.VERY_BIG.value]
 SUBTITLE_SIZE = [Size.DEFAULT_BIG.value, Size.BIG.value]
 
 

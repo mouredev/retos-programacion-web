@@ -1,0 +1,36 @@
+name: Static Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    if: github.repository == 'mouredev/retos-programacion-web'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run build script
+        run: |
+          chmod +x ./remote_build.sh
+          ./remote_build.sh
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update static build
+          commit_user_name: Brais Moure [GitHub Actions]
+          commit_user_email: mouredev@gmail.com
+          commit_author: Brais Moure <mouredev@gmail.com>

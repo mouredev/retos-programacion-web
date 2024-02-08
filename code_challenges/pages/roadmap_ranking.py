@@ -83,6 +83,10 @@ def roadmap_ranking() -> rx.Component:
                         spacing=Size.BIG.value,
                         width="100%"
                     ),
+                    rx.text(
+                        "* datos actualizados cada 24 horas",
+                        color=TextColor.SECONDARY.value
+                    ),
                     spacing=Size.VERY_BIG.value,
                     style=styles.max_width_style
                 ),

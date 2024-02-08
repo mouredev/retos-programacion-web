@@ -1,13 +1,12 @@
 name: Static Build
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 1 * * *'
 
 jobs:
   build:
-    if: github.repository == 'mouredev/retos-programacion-web'
+    if: github.repository == 'mouredev/retos-programacion-web' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     permissions:

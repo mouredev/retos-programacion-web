@@ -5,7 +5,8 @@ from code_challenges.data.Stats import LanguageRanking
 
 DEVICON = {
     "c#": "csharp", "c++": "cplusplus", "sql": "azuresqldatabase", "cobol": "devicon",
-    "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon"
+    "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon",
+    "racket": "devicon", "tcl": "devicon"
 }
 
 

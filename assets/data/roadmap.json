@@ -195,18 +195,48 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/06%20-%20RECURSIVIDAD/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/06%20-%20RECURSIVIDAD/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/06%20-%20RECURSIVIDAD/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
         "date": "05/02/2024 - 12/02/2024",
         "event": "https://discord.gg/mouredev?event=1204001786575200306"
     },
     {
-        "title": "#07 NUEVO EJERCICIO",
+        "title": "#07 PILAS Y COLAS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Implementa los mecanismos de introducción y recuperación de elementos propios de las",
+            " * pilas (stacks - LIFO) y las colas (queue - FIFO) utilizando una estructura de array",
+            " * o lista (dependiendo de las posibilidades de tu lenguaje).",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * - Utilizando la implementación de pila y cadenas de texto, simula el mecanismo adelante/atrás",
+            " *   de un navegador web. Crea un programa en el que puedas navegar a una página o indicarle",
+            " *   que te quieres desplazar adelante o atrás, mostrando en cada caso el nombre de la web.",
+            " *   Las palabras \"adelante\", \"atrás\" desencadenan esta acción, el resto se interpreta como",
+            " *   el nombre de una nueva web.",
+            " * - Utilizando la implementación de cola y cadenas de texto, simula el mecanismo de una",
+            " *   impresora compartida que recibe documentos y los imprime cuando así se le indica.",
+            " *   La palabra \"imprimir\" imprime un elemento de la cola, el resto de palabras se",
+            " *   interpretan como nombres de documentos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/07%20-%20PILAS%20Y%20COLAS/ejercicio.md",
+        "level": 2,
+        "date": "12/02/2024 - 19/02/2024",
+        "event": "https://discord.gg/bhdquzMy?event=1206182685077143592"
+    },
+    {
+        "title": "#08 NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "12/02/2024",
-        "event": "https://discord.gg/mouredev?event=1204001786575200306"
+        "date": "19/02/2024",
+        "event": "https://discord.gg/bhdquzMy?event=1206182685077143592"
     }
 ]

@@ -224,9 +224,12 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/07%20-%20PILAS%20Y%20COLAS/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/07%20-%20PILAS%20Y%20COLAS/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/07%20-%20PILAS%20Y%20COLAS/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "12/02/2024",
-        "event": "https://discord.gg/bhdquzMy?event=1206182685077143592"
+        "date": "12/02/2024"
     },
     {
         "title": "#08 CLASES",

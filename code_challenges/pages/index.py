@@ -1,7 +1,7 @@
 import reflex as rx
 import code_challenges.utils as utils
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size
+from code_challenges.styles.styles import Spacing
 from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.views.challenges import challenges
@@ -61,7 +61,8 @@ def index() -> rx.Component:
                 faq(FAQ_LIST),
                 languages(ROUTE),
                 footer(),
-                spacing=Size.VERY_BIG.value,
+                spacing=Spacing.VERY_BIG.value,
+                align="center",
                 width="100%"
             )
         )

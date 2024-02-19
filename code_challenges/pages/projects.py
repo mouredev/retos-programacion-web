@@ -3,7 +3,7 @@ import code_challenges.styles.styles as styles
 import code_challenges.utils as utils
 import code_challenges.constants as constants
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size
+from code_challenges.styles.styles import Spacing
 from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.components.paragraph import paragraph
@@ -46,7 +46,8 @@ def projects() -> rx.Component:
                 more(ROUTE),
                 languages(ROUTE),
                 footer(),
-                spacing=Size.VERY_BIG.value,
+                spacing=Spacing.VERY_BIG.value,
+                align="center",
                 width="100%"
             )
         ),

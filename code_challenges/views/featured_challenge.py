@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, TextColor
+from code_challenges.styles.styles import Spacing, TextColor
 from code_challenges.components.card import card
 from code_challenges.components.button import button
 from code_challenges.data.Challenge import Challenge
@@ -30,8 +30,8 @@ def featured_challenge(url: str, challenge: Challenge) -> rx.Component:
                 "/icons/light/discord.svg",
                 True
             ),
-            spacing=Size.DEFAULT_BIG.value
+            spacing=Spacing.DEFAULT_BIG.value
         ),
-        spacing=Size.BIG.value,
+        spacing=Spacing.BIG.value,
         style=styles.max_width_style
     )

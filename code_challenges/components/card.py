@@ -27,7 +27,8 @@ def card(url: str, title: str, body="", color=TextColor.PRIMARY, badge_text="", 
                     height=Size.BIG.value,
                     alt="Icono con una flecha hacia la derecha"
                 ),
-                width="100%"
+                width="100%",
+                align="center"
             ),
             rx.cond(
                 body != "",

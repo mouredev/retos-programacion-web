@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, TextColor, FontWeight
+from code_challenges.styles.styles import Size, Spacing, TextColor, FontWeight
 from .heading import heading
 
 
@@ -45,7 +45,7 @@ def milestone(number: int, title: str, body: list[Milestone], color=TextColor.PR
             ],
             width="100%",
             align_items="start",
-            spacing=Size.ZERO.value
+            spacing=Spacing.ZERO.value
         ),
         width="100%",
         align_items="start",

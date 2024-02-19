@@ -2,11 +2,11 @@ import reflex as rx
 import datetime
 import code_challenges.constants as const
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, Color, TextColor, Font
+from code_challenges.styles.styles import Size, Spacing, Color, TextColor, Font
 
 
 def footer() -> rx.Component:
-    return rx.stack(
+    return rx.flex(
         rx.hstack(
             rx.image(
                 src="/logo.png",
@@ -17,15 +17,19 @@ def footer() -> rx.Component:
             rx.link(
                 rx.box(
                     "Creado con 🤍 (y gracias a ti) por ",
-                    rx.span("MoureDev by Brais Moure",
-                            color=TextColor.BLUE.value),
+                    rx.text(
+                        "MoureDev by Brais Moure",
+                        color=TextColor.BLUE.value,
+                        as_="span"
+                    ),
                     "."
                 ),
                 href=const.MOUREDEV_URL,
                 is_external=True,
                 font_family=Font.NEON.value
             ),
-            spacing=Size.DEFAULT.value
+            spacing=Spacing.DEFAULT.value,
+            align="center"
         ),
         rx.spacer(),
         rx.link(
@@ -38,7 +42,8 @@ def footer() -> rx.Component:
             is_external=True,
             text_align="end"
         ),
-        direction=styles.STACK_DIRECTION,
+        spacing=Spacing.SMALL.value,
+        flex_direction=styles.FLEX_DIRECTION,
         border_top=f"1px solid {Color.SECONDARY.value}",
         padding=Size.BIG.value,
         width="100%"

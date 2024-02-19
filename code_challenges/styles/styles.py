@@ -9,20 +9,31 @@ class CustomAttrs(Enum):
 
 
 MAX_WIDTH = "1200px"
-STACK_DIRECTION = ["column", "column", "row", "row"]
+FLEX_DIRECTION = ["column", "column", "row", "row"]
 
 
 class Size(Enum):
     ZERO = "0px !important"
     VERY_SMALL = "0.3em"
     SMALL = "0.5em"
-    MEDIUM = "0.8em"
+    MEDIUM = "0.75em"
     DEFAULT = "1em"
     DEFAULT_MEDIUM = "1.125em"
     DEFAULT_BIG = "1.5em"
     BIG = "2em"
     MEDIUM_BIG = "3em"
     VERY_BIG = "4em"
+
+
+class Spacing(Enum):
+    ZERO = "0"
+    VERY_SMALL = "1"
+    SMALL = "2"
+    DEFAULT = "4"  # 1em
+    DEFAULT_BIG = "5"
+    BIG = "6"
+    MEDIUM_BIG = "8"
+    VERY_BIG = "9"
 
 
 STYLESHEETS = [
@@ -37,16 +48,13 @@ BASE_STYLE = {
     "font_weight": FontWeight.NORMAL.value,
     "color": TextColor.PRIMARY.value,
     "background": Color.PRIMARY.value,
-    rx.Heading: {
-        "font_family": Font.NEON.value,
-        "font_weight": FontWeight.BOLD.value,
-        "width": "100%"
-    },
-    rx.Link: {
+    rx.link: {
+        "color": TextColor.PRIMARY.value,
         "text_decoration": "none",
         "_hover": {}
     },
-    rx.Button: {
+    rx.button: {
+        "font_weight": FontWeight.BOLD.value,
         "font_size": "1.25rem",
         "padding": "1.8rem 2rem",
         "border_radius": "0.5rem",
@@ -54,7 +62,17 @@ BASE_STYLE = {
             "background": f"{TextColor.BLUE.value}",
             "box-shadow": f"0 0 {Size.DEFAULT.value} {Color.SECONDARY.value}"
         }
-    }
+    },
+    rx.badge: {
+        "font_weight": FontWeight.BOLD.value,
+        "border_radius": Size.BIG.value,
+        "background": "transparent"
+    },
+    rx.chakra.heading: {
+        "font_family": Font.NEON.value,
+        "font_weight": FontWeight.BOLD.value,
+        "width": "100%"
+    },
 }
 
 max_width_style = dict(
@@ -122,8 +140,7 @@ button_style = {
 button_secondary_style = {
     "color": TextColor.PRIMARY.value,
     "background": f"{Color.PRIMARY.value}",
-    "border_width": "2px",
-    "border_color": TextColor.SECONDARY.value,
+    "border": f"2px solid {TextColor.SECONDARY.value}"
 }
 
 roadmap_path_style = {

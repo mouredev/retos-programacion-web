@@ -7,7 +7,7 @@ from code_challenges.data.Challenge import Challenge
 
 def challenge_list(challenges: list[Challenge], roadmap=False) -> rx.Component:
     return rx.box(
-        rx.accordion(
+        rx.chakra.accordion(
             *[
                 challenge(
                     data,

@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, TextColor, FontWeight
+from code_challenges.styles.styles import Size, Spacing, TextColor, FontWeight
 from code_challenges.data.Stats import UserRanking
 
 
@@ -45,9 +45,9 @@ def user_ranking(user: UserRanking) -> rx.Component:
                     color=TextColor.SECONDARY.value
                 ),
                 align_items="start",
-                spacing=Size.ZERO.value
+                spacing=Spacing.ZERO.value
             ),
-            spacing=Size.DEFAULT.value,
+            spacing=Spacing.DEFAULT.value,
             style=styles.featured_container_style if user.order <= 3 else styles.container_style
         ),
         href=f"https://github.com/{user.name}",

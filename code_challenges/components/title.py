@@ -5,7 +5,14 @@ from code_challenges.styles.colors import TextColor
 from code_challenges.styles.fonts import Font, FontWeight
 
 
-def title(text: str, font=Font.DEFAULT, weight=FontWeight.BOLD, size=[Size.DEFAULT_BIG.value], color=TextColor.PRIMARY) -> rx.Component:
+def title(
+    text: str,
+    font=Font.DEFAULT,
+    weight=FontWeight.BOLD,
+    size=[Size.DEFAULT_BIG.value],
+    color=TextColor.PRIMARY,
+    negative_margin=False
+) -> rx.Component:
     return rx.text(
         text,
         font_family=font.value,
@@ -15,5 +22,6 @@ def title(text: str, font=Font.DEFAULT, weight=FontWeight.BOLD, size=[Size.DEFAU
         custom_attrs={
             styles.CustomAttrs.DATA_TEXT.value: text,
         },
-        style=styles.glow_text_style
+        style=styles.glow_text_style,
+        margin_top=f"-{Size.VERY_SMALL.value}" if negative_margin else None
     )

@@ -1,7 +1,8 @@
+from turtle import width
 import reflex as rx
 import code_challenges.constants as constants
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size
+from code_challenges.styles.styles import Size, Spacing
 from code_challenges.styles.fonts import Font, FontWeight
 from code_challenges.styles.colors import TextColor
 from code_challenges.components.title import title
@@ -32,30 +33,34 @@ def header(
                         Font.NEON,
                         FontWeight.BOLD,
                         TITLE_SIZE,
-                        TextColor.BLUE
+                        TextColor.BLUE,
+                        True
                     ),
                     title(
                         "de",
                         Font.RADON,
                         FontWeight.BOLD,
                         TITLE_SIZE,
-                        TextColor.PURPLE
+                        TextColor.PURPLE,
+                        True
                     ),
                     title(
                         "Programación",
                         Font.NEON,
                         FontWeight.BOLD,
                         TITLE_SIZE,
-                        TextColor.BLUE
+                        TextColor.BLUE,
+                        True
                     ),
                     title(
                         subtitle,
                         Font.KRYPTON,
                         FontWeight.BOLD,
                         SUBTITLE_SIZE,
-                        TextColor.PINK
+                        TextColor.PINK,
+                        True
                     ),
-                    spacing=f"-{Size.VERY_SMALL.value}",
+                    spacing=Spacing.ZERO.value,
                     padding_left=Size.VERY_BIG.value,
                     align_items="start"
                 ),
@@ -64,7 +69,8 @@ def header(
                     Font.ARGON,
                     FontWeight.BOLD,
                     TITLE_SIZE,
-                    TextColor.GREEN
+                    TextColor.GREEN,
+                    True
                 ),
                 rx.link(
                     title(
@@ -81,12 +87,15 @@ def header(
                 ),
                 rx.center(
                     rx.vstack(
-                        rx.text(
+                        rx.heading(
                             body,
+                            font_family=Font.DEFAULT.value,
                             font_size=SUBTITLE_SIZE,
                             font_weight=FontWeight.BOLD.value,
                             padding_top=Size.BIG.value,
                             text_align="center",
+                            line_height="1.5",
+                            as_="h1"
                         ),
                         rx.tablet_and_desktop(
                             _social_buttons(github)
@@ -94,11 +103,12 @@ def header(
                         rx.mobile_only(
                             _social_buttons(github, True)
                         ),
-                        spacing=Size.BIG.value
+                        spacing=Spacing.BIG.value,
+                        align="center"
                     ),
                     width="100%"
                 ),
-                spacing=f"-{Size.VERY_SMALL.value}",
+                spacing=Spacing.ZERO.value,
                 padding_y=Size.VERY_BIG.value,
                 style=styles.max_width_style
             ),
@@ -128,5 +138,5 @@ def _social_buttons(github: str, mobile=False) -> rx.Component:
             "/icons/light/twitch.svg",
             True
         ),
-        spacing=Size.BIG.value
+        spacing=Spacing.BIG.value
     )

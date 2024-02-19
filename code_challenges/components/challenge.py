@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, Color, TextColor, Font, FontWeight
+from code_challenges.styles.styles import Size, Spacing, Color, TextColor, Font, FontWeight
 from code_challenges.data.Challenge import Challenge
 from .heading import heading
 from .badge import badge
@@ -9,29 +9,37 @@ from .button import button
 
 def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Component:
     return rx.box(
-        rx.accordion_item(
-            rx.accordion_button(
+        rx.chakra.accordion_item(
+            rx.chakra.accordion_button(
                 rx.vstack(
-                    data.level != 0 and data.date != "",
-                    rx.hstack(
-                        rx.cond(
-                            data.level != 0,
-                            badge(
-                                _level(data.level)[0],
-                                _level(data.level)[1]
-                            )
+                    rx.cond(
+                        data.level != 0 or data.date != "",
+                        rx.hstack(
+                            rx.cond(
+                                data.level != 0,
+                                badge(
+                                    _level(data.level)[0],
+                                    _level(data.level)[1]
+                                )
+                            ),
+                            rx.cond(
+                                data.date != "",
+                                badge(
+                                    data.date,
+                                    TextColor.SECONDARY
+                                )
+                            ),
+                            rx.spacer(),
+                            rx.chakra.accordion_icon(),
+                            spacing=Spacing.DEFAULT.value,
+                            width="100%"
                         ),
-                        rx.cond(
-                            data.date != "",
-                            badge(
-                                data.date,
-                                TextColor.SECONDARY
-                            )
-                        ),
-                        rx.spacer(),
-                        rx.accordion_icon(),
-                        spacing=Size.DEFAULT.value,
-                        width="100%"
+                        rx.hstack(
+                            rx.spacer(),
+                            rx.chakra.accordion_icon(),
+                            spacing=Spacing.DEFAULT.value,
+                            width="100%"
+                        )
                     ),
                     rx.hstack(
                         heading(
@@ -45,7 +53,7 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                             size="lg",
                             auto=True
                         ),
-                        spacing=Size.SMALL.value,
+                        spacing=Spacing.SMALL.value,
                         align_items="start",
                         text_align="start",
                         width="100%"
@@ -53,7 +61,7 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                     width="100%"
                 )
             ),
-            rx.accordion_panel(
+            rx.chakra.accordion_panel(
                 rx.box(
                     rx.code_block(
                         data.code,
@@ -75,7 +83,7 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                 ),
                 rx.cond(
                     data.solution != "",
-                    rx.stack(
+                    rx.flex(
                         button(
                             "Ejercicio",
                             data.url,
@@ -129,13 +137,13 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                                     )
                                 )
                             ),
-                            spacing=Size.DEFAULT_BIG.value
+                            spacing=Spacing.DEFAULT_BIG.value
                         ),
-                        spacing=Size.DEFAULT_BIG.value,
-                        direction=styles.STACK_DIRECTION,
+                        spacing=Spacing.DEFAULT_BIG.value,
+                        flex_direction=styles.FLEX_DIRECTION,
                         margin_top=Size.DEFAULT_BIG.value
                     ),
-                    rx.stack(
+                    rx.flex(
                         rx.cond(
                             data.url != "",
                             button(
@@ -162,8 +170,8 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                                 True
                             )
                         ),
-                        spacing=Size.DEFAULT_BIG.value,
-                        direction=styles.STACK_DIRECTION,
+                        spacing=Spacing.DEFAULT_BIG.value,
+                        flex_direction=styles.FLEX_DIRECTION,
                         margin_top=Size.DEFAULT_BIG.value
                     )
                 ),

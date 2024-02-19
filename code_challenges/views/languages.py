@@ -1,7 +1,7 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size, TextColor, Font, FontWeight
+from code_challenges.styles.styles import Size, Spacing, TextColor, Font, FontWeight
 from code_challenges.components.share import share
 
 langs: list[str] = [
@@ -55,29 +55,32 @@ def languages(route: Route) -> rx.Component:
             ),
             class_name="marquee"
         ),
-        spacing=Size.MEDIUM_BIG.value,
+        spacing=Spacing.MEDIUM_BIG.value,
+        align="center",
         width="100%"
     )
 
 
 def _language_start(text: str) -> rx.Component:
-    return rx.span(
+    return rx.text(
         text,
         font_family=Font.KRYPTON.value,
         custom_attrs={
             styles.CustomAttrs.DATA_TEXT.value: text,
         },
-        style=styles.glow_text_style
+        style=styles.glow_text_style,
+        as_="span"
     )
 
 
 def _language(index: int, text: str) -> rx.Component:
-    return rx.span(
+    return rx.text(
         text,
         font_family=fonts[index % len(fonts)].value,
         color=colors[index % len(colors)].value,
         custom_attrs={
             styles.CustomAttrs.DATA_TEXT.value: text,
         },
-        style=styles.glow_text_style
+        style=styles.glow_text_style,
+        as_="span"
     )

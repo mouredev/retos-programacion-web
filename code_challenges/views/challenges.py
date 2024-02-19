@@ -1,7 +1,7 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size, TextColor
+from code_challenges.styles.styles import Spacing, TextColor
 from code_challenges.components.paragraph import paragraph
 from code_challenges.components.card import card
 
@@ -14,22 +14,22 @@ def challenges() -> rx.Component:
             "Totalmente gratis y en constante actualización, con correcciones en directo y el apoyo de la comunidad."
         ),
         rx.tablet_and_desktop(
-            rx.grid(
-                rx.grid_item(
+            rx.chakra.grid(
+                rx.chakra.grid_item(
                     _roadmap_card(),
                     col_span=5
                 ),
-                rx.grid_item(
+                rx.chakra.grid_item(
                     _exercises_card(),
                     col_span=3
                 ),
-                rx.grid_item(
+                rx.chakra.grid_item(
                     _projects_card(),
                     col_span=2
                 ),
                 template_rows="repeat(2, 1fr)",
                 template_columns="repeat(5, 1fr)",
-                gap=Size.BIG.value
+                gap=Spacing.BIG.value
             )
         ),
         rx.mobile_only(
@@ -37,10 +37,10 @@ def challenges() -> rx.Component:
                 _roadmap_card(),
                 _exercises_card(),
                 _projects_card(),
-                spacing=Size.BIG.value
+                spacing=Spacing.BIG.value
             )
         ),
-        spacing=Size.VERY_BIG.value,
+        spacing=Spacing.VERY_BIG.value,
         style=styles.max_width_style
     )
 

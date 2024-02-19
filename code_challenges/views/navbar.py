@@ -1,6 +1,6 @@
 import reflex as rx
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size, Color
+from code_challenges.styles.styles import Size, Spacing, Color
 from code_challenges.styles.fonts import Font
 from code_challenges.styles.colors import TextColor
 from code_challenges.components.title import title
@@ -51,13 +51,13 @@ def navbar(route: Route) -> rx.Component:
                     _menu_roadmap(route),
                     _menu_exercises(route),
                     _menu_projects(route),
-                    spacing=Size.BIG.value
+                    spacing=Spacing.BIG.value
                 ),
                 width="100%"
             ),
             rx.mobile_only(
-                rx.menu(
-                    rx.menu_button(
+                rx.menu.root(
+                    rx.menu.trigger(
                         rx.image(
                             src="/icons/menu.svg",
                             height="auto",
@@ -66,16 +66,16 @@ def navbar(route: Route) -> rx.Component:
                         ),
                         display="flex"
                     ),
-                    rx.menu_list(
-                        rx.menu_item(
+                    rx.menu.content(
+                        rx.menu.item(
                             _menu_roadmap(route),
                             background="transparent"
                         ),
-                        rx.menu_item(
+                        rx.menu.item(
                             _menu_exercises(route),
                             background="transparent"
                         ),
-                        rx.menu_item(
+                        rx.menu.item(
                             _menu_projects(route),
                             background="transparent"
                         ),
@@ -83,10 +83,10 @@ def navbar(route: Route) -> rx.Component:
                         border_color=Color.PRIMARY.value,
                         minWidth="100px"
                     ),
-
                 )
             ),
-            width="100%"
+            width="100%",
+            align="center"
         ),
         bg=Color.SECONDARY.value,
         position="sticky",
@@ -111,7 +111,7 @@ def _menu_roadmap(route: Route) -> rx.Component:
                 TextColor.PURPLE if route == Route.ROADMAP else TextColor.PINK,
                 True
             ),
-            spacing=Size.SMALL.value
+            spacing=Spacing.SMALL.value
         ),
         href=Route.ROADMAP.value
     )

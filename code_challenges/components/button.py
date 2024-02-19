@@ -16,9 +16,9 @@ def button(text: str, url: str, image="/icons/dark/arrow.svg", secondary=False, 
                     width=Size.DEFAULT.value,
                     height=Size.DEFAULT.value,
                     alt=f"Icono que representa la navegación a \"{text}\""
-                )
+                ),
+                align="center"
             ),
-            alt=f"Icono que representa la navegación a \"{text}\"",
             style=styles.button_secondary_style if secondary else styles.button_style
         ),
         href=url,

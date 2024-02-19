@@ -3,7 +3,7 @@ import code_challenges.utils as utils
 import code_challenges.constants as constants
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size, TextColor
+from code_challenges.styles.styles import Size, Spacing, TextColor
 from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.views.languages import languages
@@ -49,9 +49,9 @@ def roadmap_ranking() -> rx.Component:
                             color=TextColor.SECONDARY.value
                         ),
                         align_items="start",
-                        spacing=Size.VERY_SMALL.value
+                        spacing=Spacing.SMALL.value
                     ),
-                    rx.responsive_grid(
+                    rx.chakra.responsive_grid(
                         *[
                             language_ranking(language)
                             for language in roadmap_stats.languages_ranking
@@ -72,9 +72,9 @@ def roadmap_ranking() -> rx.Component:
                             color=TextColor.SECONDARY.value
                         ),
                         align_items="start",
-                        spacing=Size.VERY_SMALL.value
+                        spacing=Spacing.SMALL.value
                     ),
-                    rx.responsive_grid(
+                    rx.chakra.responsive_grid(
                         *[
                             user_ranking(user)
                             for user in roadmap_stats.users_ranking
@@ -87,13 +87,14 @@ def roadmap_ranking() -> rx.Component:
                         "* datos actualizados cada 24 horas",
                         color=TextColor.SECONDARY.value
                     ),
-                    spacing=Size.VERY_BIG.value,
+                    spacing=Spacing.VERY_BIG.value,
                     style=styles.max_width_style
                 ),
                 more(MAIN_ROUTE),
                 languages(MAIN_ROUTE),
                 footer(),
-                spacing=Size.VERY_BIG.value,
+                spacing=Spacing.VERY_BIG.value,
+                align="center",
                 width="100%"
             )
         )

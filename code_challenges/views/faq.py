@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, Color, TextColor, FontWeight
+from code_challenges.styles.styles import Size, Spacing, Color, TextColor, FontWeight
 from code_challenges.components.heading import heading
 
 
@@ -23,8 +23,7 @@ def faq(faq: list[FAQ]) -> rx.Component:
                         )
                         for data in faq
                     ],
-                    template_rows=f"repeat({int(len(faq)/2)}, 1fr)",
-                    template_columns="repeat(2, 1fr)",
+                    columns="2",
                     gap=Size.MEDIUM_BIG.value
                 )
             ),
@@ -40,18 +39,19 @@ def faq(faq: list[FAQ]) -> rx.Component:
                     gap=Size.MEDIUM_BIG.value
                 )
             ),
-            spacing=Size.BIG.value,
+            spacing=Spacing.BIG.value,
             style=styles.max_width_style
         ),
         id="faq",
         background=Color.SECONDARY.value,
         padding_y=Size.VERY_BIG.value,
+        align="center",
         width="100%"
     )
 
 
 def _faq_text(title: str, body: str) -> rx.Component:
-    return rx.grid_item(
+    return rx.box(
         rx.text(
             title,
             font_size=Size.DEFAULT_MEDIUM.value,

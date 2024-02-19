@@ -1,6 +1,6 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
-from code_challenges.styles.styles import Size, TextColor, FontWeight
+from code_challenges.styles.styles import Size, Spacing, TextColor, FontWeight
 from code_challenges.data.Stats import LanguageRanking
 
 DEVICON = {
@@ -36,7 +36,8 @@ def language_ranking(language: LanguageRanking) -> rx.Component:
                 color=TextColor.SECONDARY.value
             ),
             height="100%",
-            spacing=Size.VERY_SMALL.value,
+            align="center",
+            spacing=Spacing.VERY_SMALL.value,
             style=styles.featured_container_style if language.order <= 3 else styles.container_style
         )
     )

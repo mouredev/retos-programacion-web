@@ -1,7 +1,7 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
-from code_challenges.styles.styles import Size, TextColor
+from code_challenges.styles.styles import Size, Spacing, TextColor
 from code_challenges.components.paragraph import paragraph
 from code_challenges.components.card import card
 
@@ -11,7 +11,7 @@ def more(route: Route) -> rx.Component:
         paragraph(
             "Sigue practicando"
         ),
-        rx.responsive_grid(
+        rx.chakra.responsive_grid(
             rx.cond(
                 route != Route.ROADMAP,
                 rx.box(

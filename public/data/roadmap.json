@@ -31,7 +31,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO/",
         "video": "https://youtu.be/gEIBJ7rmLa0",
         "level": 1,
-        "date": "26/12/2023 - 02/01/2024"
+        "date": "26/12/2023"
     },
     {
         "title": "#01 OPERADORES Y ESTRUCTURAS DE CONTROL",
@@ -59,7 +59,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/01%20-%20OPERADORES%20Y%20ESTRUCTURAS%20DE%20CONTROL/",
         "video": "https://youtu.be/DLSGCh9jdes",
         "level": 1,
-        "date": "02/01/2024 - 08/01/2024"
+        "date": "02/01/2024"
     },
     {
         "title": "#02 FUNCIONES Y ALCANCE",
@@ -92,7 +92,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/02%20-%20FUNCIONES%20Y%20ALCANCE/",
         "video": "https://youtu.be/auxClgiX6UM",
         "level": 1,
-        "date": "08/01/2024 - 15/01/2024"
+        "date": "08/01/2024"
     },
     {
         "title": "#03 ESTRUCTURAS DE DATOS",
@@ -120,7 +120,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/03%20-%20ESTRUCTURAS%20DE%20DATOS/",
         "video": "https://youtu.be/brxtPtUbU7M",
         "level": 2,
-        "date": "15/01/2024 - 22/01/2024"
+        "date": "15/01/2024"
     },
     {
         "title": "#04 CADENAS DE CARACTERES",
@@ -146,7 +146,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/04%20-%20CADENAS%20DE%20CARACTERES/",
         "video": "https://youtu.be/CKzY7nHwulA",
         "level": 2,
-        "date": "22/01/2024 - 29/01/2024",
+        "date": "22/01/2024",
         "event": "https://discord.gg/mouredev?event=1198925143242711040"
     },
     {
@@ -176,7 +176,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/05%20-%20VALOR%20Y%20REFERENCIA/",
         "video": "https://youtu.be/P2OQDT9Wrb0",
         "level": 1,
-        "date": "29/01/2024 - 05/02/2024",
+        "date": "29/01/2024",
         "event": "https://discord.gg/YEU3gzfe?event=1201413529924796416"
     },
     {
@@ -199,7 +199,7 @@
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/06%20-%20RECURSIVIDAD/",
         "video": "https://youtu.be/nTfDkLRrYiM",
         "level": 3,
-        "date": "05/02/2024 - 12/02/2024",
+        "date": "05/02/2024",
         "event": "https://discord.gg/mouredev?event=1204001786575200306"
     },
     {
@@ -225,11 +225,11 @@
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/07%20-%20PILAS%20Y%20COLAS/ejercicio.md",
         "level": 2,
-        "date": "12/02/2024 - 19/02/2024",
+        "date": "12/02/2024",
         "event": "https://discord.gg/bhdquzMy?event=1206182685077143592"
     },
     {
-        "title": "#08 NUEVO EJERCICIO",
+        "title": "#08 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",

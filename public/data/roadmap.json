@@ -249,18 +249,43 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/08%20-%20CLASES/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/08%20-%20CLASES/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/08%20-%20CLASES/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "19/02/2024",
-        "event": "https://discord.gg/Wv2FUjRy?event=1209116800462364723"
+        "date": "19/02/2024"
     },
     {
-        "title": "#09 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#09 HERENCIA",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el concepto de herencia según tu lenguaje. Crea un ejemplo que",
+            " * implemente una superclase Animal y un par de subclases Perro y Gato,",
+            " * junto con una función que sirva para imprimir el sonido que emite cada Animal.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Implementa la jerarquía de una empresa de desarrollo formada por Empleados que",
+            " * pueden ser Gerentes, Gerentes de Proyectos o Programadores.",
+            " * Cada empleado tiene un identificador y un nombre.",
+            " * Dependiendo de su labor, tienen propiedades y funciones exclusivas de su",
+            " * actividad, y almacenan los empleados a su cargo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/09%20-%20HERENCIA/ejercicio.md",
+        "level": 2,
+        "date": "26/02/2024",
+        "event": "https://discord.gg/mouredev?event=1211576792909873152"
+    },
+    {
+        "title": "#10 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "26/02/2024",
+        "date": "04/03/2024",
         "event": "https://discord.gg/Wv2FUjRy?event=1209116800462364723"
     }
 ]

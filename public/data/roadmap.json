@@ -256,7 +256,7 @@
         "date": "19/02/2024"
     },
     {
-        "title": "#09 HERENCIA",
+        "title": "#09 HERENCIA Y POLIMORFISMO",
         "code": [
             "/*",
             " * EJERCICIO:",
@@ -273,18 +273,48 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/09%20-%20HERENCIA/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/09%20-%20HERENCIA/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/09%20-%20HERENCIA/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "26/02/2024",
-        "event": "https://discord.gg/mouredev?event=1211576792909873152"
+        "date": "26/02/2024"
     },
     {
-        "title": "#10 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#10 EXCEPCIONES",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el concepto de manejo de excepciones según tu lenguaje.",
+            " * Fuerza un error en tu código, captura el error, imprime dicho error",
+            " * y evita que el programa se detenga de manera inesperada.",
+            " * Prueba a dividir \"10/0\" o acceder a un índice no existente",
+            " * de un listado para intentar provocar un error.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea una función que sea capaz de procesar parámetros, pero que también",
+            " * pueda lanzar 3 tipos diferentes de excepciones (una de ellas tiene que",
+            " * corresponderse con un tipo de excepción creada por nosotros de manera",
+            " * personalizada, y debe ser lanzada de manera manual) en caso de error.",
+            " * - Captura todas las excepciones desde el lugar donde llamas a la función.",
+            " * - Imprime el tipo de error.",
+            " * - Imprime si no se ha producido ningún error.",
+            " * - Imprime que la ejecución ha finalizado.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/10%20-%20EXCEPCIONES/ejercicio.md",
+        "level": 2,
+        "date": "04/03/2024",
+        "event": "https://discord.gg/fuWNx5vE?event=1214119929503023174"
+    },
+    {
+        "title": "#11 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "04/03/2024",
-        "event": "https://discord.gg/Wv2FUjRy?event=1209116800462364723"
+        "date": "11/03/2024",
+        "event": "https://discord.gg/fuWNx5vE?event=1214119929503023174"
     }
 ]

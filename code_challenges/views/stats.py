@@ -1,4 +1,5 @@
 import reflex as rx
+import code_challenges.utils as utils
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
 from code_challenges.data.Stats import Stats, LanguageRanking, ChallengeRanking, UserRanking
@@ -51,7 +52,7 @@ def _languages(languages: list[LanguageRanking]) -> list[Milestone]:
         language = languages[index]
         milestones.append(
             Milestone(
-                f"devicon-{language.name}-plain",
+                utils.devicon(language.name),
                 f"{language.name} ({language.count})",
                 True
             )

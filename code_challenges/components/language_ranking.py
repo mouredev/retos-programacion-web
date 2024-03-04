@@ -1,13 +1,8 @@
 import reflex as rx
+import code_challenges.utils as utils
 import code_challenges.styles.styles as styles
 from code_challenges.styles.styles import Size, Spacing, TextColor, FontWeight
 from code_challenges.data.Stats import LanguageRanking
-
-DEVICON = {
-    "c#": "csharp", "c++": "cplusplus", "sql": "azuresqldatabase", "cobol": "devicon",
-    "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon",
-    "racket": "devicon", "tcl": "devicon"
-}
 
 
 def language_ranking(language: LanguageRanking) -> rx.Component:
@@ -21,7 +16,7 @@ def language_ranking(language: LanguageRanking) -> rx.Component:
         ),
         rx.vstack(
             rx.box(
-                class_name=f"devicon-{DEVICON.get(language.name.lower(), language.name.lower())}-plain",
+                class_name=utils.devicon(language.name),
                 font_size=Size.BIG.value,
                 height="100%"
             ),

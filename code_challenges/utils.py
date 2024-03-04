@@ -77,3 +77,15 @@ meta_projects = [
     {"name": "og:image", "content": preview_projects}
 ]
 meta_projects.extend(meta)
+
+# Devicon
+
+DEVICON = {
+    "c#": "csharp", "c++": "cplusplus", "sql": "azuresqldatabase", "cobol": "devicon",
+    "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon",
+    "racket": "devicon", "tcl": "devicon"
+}
+
+
+def devicon(name: str) -> str:
+    return f"devicon-{DEVICON.get(name.lower(), name.lower())}-plain"

@@ -366,18 +366,47 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/12%20-%20JSON%20Y%20XML/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/12%20-%20JSON%20Y%20XML/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/12%20-%20JSON%20Y%20XML/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "18/03/2024",
-        "event": "https://discord.gg/NtSqCkZK?event=1216862528257130496"
+        "date": "18/03/2024"
     },
     {
-        "title": "#13 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#13 PRUEBAS UNITARIAS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Crea una función que se encargue de sumar dos números y retornar",
+            " * su resultado.",
+            " * Crea un test, utilizando las herramientas de tu lenguaje, que sea",
+            " * capaz de determinar si esa función se ejecuta correctamente.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un diccionario con las siguientes claves y valores:",
+            " * \"name\": \"Tu nombre\"",
+            " * \"age\": \"Tu edad\"",
+            " * \"birth_date\": \"Tu fecha de nacimiento\"",
+            " * \"programming_languages\": [\"Listado de lenguajes de programación\"]",
+            " * Crea dos test:",
+            " * - Un primero que determine que existen todos los campos.",
+            " * - Un segundo que determine que los datos introducidos son correctos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/13%20-%20PRUEBAS%20UNITARIAS/ejercicio.md",
+        "level": 1,
+        "date": "25/03/2024",
+        "event": "https://discord.gg/xPGzfzbW?event=1219372916257456229"
+    },
+    {
+        "title": "#14 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "25/03/2024",
-        "event": "https://discord.gg/NtSqCkZK?event=1216862528257130496"
+        "date": "01/04/2024",
+        "event": "https://discord.gg/xPGzfzbW?event=1219372916257456229"
     }
 ]

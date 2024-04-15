@@ -451,18 +451,43 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/15%20-%20ASINCRONÍA/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/15%20-%20ASINCRONÍA/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/15%20-%20ASINCRONÍA/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
         "date": "08/04/2024",
         "event": "https://discord.gg/7Sjt3Wga?event=1224456967691440169"
     },
     {
-        "title": "#16 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#16 EXPRESIONES REGULARES",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Utilizando tu lenguaje, explora el concepto de expresiones regulares,",
+            " * creando una que sea capaz de encontrar y extraer todos los números",
+            " * de un texto.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea 3 expresiones regulares (a tu criterio) capaces de:",
+            " * - Validar un email.",
+            " * - Validar un número de teléfono.",
+            " * - Validar una url.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/16%20-%20EXPRESIONES%20REGULARES/ejercicio.md",
+        "level": 2,
+        "date": "15/04/2024",
+        "event": "https://discord.gg/8ke6EqSt?event=1227006064784969818"
+    },
+    {
+        "title": "#17 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "15/04/2024",
-        "event": "https://discord.gg/7Sjt3Wga?event=1224456967691440169"
+        "date": "22/04/2024",
+        "event": "https://discord.gg/8ke6EqSt?event=1227006064784969818"
     }
 ]

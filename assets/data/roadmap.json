@@ -491,18 +491,50 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/17%20-%20ITERACIONES/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/17%20-%20ITERACIONES/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/17%20-%20ITERACIONES/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "22/04/2024",
-        "event": "https://discord.gg/QGJ36ARZ?event=1229569230727413860"
+        "date": "22/04/2024"
     },
     {
-        "title": "#18 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#18 CONJUNTOS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Utilizando tu lenguaje crea un conjunto de datos y realiza las siguientes",
+            " * operaciones (debes utilizar una estructura que las soporte):",
+            " * - Añade un elemento al final.",
+            " * - Añade un elemento al principio.",
+            " * - Añade varios elementos en bloque al final.",
+            " * - Añade varios elementos en bloque en una posición concreta.",
+            " * - Elimina un elemento en una posición concreta.",
+            " * - Actualiza el valor de un elemento en una posición concreta.",
+            " * - Comprueba si un elemento está en un conjunto.",
+            " * - Elimina todo el contenido del conjunto.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Muestra ejemplos de las siguientes operaciones con conjuntos:",
+            " * - Unión.",
+            " * - Intersección.",
+            " * - Diferencia.",
+            " * - Diferencia simétrica.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/18%20-%20CONJUNTOS/ejercicio.md",
+        "level": 1,
+        "date": "29/04/2024",
+        "event": "https://discord.gg/33hUYsY9?event=1232111657677754439"
+    },
+    {
+        "title": "#19 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "29/04/2024",
-        "event": "https://discord.gg/QGJ36ARZ?event=1229569230727413860"
+        "date": "06/05/2024",
+        "event": "https://discord.gg/33hUYsY9?event=1232111657677754439"
     }
 ]

@@ -176,8 +176,8 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                     )
                 ),
             ),
-            border_top_width=None,
-            border_bottom_width="0px !important"
+            border_top_width=Size.ZERO.value,
+            border_bottom_width=Size.ZERO.value
         ),
         rx.cond(
             roadmap and not last,

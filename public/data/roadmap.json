@@ -555,18 +555,45 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/19%20-%20ENUMERACIONES/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/19%20-%20ENUMERACIONES/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/19%20-%20ENUMERACIONES/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "06/05/2024",
-        "event": "https://discord.gg/Z5u4TWcS?event=1234615617605075085"
+        "date": "06/05/2024"
     },
     {
-        "title": "#20 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#20 PETICIONES HTTP",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Utilizando un mecanismo de peticiones HTTP de tu lenguaje, realiza",
+            " * una petición a la web que tú quieras, verifica que dicha petición",
+            " * fue exitosa y muestra por consola el contenido de la web.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Utilizando la PokéAPI (https://pokeapi.co), crea un programa por",
+            " * terminal al que le puedas solicitar información de un Pokémon concreto",
+            " * utilizando su nombre o número.",
+            " * - Muestra el nombre, id, peso, altura y tipo(s) del Pokémon",
+            " * - Muestra el nombre de su cadena de evoluciones",
+            " * - Muestra los juegos en los que aparece",
+            " * - Controla posibles errores",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/20%20-%20PETICIONES%20HTTP/ejercicio.md",
+        "level": 3,
+        "date": "13/05/2024",
+        "event": "https://discord.gg/QhTwYW7P?event=1237107397391024128"
+    },
+    {
+        "title": "#21 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "13/05/2024",
-        "event": "https://discord.gg/Z5u4TWcS?event=1234615617605075085"
+        "date": "20/05/2024",
+        "event": "https://discord.gg/QhTwYW7P?event=1237107397391024128"
     }
 ]

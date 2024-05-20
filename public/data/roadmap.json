@@ -586,13 +586,38 @@
         "event": "https://discord.gg/QhTwYW7P?event=1237107397391024128"
     },
     {
-        "title": "#21 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#21 CALLBACKS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el concepto de callback en tu lenguaje creando un ejemplo",
+            " * simple (a tu elección) que muestre su funcionamiento.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un simulador de pedidos de un restaurante utilizando callbacks.",
+            " * Estará formado por una función que procesa pedidos.",
+            " * Debe aceptar el nombre del plato, una callback de confirmación, una",
+            " * de listo y otra de entrega.",
+            " * - Debe imprimir un confirmación cuando empiece el procesamiento.",
+            " * - Debe simular un tiempo aleatorio entre 1 a 10 segundos entre",
+            " *   procesos.",
+            " * - Debe invocar a cada callback siguiendo un orden de procesado.",
+            " * - Debe notificar que el plato está listo o ha sido entregado.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/21%20-%20CALLBACKS/ejercicio.md",
+        "level": 2,
+        "date": "20/05/2024",
+        "event": "https://discord.gg/9Nxvfsfp?event=1239679210918903858"
+    },
+    {
+        "title": "#22 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "20/05/2024",
-        "event": "https://discord.gg/QhTwYW7P?event=1237107397391024128"
+        "date": "27/05/2024",
+        "event": "https://discord.gg/9Nxvfsfp?event=1239679210918903858"
     }
 ]

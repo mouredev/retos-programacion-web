@@ -634,6 +634,7 @@
             " * - Nacimiento: Obtiene una lista de estudiantes ordenada desde el más joven.",
             " * - Mayor calificación: Obtiene la calificación más alta de entre todas las",
             " *   de los alumnos.",
+            " * - Una calificación debe estar comprendida entre 0 y 10 (admite decimales).",
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/22%20-%20FUNCIONES%20DE%20ORDEN%20SUPERIOR/ejercicio.md",

@@ -637,18 +637,41 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/22%20-%20FUNCIONES%20DE%20ORDEN%20SUPERIOR/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/22%20-%20FUNCIONES%20DE%20ORDEN%20SUPERIOR/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/22%20-%20FUNCIONES%20DE%20ORDEN%20SUPERIOR/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "27/05/2024",
-        "event": "https://discord.gg/c2GeX9Kb?event=1242175162275725455"
+        "date": "27/05/2024"
     },
     {
-        "title": "#23 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#23 PATRONES DE DISEÑO: SINGLETON",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el patrón de diseño \"singleton\" y muestra cómo crearlo",
+            " * con un ejemplo genérico.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Utiliza el patrón de diseño \"singleton\" para representar una clase que",
+            " * haga referencia a la sesión de usuario de una aplicación ficticia.",
+            " * La sesión debe permitir asignar un usuario (id, username, nombre y email),",
+            " * recuperar los datos del usuario y borrar los datos de la sesión.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/ejercicio.md",
+        "level": 2,
+        "date": "03/06/2024",
+        "event": "https://discord.gg/JP8xRGvR?event=1244742186696970351"
+    },
+    {
+        "title": "#24 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "03/06/2024",
-        "event": "https://discord.gg/c2GeX9Kb?event=1242175162275725455"
+        "date": "10/06/2024",
+        "event": "https://discord.gg/JP8xRGvR?event=1244742186696970351"
     }
 ]

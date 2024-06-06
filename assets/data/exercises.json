@@ -121,7 +121,7 @@
         "date": "#7 2022"
     },
     {
-        "title": "#9 CONTANDO PALABRAS",
+        "title": "#9 DECIMAL A BINARIO",
         "code": [
             "/*",
             " * Crea un programa se encargue de transformar un número",
@@ -171,7 +171,7 @@
         "video_title": "Corrección #6 al #11"
     },
     {
-        "title": "#12 EXPRESIONES EQUILIBRADAS",
+        "title": "#12 ELIMINANDO CARACTERES",
         "code": [
             "/*",
             " * Crea una función que reciba dos cadenas como parámetro (str1, str2)",
@@ -417,7 +417,7 @@
         "date": "#25 2022"
     },
     {
-        "title": "#27 PIEDRA, PAPEL, TIJERA",
+        "title": "#27 CUADRADO Y TRIÁNGULO 2D",
         "code": [
             "/*",
             " * Crea un programa que dibuje un cuadrado o un triángulo con asteriscos \"*\".",
@@ -480,7 +480,7 @@
         "date": "#29 2022"
     },
     {
-        "title": "#31 ORDENA LA LISTA",
+        "title": "#31 MARCO DE PALABRAS",
         "code": [
             "/*",
             " * Crea una función que reciba un texto y muestre cada palabra en una línea,",
@@ -608,7 +608,7 @@
         "date": "#36 2022"
     },
     {
-        "title": "#38 LOS ANILLOS DE PODER",
+        "title": "#38 LOS LANZAMIENTOS DE \"THE LEGEND OF ZELDA\"",
         "code": [
             "/*",
             " * ¡Han anunciado un nuevo \"The Legend of Zelda\"!",

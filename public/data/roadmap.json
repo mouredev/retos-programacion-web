@@ -659,18 +659,39 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "03/06/2024",
-        "event": "https://discord.gg/JP8xRGvR?event=1244742186696970351"
+        "date": "03/06/2024"
     },
     {
-        "title": "#24 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#24 DECORADOR",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el concepto de \"decorador\" y muestra cómo crearlo",
+            " * con un ejemplo genérico.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un decorador que sea capaz de contabilizar cuántas veces",
+            " * se ha llamado a una función y aplícalo a una función de tu elección.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/24%20-%20DECORADORES/ejercicio.md",
+        "level": 1,
+        "date": "10/06/2024",
+        "event": "https://discord.gg/JTkmHgY6?event=1247249059278749716"
+    },
+    {
+        "title": "#25 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "10/06/2024",
-        "event": "https://discord.gg/JP8xRGvR?event=1244742186696970351"
+        "date": "17/06/2024",
+        "event": "https://discord.gg/JTkmHgY6?event=1247249059278749716"
     }
 ]

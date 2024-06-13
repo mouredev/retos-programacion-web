@@ -661,13 +661,12 @@
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/ejercicio.md",
         "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/python/mouredev.py",
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/23%20-%20SINGLETON/",
-        "video": "https://youtube.com/@mouredevtv",
-        "video_title": "Muy pronto",
+        "video": "https://youtu.be/cOIcFo_w9hA",
         "level": 2,
         "date": "03/06/2024"
     },
     {
-        "title": "#24 DECORADOR",
+        "title": "#24 DECORADORES",
         "code": [
             "/*",
             " * EJERCICIO:",

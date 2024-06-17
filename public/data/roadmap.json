@@ -666,7 +666,7 @@
         "date": "03/06/2024"
     },
     {
-        "title": "#24 DECORADORES",
+        "title": "#24 PATRONES DE DISEÑO: DECORADORES",
         "code": [
             "/*",
             " * EJERCICIO:",
@@ -679,18 +679,44 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/24%20-%20DECORADORES/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/24%20-%20DECORADORES/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/24%20-%20DECORADORES/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "10/06/2024",
-        "event": "https://discord.gg/JTkmHgY6?event=1247249059278749716"
+        "date": "10/06/2024"
     },
     {
-        "title": "#25 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#25 LOGS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el concepto de \"logging\" en tu lenguaje. Configúralo y muestra",
+            " * un ejemplo con cada nivel de \"severidad\" disponible.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un programa ficticio de gestión de tareas que permita añadir, eliminar",
+            " * y listar dichas tareas.",
+            " * - Añadir: recibe nombre y descripción.",
+            " * - Eliminar: por nombre de la tarea.",
+            " * Implementa diferentes mensajes de log que muestren información según la",
+            " * tarea ejecutada (a tu elección).",
+            " * Utiliza el log para visualizar el tiempo de ejecución de cada tarea.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/25%20-%20LOGS/ejercicio.md",
+        "level": 1,
+        "date": "17/06/2024",
+        "event": "https://discord.gg/GM4fgP8V?event=1249918242370355262"
+    },
+    {
+        "title": "#26 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "17/06/2024",
-        "event": "https://discord.gg/JTkmHgY6?event=1247249059278749716"
+        "date": "24/06/2024",
+        "event": "https://discord.gg/GM4fgP8V?event=1249918242370355262"
     }
 ]

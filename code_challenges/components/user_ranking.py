@@ -23,7 +23,6 @@ def user_ranking(user: UserRanking) -> rx.Component:
             padding=Size.DEFAULT.value
         ),
         rx.hstack(
-
             rx.cond(
                 user.order <= 15,
                 rx.image(

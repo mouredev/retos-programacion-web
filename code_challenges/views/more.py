@@ -34,7 +34,7 @@ def more(route: Route) -> rx.Component:
                 )
             ),
             rx.cond(
-                route != Route.PROJECTS,
+                route != Route.PROJECTS and route != Route.MINI,
                 rx.box(
                     card(
                         Route.PROJECTS.value,

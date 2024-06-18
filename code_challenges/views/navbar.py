@@ -49,6 +49,7 @@ def navbar(route: Route) -> rx.Component:
                 rx.hstack(
                     rx.spacer(),
                     _menu_roadmap(route),
+                    _menu_mini(route),
                     _menu_exercises(route),
                     _menu_projects(route),
                     spacing=Spacing.BIG.value
@@ -69,6 +70,10 @@ def navbar(route: Route) -> rx.Component:
                     rx.menu.content(
                         rx.menu.item(
                             _menu_roadmap(route),
+                            background="transparent"
+                        ),
+                        rx.menu.item(
+                            _menu_mini(route),
                             background="transparent"
                         ),
                         rx.menu.item(
@@ -114,6 +119,17 @@ def _menu_roadmap(route: Route) -> rx.Component:
             spacing=Spacing.SMALL.value
         ),
         href=Route.ROADMAP.value
+    )
+
+
+def _menu_mini(route: Route) -> rx.Component:
+    return rx.link(
+        title(
+            "Mini",
+            size=[Size.DEFAULT_MEDIUM.value],
+            color=TextColor.BLUE if route == Route.MINI else TextColor.PRIMARY
+        ),
+        href=Route.MINI.value
     )
 
 

@@ -52,6 +52,19 @@ meta_roadmap_ranking = [
 ]
 meta_roadmap_ranking.extend(meta)
 
+# Mini
+
+title_mini = "Mini retos | by MoureDev"
+description_mini = "Ejercicios lógicos en formato vídeo corto de menos de un minuto.. Gratis, a tu ritmo y en comunidad."
+preview_mini = "https://retosdeprogramacion.com/preview_mini.jpg"
+
+meta_mini = [
+    {"name": "og:title", "content": title_mini},
+    {"name": "og:description", "content": description_mini},
+    {"name": "og:image", "content": preview_mini}
+]
+meta_mini.extend(meta)
+
 # Ejercicios
 
 title_exercises = "Ejercicios de Programación | by MoureDev"
@@ -68,7 +81,7 @@ meta_exercises.extend(meta)
 # Proyectos
 
 title_projects = "Proyectos de Programación | by MoureDev"
-description_projects = "12 aplicaciones pensadas para añadir a tu portafolio personal . Gratis, a tu ritmo y en comunidad."
+description_projects = "12 aplicaciones pensadas para añadir a tu portafolio personal. Gratis, a tu ritmo y en comunidad."
 preview_projects = "https://retosdeprogramacion.com/preview_projects.jpg"
 
 meta_projects = [

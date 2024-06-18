@@ -17,15 +17,19 @@ def challenges() -> rx.Component:
             rx.chakra.grid(
                 rx.chakra.grid_item(
                     _roadmap_card(),
-                    col_span=5
+                    col_span=3
                 ),
                 rx.chakra.grid_item(
-                    _exercises_card(),
-                    col_span=3
+                    _mini_card(),
+                    col_span=2
                 ),
                 rx.chakra.grid_item(
                     _projects_card(),
                     col_span=2
+                ),
+                rx.chakra.grid_item(
+                    _exercises_card(),
+                    col_span=3
                 ),
                 template_rows="repeat(2, 1fr)",
                 template_columns="repeat(5, 1fr)",
@@ -35,6 +39,7 @@ def challenges() -> rx.Component:
         rx.mobile_only(
             rx.vstack(
                 _roadmap_card(),
+                _mini_card(),
                 _exercises_card(),
                 _projects_card(),
                 spacing=Spacing.BIG.value
@@ -52,6 +57,16 @@ def _roadmap_card() -> rx.Component:
         "Ejercicios para aprender cualquier lenguaje de programación siguiendo una ruta de estudio de todos sus fundamentos desde cero. Cada semana un nuevo reto para poner a prueba tus conocimientos.",
         TextColor.PURPLE,
         "Nuevo 2024"
+    )
+
+
+def _mini_card() -> rx.Component:
+    return card(
+        Route.MINI.value,
+        "Mini retos",
+        "Ejercicios lógicos en formato vídeo corto de menos de un minuto.",
+        TextColor.BLUE,
+        "Shorts/Reels/TikTok"
     )
 
 

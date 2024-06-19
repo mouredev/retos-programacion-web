@@ -96,7 +96,8 @@ meta_projects.extend(meta)
 DEVICON = {
     "c#": "csharp", "c++": "cplusplus", "sql": "azuresqldatabase", "cobol": "devicon",
     "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon",
-    "racket": "devicon", "tcl": "devicon", "nasm": "devicon"
+    "racket": "devicon", "tcl": "devicon", "nasm": "devicon", "harbour": "devicon", "al": "devicon",
+    "abap": "devicon"
 }
 
 

@@ -5,14 +5,14 @@
 @font-face {
     font-family: "Monaspace Argon";
     font-weight: normal;
-    src: url("MonaspaceArgon-Regular.woff") format("woff");
+    src: url("/fonts/MonaspaceArgon-Regular.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Monaspace Argon";
     font-weight: bold;
-    src: url("MonaspaceArgon-Bold.woff") format("woff");
+    src: url("/fonts/MonaspaceArgon-Bold.woff") format("woff");
     font-display: swap;
 }
 
@@ -21,28 +21,28 @@
 @font-face {
     font-family: "Monaspace Neon";
     font-weight: bold;
-    src: url("MonaspaceNeon-Bold.woff") format("woff");
+    src: url("/fonts/MonaspaceNeon-Bold.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Monaspace Xenon";
     font-weight: bold;
-    src: url("MonaspaceXenon-Bold.woff") format("woff");
+    src: url("/fonts/MonaspaceXenon-Bold.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Monaspace Radon";
     font-weight: bold;
-    src: url("MonaspaceRadon-Bold.woff") format("woff");
+    src: url("/fonts/MonaspaceRadon-Bold.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Monaspace Krypton";
     font-weight: bold;
-    src: url("MonaspaceKrypton-Bold.woff") format("woff");
+    src: url("/fonts/MonaspaceKrypton-Bold.woff") format("woff");
     font-display: swap;
 }
 
@@ -53,13 +53,13 @@
 @font-face {
     font-family: "Mona Sans";
     font-weight: normal;
-    src: url("MonaSans-Regular.woff2") format("woff2");
+    src: url("/fonts/MonaSans-Regular.woff2") format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Mona Sans";
     font-weight: bold;
-    src: url("MonaSans-SemiBold.woff2") format("woff2");
+    src: url("/fonts/MonaSans-SemiBold.woff2") format("woff2");
     font-display: swap;
 }

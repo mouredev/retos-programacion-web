@@ -1,2 +1,2 @@
-reflex==0.4.9
+reflex==0.5.4
 requests==2.31.0

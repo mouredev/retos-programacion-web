@@ -17,6 +17,8 @@ def _share_text(route: Route) -> str:
     text = "https://x.com/intent/tweet?text="
     if route == Route.ROADMAP:
         text += utils.description_roadmap
+    if route == Route.MINI:
+        text += utils.description_mini
     elif route == Route.EXERCISES:
         text += utils.description_exercises
     elif route == Route.PROJECTS:

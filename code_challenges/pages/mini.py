@@ -49,12 +49,12 @@ def mini() -> rx.Component:
                         button(
                         "",
                         constants.INSTAGRAM_URL,
-                        "/icons/light/arrow.svg",
+                        "/icons/light/instagram.svg",
                         True
                     ), button(
                         "",
                         constants.TIKTOK_URL,
-                        "/icons/light/arrow.svg",
+                        "/icons/light/tiktok.svg",
                         True
                     ),
                         spacing=Spacing.BIG.value,

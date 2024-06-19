@@ -1,7 +1,7 @@
 import reflex as rx
 import code_challenges.styles.styles as styles
 from code_challenges.styles.fonts import FontWeight
-from code_challenges.styles.styles import Spacing
+from code_challenges.styles.styles import Size, Spacing
 from code_challenges.data.MiniChallenge import MiniChallenge
 
 
@@ -13,7 +13,9 @@ def mini_challenge(data: MiniChallenge) -> rx.Component:
             light=True,
             width="100%",
             height="auto",
-            aspect_ratio="9/16"
+            aspect_ratio="9/16",
+            border_radius=Size.SMALL.value,
+            overflow="hidden"
         ),
         rx.text(
             data.title.upper(),

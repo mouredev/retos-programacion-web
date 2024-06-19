@@ -55,7 +55,7 @@ meta_roadmap_ranking.extend(meta)
 # Mini
 
 title_mini = "Mini retos | by MoureDev"
-description_mini = "Ejercicios lógicos en formato vídeo corto de menos de un minuto.. Gratis, a tu ritmo y en comunidad."
+description_mini = "Ejercicios lógicos en formato vídeo corto de menos de un minuto. Gratis, a tu ritmo y en comunidad."
 preview_mini = "https://retosdeprogramacion.com/preview_mini.jpg"
 
 meta_mini = [

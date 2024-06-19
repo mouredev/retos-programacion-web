@@ -37,7 +37,7 @@ def mini() -> rx.Component:
                 rx.vstack(
                     paragraph(
                         "Shorts, Reels y TikToks",
-                        "Este es un listado de vídeos cortos que puedes encontrar en YouTube, Instagram y Tiktok.",
+                        "Este es un listado de vídeos cortos que puedes encontrar en YouTube, Instagram y TikTok.",
                         "Aunque se resuelven en unos segundos, te servirán para practicar lógica de una manera rápida."
                     ),
                     rx.hstack(button(

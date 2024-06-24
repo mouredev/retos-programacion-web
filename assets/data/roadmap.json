@@ -704,18 +704,54 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/25%20-%20LOGS/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/25%20-%20LOGS/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/25%20-%20LOGS/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_titple": "Muy pronto",
         "level": 1,
-        "date": "17/06/2024",
-        "event": "https://discord.gg/GM4fgP8V?event=1249918242370355262"
+        "date": "17/06/2024"
     },
     {
-        "title": "#26 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#26 SOLID: PRINCIPIO DE RESPONSABILIDAD ÚNICA (SRP)",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el \"Principio SOLID de Responsabilidad Única (Single Responsibility",
+            " * Principle, SRP)\" y crea un ejemplo simple donde se muestre su funcionamiento",
+            " * de forma correcta e incorrecta.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Desarrolla un sistema de gestión para una biblioteca. El sistema necesita",
+            " * manejar diferentes aspectos como el registro de libros, la gestión de usuarios",
+            " * y el procesamiento de préstamos de libros.",
+            " * Requisitos:",
+            " * 1. Registrar libros: El sistema debe permitir agregar nuevos libros con",
+            " * información básica como título, autor y número de copias disponibles.",
+            " * 2. Registrar usuarios: El sistema debe permitir agregar nuevos usuarios con",
+            " * información básica como nombre, número de identificación y correo electrónico.",
+            " * 3. Procesar préstamos de libros: El sistema debe permitir a los usuarios",
+            " * tomar prestados y devolver libros.",
+            " * Instrucciones:",
+            " * 1. Diseña una clase que no cumple el SRP: Crea una clase Library que maneje",
+            " * los tres aspectos mencionados anteriormente (registro de libros, registro de",
+            " * usuarios y procesamiento de préstamos).",
+            " * 2. Refactoriza el código: Separa las responsabilidades en diferentes clases",
+            " * siguiendo el Principio de Responsabilidad Única.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/26%20-%20SOLID%20SRP/ejercicio.md",
+        "level": 2,
+        "date": "24/06/2024",
+        "event": "https://discord.gg/CPKcDD9d?event=1252321976027054111"
+    },
+    {
+        "title": "#27 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "24/06/2024",
-        "event": "https://discord.gg/GM4fgP8V?event=1249918242370355262"
+        "date": "01/07/2024",
+        "event": "https://discord.gg/CPKcDD9d?event=1252321976027054111"
     }
 ]

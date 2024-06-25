@@ -97,9 +97,13 @@ DEVICON = {
     "c#": "csharp", "c++": "cplusplus", "sql": "azuresqldatabase", "cobol": "devicon",
     "mojo": "devicon", "pascal": "devicon", "vb.net": "visualbasic", "ada": "devicon",
     "racket": "devicon", "tcl": "devicon", "nasm": "devicon", "harbour": "devicon", "al": "devicon",
-    "abap": "devicon"
+    "abap": "devicon", "f#": "fsharp", "raku": "devicon"
 }
+
+DEVICON_ORIGINAL = ["fortran"]
 
 
 def devicon(name: str) -> str:
+    if name.lower() in DEVICON_ORIGINAL:
+        return f"devicon-{name.lower()}-original"
     return f"devicon-{DEVICON.get(name.lower(), name.lower())}-plain"

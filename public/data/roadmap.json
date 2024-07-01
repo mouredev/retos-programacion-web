@@ -739,18 +739,46 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/26%20-%20SOLID%20SRP/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/26%20-%20SOLID%20SRP/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/26%20-%20SOLID%20SRP/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "24/06/2024",
-        "event": "https://discord.gg/CPKcDD9d?event=1252321976027054111"
+        "date": "24/06/2024"
     },
     {
-        "title": "#27 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#27 SOLID: PRINCIPIO ABIERTO-CERRADO (OCP)",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el \"Principio SOLID Abierto-Cerrado (Open-Close Principle, OCP)\"",
+            " * y crea un ejemplo simple donde se muestre su funcionamiento",
+            " * de forma correcta e incorrecta.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Desarrolla una calculadora que necesita realizar diversas operaciones matemáticas.",
+            " * Requisitos:",
+            " * - Debes diseñar un sistema que permita agregar nuevas operaciones utilizando el OCP.",
+            " * Instrucciones:",
+            " * 1. Implementa las operaciones de suma, resta, multiplicación y división.",
+            " * 2. Comprueba que el sistema funciona.",
+            " * 3. Agrega una quinta operación para calcular potencias.",
+            " * 4. Comprueba que se cumple el OCP.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/27%20-%20SOLID%20OCP/ejercicio.md",
+        "level": 2,
+        "date": "01/07/2024",
+        "event": "https://discord.gg/4azkvPUJ?event=1254974320136949871"
+    },
+    {
+        "title": "#28 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "01/07/2024",
-        "event": "https://discord.gg/CPKcDD9d?event=1252321976027054111"
+        "date": "08/07/2024",
+        "event": "https://discord.gg/4azkvPUJ?event=1254974320136949871"
     }
 ]

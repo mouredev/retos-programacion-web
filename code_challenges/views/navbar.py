@@ -45,7 +45,7 @@ def navbar(route: Route) -> rx.Component:
                 href=Route.INDEX.value
             ),
             rx.spacer(),
-            rx.tablet_and_desktop(
+            rx.desktop_only(
                 rx.hstack(
                     rx.spacer(),
                     _menu_roadmap(route),
@@ -56,7 +56,7 @@ def navbar(route: Route) -> rx.Component:
                 ),
                 width="100%"
             ),
-            rx.mobile_only(
+            rx.mobile_and_tablet(
                 rx.menu.root(
                     rx.menu.trigger(
                         rx.image(

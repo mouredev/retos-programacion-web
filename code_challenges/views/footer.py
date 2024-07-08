@@ -22,7 +22,8 @@ def footer() -> rx.Component:
                         color=TextColor.BLUE.value,
                         as_="span"
                     ),
-                    "."
+                    ".",
+                    color=TextColor.PRIMARY.value
                 ),
                 href=const.MOUREDEV_URL,
                 is_external=True,

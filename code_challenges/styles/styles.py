@@ -134,7 +134,7 @@ featured_container_style = {
 
 button_style = {
     "color": TextColor.TERTIARY.value,
-    "background": f"{Color.TERTIARY.value}",
+    "background": f"{Color.TERTIARY.value}"
 }
 
 button_secondary_style = {

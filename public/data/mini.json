@@ -1,30 +1,42 @@
 [
     {
         "title": "EL FAMOSO \"FIZZ BUZZ\"",
-        "id": "AO03hE9wfyg"
+        "id": "AO03hE9wfyg",
+        "file": "00_fizzbuzz.py"
     },
     {
         "title": "DECIMAL A BINARIO",
-        "id": "ov6phZFYvFI"
+        "id": "ov6phZFYvFI",
+        "file": "01_decimal_to_binary.py"
     },
     {
         "title": "PAR O IMPAR",
-        "id": "z25N2GeGk0g"
+        "id": "z25N2GeGk0g",
+        "file": "02_even_odd.py"
     },
     {
         "title": "CONTADOR DE VOCALES",
-        "id": "DGhbXDf6lmA"
+        "id": "DGhbXDf6lmA",
+        "file": "03_vowels_counter.py"
     },
     {
         "title": "ÍNDICE DE MASA CORPORAL",
-        "id": "-rU57syW5zQ"
+        "id": "-rU57syW5zQ",
+        "file": "04_imc.py"
     },
     {
         "title": "CONVERSOR DE TEMPERATURAS",
-        "id": "pgadIlcVVlc"
+        "id": "pgadIlcVVlc",
+        "file": "05_celsius_fahrenheit.py"
     },
     {
         "title": "ANAGRAMAS",
-        "id": "fCpBzZFKCow"
+        "id": "fCpBzZFKCow",
+        "file": "06_anagram.py"
+    },
+    {
+        "title": "TABLAS DE MULTIPLICAR",
+        "id": "YZZlha89jWg",
+        "file": "07_multiplication_tables.py"
     }
 ]

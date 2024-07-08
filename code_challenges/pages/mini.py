@@ -40,23 +40,24 @@ def mini() -> rx.Component:
                         "Este es un listado de vídeos cortos que puedes encontrar en YouTube, Instagram y TikTok.",
                         "Aunque se resuelven en unos segundos, te servirán para practicar lógica de una manera rápida."
                     ),
-                    rx.hstack(button(
-                        "",
-                        constants.YOUTUBE_URL,
-                        "/icons/light/youtube.svg",
-                        True
-                    ),
+                    rx.hstack(
                         button(
-                        "",
-                        constants.INSTAGRAM_URL,
-                        "/icons/light/instagram.svg",
-                        True
-                    ), button(
-                        "",
-                        constants.TIKTOK_URL,
-                        "/icons/light/tiktok.svg",
-                        True
-                    ),
+                            "",
+                            constants.YOUTUBE_URL,
+                            "/icons/light/youtube.svg",
+                            True
+                        ),
+                        button(
+                            "",
+                            constants.INSTAGRAM_URL,
+                            "/icons/light/instagram.svg",
+                            True
+                        ), button(
+                            "",
+                            constants.TIKTOK_URL,
+                            "/icons/light/tiktok.svg",
+                            True
+                        ),
                         spacing=Spacing.BIG.value,
                     ),
                     spacing=Spacing.BIG.value,

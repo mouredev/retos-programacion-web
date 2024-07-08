@@ -5,10 +5,12 @@ class MiniChallenge:
     def __init__(
             self,
             title: str,
-            id: str):
+            id: str,
+            file: str):
 
         self.title = title
         self.id = id
+        self.file = file
 
 
 with open("assets/data/mini.json") as file:
@@ -17,7 +19,8 @@ with open("assets/data/mini.json") as file:
 mini_challenges = [
     MiniChallenge(
         item["title"],
-        item["id"]
+        item["id"],
+        item["file"]
     )
     for item in reversed(app_data)
 ]

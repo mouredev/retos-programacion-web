@@ -804,8 +804,9 @@
         "code": [
             "/*",
             " * EJERCICIO:",
-            " * Explora el \"Principio SOLID de Segregación de Interfaces (Interface Segregation Principle, ISP)\"",
-            " * y crea un ejemplo simple donde se muestre su funcionamiento de forma correcta e incorrecta.",
+            " * Explora el \"Principio SOLID de Segregación de Interfaces",
+            " * (Interface Segregation Principle, ISP)\", y crea un ejemplo",
+            " * simple donde se muestre su funcionamiento de forma correcta e incorrecta.",
             " *",
             " * DIFICULTAD EXTRA (opcional):",
             " * Crea un gestor de impresoras.",

@@ -792,18 +792,46 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/28%20-%20SOLID%20LSP/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/28%20-%20SOLID%20LSP/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/28%20-%20SOLID%20LSP/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "08/07/2024",
-        "event": "https://discord.gg/ssrS9zeS?event=1257395660962005113"
+        "date": "08/07/2024"
     },
     {
-        "title": "#29 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#29 SOLID: PRINCIPIO DE SEGREGACIÓN DE INTERFACES (ISP)",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el \"Principio SOLID de Segregación de Interfaces (Interface Segregation Principle, ISP)\"",
+            " * y crea un ejemplo simple donde se muestre su funcionamiento de forma correcta e incorrecta.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un gestor de impresoras.",
+            " * Requisitos:",
+            " * 1. Algunas impresoras sólo imprimen en blanco y negro.",
+            " * 2. Otras sólo a color.",
+            " * 3. Otras son multifunción, pueden imprimir, escanear y enviar fax.",
+            " * Instrucciones:",
+            " * 1. Implementa el sistema, con los diferentes tipos de impresoras y funciones.",
+            " * 2. Aplica el ISP a la implementación.",
+            " * 3. Desarrolla un código que compruebe que se cumple el principio.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/29%20-%20SOLID%20ISP/ejercicio.md",
+        "level": 2,
+        "date": "15/07/2024",
+        "event": "https://discord.gg/ssrS9zeS?event=1259973757150167120"
+    },
+    {
+        "title": "#30 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "15/07/2024",
-        "event": "https://discord.gg/ssrS9zeS?event=1257395660962005113"
+        "date": "22/07/2024",
+        "event": "https://discord.gg/ssrS9zeS?event=1259973757150167120"
     }
 ]

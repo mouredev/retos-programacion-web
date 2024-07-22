@@ -43,5 +43,10 @@
         "title": "INVERSIÓN DE CADENAS",
         "id": "RlqnMhZ8HqU",
         "file": "08_reverse_string.py"
+    },
+    {
+        "title": "CÁLCULO DE UN FACTORIAL",
+        "id": "Wi7jnXb7iNk",
+        "file": "09_factorial.py"
     }
 ]

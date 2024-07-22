@@ -820,18 +820,47 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/29%20-%20SOLID%20ISP/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/29%20-%20SOLID%20ISP/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/29%20-%20SOLID%20ISP/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "15/07/2024",
-        "event": "https://discord.gg/ssrS9zeS?event=1259973757150167120"
+        "date": "15/07/2024"
     },
     {
-        "title": "#30 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#30 SOLID: PRINCIPIO DE INVERSIÓN DE DEPENDENCIAS (DIP)",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Explora el \"Principio SOLID de Inversión de Dependencias (Dependency Inversion",
+            " * Principle, DIP)\" y crea un ejemplo simple donde se muestre su funcionamiento ",
+            " * de forma correcta e incorrecta.",
+            " *",
+            " * DIFICULTAD EXTRA (opcional):",
+            " * Crea un sistema de notificaciones.",
+            " * Requisitos:",
+            " * 1. El sistema puede enviar Email, PUSH y SMS (implementaciones específicas).",
+            " * 2. El sistema de notificaciones no puede depender de las implementaciones específicas.",
+            " * Instrucciones:",
+            " * 1. Crea la interfaz o clase abstracta.",
+            " * 2. Desarrolla las implementaciones específicas.",
+            " * 3. Crea el sistema de notificaciones usando el DIP.",
+            " * 4. Desarrolla un código que compruebe que se cumple el principio.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/30%20-%20SOLID%20DIP/ejercicio.md",
+        "level": 2,
+        "date": "22/07/2024",
+        "event": "https://discord.gg/wZn6cmdR?event=1262532223417057411"
+    },
+    {
+        "title": "#31 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "22/07/2024",
-        "event": "https://discord.gg/ssrS9zeS?event=1259973757150167120"
+        "date": "29/07/2024",
+        "event": "https://discord.gg/wZn6cmdR?event=1262532223417057411"
     }
 ]

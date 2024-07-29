@@ -848,18 +848,51 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/30%20-%20SOLID%20DIP/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/30%20-%20SOLID%20DIP/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/30%20-%20SOLID%20DIP/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "22/07/2024",
-        "event": "https://discord.gg/wZn6cmdR?event=1262532223417057411"
+        "date": "22/07/2024"
     },
     {
-        "title": "#31 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#31 SIMULADOR JUEGOS OLÍMPICOS",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡Los JJOO de París 2024 han comenzado!",
+            " * Crea un programa que simule la celebración de los juegos.",
+            " * El programa debe permitir al usuario registrar eventos y participantes,",
+            " * realizar la simulación de los eventos asignando posiciones de manera aleatoria",
+            " * y generar un informe final. Todo ello por terminal.",
+            " * Requisitos:",
+            " * 1. Registrar eventos deportivos.",
+            " * 2. Registrar participantes por nombre y país.",
+            " * 3. Simular eventos de manera aleatoria en base a los participantes (mínimo 3).",
+            " * 4. Asignar medallas (oro, plata y bronce) basándose en el resultado del evento.",
+            " * 5. Mostrar los ganadores por cada evento.",
+            " * 6. Mostrar el ranking de países según el número de medallas.",
+            " * Acciones:",
+            " * 1. Registro de eventos.",
+            " * 2. Registro de participantes.",
+            " * 3. Simulación de eventos.",
+            " * 4. Creación de informes.",
+            " * 5. Salir del programa.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/31%20-%20SIMULADOR%20JUEGOS%20OLÍMPICOS/ejercicio.md",
+        "level": 1,
+        "date": "29/07/2024",
+        "event": "https://discord.gg/3WGUdmwZ?event=1265005769007566961"
+    },
+    {
+        "title": "#32 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "29/07/2024",
-        "event": "https://discord.gg/wZn6cmdR?event=1262532223417057411"
+        "date": "05/08/2024",
+        "event": "https://discord.gg/3WGUdmwZ?event=1265005769007566961"
     }
 ]

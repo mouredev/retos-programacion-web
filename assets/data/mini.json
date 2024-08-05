@@ -53,5 +53,10 @@
         "title": "LISTA POKÉMON",
         "id": "2nM2-M4urb0",
         "file": "10_pokemon_list.py"
+    },
+    {
+        "title": "MEDIA",
+        "id": "UUSlIQiNGGw",
+        "file": "11_mean.py"
     }
 ]

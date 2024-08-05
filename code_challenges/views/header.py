@@ -1,4 +1,3 @@
-from turtle import width
 import reflex as rx
 import code_challenges.constants as constants
 import code_challenges.styles.styles as styles

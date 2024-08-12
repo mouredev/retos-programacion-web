@@ -916,18 +916,54 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/32%20-%20BATALLA%20DEADPOOL%20Y%20WOLVERINE/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/32%20-%20BATALLA%20DEADPOOL%20Y%20WOLVERINE/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/32%20-%20BATALLA%20DEADPOOL%20Y%20WOLVERINE/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "05/08/2024",
-        "event": "https://discord.gg/3WGUdmwZ?event=1265005769007566961"
+        "date": "05/08/2024"
     },
     {
-        "title": "#33 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#33 RESCATANDO A MICKEY",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡Disney ha presentado un montón de novedades en su D23!",
+            " * Pero... ¿Dónde está Mickey?",
+            " * Mickey Mouse ha quedado atrapado en un laberinto mágico",
+            " * creado por Maléfica.",
+            " * Desarrolla un programa para ayudarlo a escapar.",
+            " * Requisitos:",
+            " * 1. El laberinto está formado por un cuadrado de 6x6 celdas.",
+            " * 2. Los valores de las celdas serán:",
+            " *    - ⬜️ Vacío",
+            " *    - ⬛️ Obstáculo",
+            " *    - 🐭 Mickey",
+            " *    - 🚪 Salida",
+            " * Acciones:",
+            " * 1. Crea una matriz que represente el laberinto (no hace falta",
+            " * que se genere de manera automática).",
+            " * 2. Interactúa con el usuario por consola para preguntarle hacia",
+            " * donde se tiene que desplazar (arriba, abajo, izquierda o derecha).",
+            " * 3. Muestra la actualización del laberinto tras cada desplazamiento.",
+            " * 4. Valida todos los movimientos, teniendo en cuenta los límites",
+            " * del laberinto y los obtáculos. Notifica al usuario.",
+            " * 5. Finaliza el programa cuando Mickey llegue a la salida.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/33%20-%20RESCATANDO%20A%20MICKEY/ejercicio.md",
+        "level": 1,
+        "date": "12/08/2024",
+        "event": "https://discord.gg/rhEef2uu?event=1270224992600326217"
+    },
+    {
+        "title": "#34 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "12/08/2024",
-        "event": "https://discord.gg/ZZ98qNuV?event=1267573202209472594"
+        "date": "19/08/2024",
+        "event": "https://discord.gg/rhEef2uu?event=1270224992600326217"
     }
 ]

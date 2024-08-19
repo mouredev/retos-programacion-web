@@ -883,7 +883,7 @@
         "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/31%20-%20SIMULADOR%20JUEGOS%20OLÍMPICOS/python/mouredev.py",
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/31%20-%20SIMULADOR%20JUEGOS%20OLÍMPICOS/",
         "video": "https://youtu.be/JN656lQ9WBo",
-        "level": 1,
+        "level": 3,
         "date": "29/07/2024"
     },
     {
@@ -919,7 +919,7 @@
         "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/32%20-%20BATALLA%20DEADPOOL%20Y%20WOLVERINE/python/mouredev.py",
         "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/32%20-%20BATALLA%20DEADPOOL%20Y%20WOLVERINE/",
         "video": "https://youtu.be/u2Tn2H3pqjw",
-        "level": 1,
+        "level": 2,
         "date": "05/08/2024"
     },
     {
@@ -951,18 +951,55 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/33%20-%20RESCATANDO%20A%20MICKEY/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/33%20-%20RESCATANDO%20A%20MICKEY/python/mouredev.py",
+        "community": "hhttps://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/33%20-%20RESCATANDO%20A%20MICKEY/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "12/08/2024",
-        "event": "https://discord.gg/rhEef2uu?event=1270224992600326217"
+        "date": "12/08/2024"
     },
     {
-        "title": "#34 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#34 ÁRBOL GENEALÓGICO DE LA CASA DEL DRAGÓN",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡La Casa del Dragón ha finalizado y no volverá hasta 2026!",
+            " * ¿Alguien se entera de todas las relaciones de parentesco",
+            " * entre personajes que aparecen en la saga?",
+            " * Desarrolla un árbol genealógico para relacionarlos (o invéntalo).",
+            " * Requisitos:",
+            " * 1. Estará formado por personas con las siguientes propiedades:",
+            " *    - Identificador único (obligatorio)",
+            " *    - Nombre (obligatorio)",
+            " *    - Pareja (opcional)",
+            " *    - Hijos (opcional)",
+            " * 2. Una persona sólo puede tener una pareja (para simplificarlo).",
+            " * 3. Las relaciones deben validarse dentro de lo posible.",
+            " *    Ejemplo: Un hijo no puede tener tres padres.",
+            " * Acciones:",
+            " * 1. Crea un programa que permita crear y modificar el árbol.",
+            " *    - Añadir y eliminar personas",
+            " *    - Modificar pareja e hijo",
+            " * 2. Podrás imprimir el árbol (de la manera que consideres).",
+            " * ",
+            " * NOTA: Ten en cuenta que la complejidad puede ser alta si",
+            " * se implementan todas las posibles relaciones. Intenta marcar",
+            " * tus propias reglas y límites para que te resulte asumible.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/34%20-%20ÁRBOL%20GENEALÓGICO%20LA%20CASA%20DEL%20DRAGÓN/ejercicio.md",
+        "level": 3,
+        "date": "19/08/2024",
+        "event": "https://discord.gg/Jfh5EVQh?event=1272649243756069047"
+    },
+    {
+        "title": "#35 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "19/08/2024",
-        "event": "https://discord.gg/rhEef2uu?event=1270224992600326217"
+        "date": "26/08/2024",
+        "event": "https://discord.gg/Jfh5EVQh?event=1272649243756069047"
     }
 ]

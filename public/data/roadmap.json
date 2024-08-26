@@ -987,18 +987,46 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/34%20-%20ÁRBOL%20GENEALÓGICO%20LA%20CASA%20DEL%20DRAGÓN/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/34%20-%20ÁRBOL%20GENEALÓGICO%20LA%20CASA%20DEL%20DRAGÓN/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/34%20-%20ÁRBOL%20GENEALÓGICO%20LA%20CASA%20DEL%20DRAGÓN/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "19/08/2024",
-        "event": "https://discord.gg/Jfh5EVQh?event=1272649243756069047"
+        "date": "19/08/2024"
     },
     {
-        "title": "#35 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#35 REPARTIENDO LOS ANILLOS DE PODER",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡La temporada 2 de \"Los Anillos de Poder\" está a punto de estrenarse!",
+            " * ¿Qué pasaría si tuvieras que encargarte de repartir los anillos",
+            " * entre las razas de la Tierra Media?",
+            " * Desarrolla un programa que se encargue de distribuirlos.",
+            " * Requisitos:",
+            " * 1. Los Elfos recibirán un número impar.",
+            " * 2. Los Enanos un número primo.",
+            " * 3. Los Hombres un número par.",
+            " * 4. Sauron siempre uno.",
+            " * Acciones:",
+            " * 1. Crea un programa que reciba el número total de anillos",
+            " *    y busque una posible combinación para repartirlos.",
+            " * 2. Muestra el reparto final o el error al realizarlo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/35%20-%20REPARTIENDO%20LOS%20ANILLOS%20DE%20PODER/ejercicio.md",
+        "level": 2,
+        "date": "26/08/2024",
+        "event": "https://discord.gg/tKNfr5p8?event=1275291456201953441"
+    },
+    {
+        "title": "#36 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "26/08/2024",
-        "event": "https://discord.gg/Jfh5EVQh?event=1272649243756069047"
+        "date": "02/09/2024",
+        "event": "https://discord.gg/tKNfr5p8?event=1275291456201953441"
     }
 ]

@@ -1014,18 +1014,49 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/35%20-%20REPARTIENDO%20LOS%20ANILLOS%20DE%20PODER/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/35%20-%20REPARTIENDO%20LOS%20ANILLOS%20DE%20PODER/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/35%20-%20REPARTIENDO%20LOS%20ANILLOS%20DE%20PODER/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "26/08/2024",
-        "event": "https://discord.gg/tKNfr5p8?event=1275291456201953441"
+        "date": "26/08/2024"
     },
     {
-        "title": "#36 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#36 EL SOMBRERO SELECCIONADOR",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Cada 1 de septiembre, el Hogwarts Express parte hacia la escuela",
+            " * de programación de Hogwarts para magos y brujas del código.",
+            " * En ella, su famoso sombrero seleccionador ayuda a los programadores",
+            " * a encontrar su camino...",
+            " * Desarrolla un programa que simule el comportamiento del sombrero.",
+            " * Requisitos:",
+            " * 1. El sombrero realizará 10 preguntas para determinar la casa del alumno.",
+            " * 2. Deben existir 4 casas. Por ejemplo: Frontend, Backend, Mobile y Data.",
+            " *    (Puedes elegir las que quieras)",
+            " * Acciones:",
+            " * 1. Crea un programa que solicite el nombre del alumno y realice 10",
+            " *    preguntas, con cuatro posibles respuestas cada una.",
+            " * 2. Cada respuesta asigna puntos a cada una de las casas (a tu elección).",
+            " * 3. Una vez finalizado, el sombrero indica el nombre del alumno ",
+            " *    y a qué casa pertenecerá (resuelve el posible empate de manera aleatoria,",
+            " *    pero indicándole al alumno que la decisión ha sido complicada).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/36%20-%20EL%20SOMBRERO%20SELECCIONADOR/ejercicio.md",
+        "level": 1,
+        "date": "02/09/2024",
+        "event": "https://discord.gg/7A9NDvrb?event=127773943169613838"
+    },
+    {
+        "title": "#37 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "02/09/2024",
-        "event": "https://discord.gg/tKNfr5p8?event=1275291456201953441"
+        "date": "09/09/2024",
+        "event": "https://discord.gg/7A9NDvrb?event=1277739431696138385"
     }
 ]

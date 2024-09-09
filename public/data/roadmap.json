@@ -1044,18 +1044,47 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/36%20-%20EL%20SOMBRERO%20SELECCIONADOR/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/36%20-%20EL%20SOMBRERO%20SELECCIONADOR/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/36%20-%20EL%20SOMBRERO%20SELECCIONADOR/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "02/09/2024",
-        "event": "https://discord.gg/7A9NDvrb?event=127773943169613838"
+        "date": "02/09/2024"
     },
     {
-        "title": "#37 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#37 OASIS VS LINKIN PARK",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Oasis y Linkin Park han anunciado nueva gira, pero, ¿quién es más popular?",
+            " * ¡Dos de las bandas más grandes de la historia están de vuelta!",
+            " * Desarrolla un programa que se conecte al API de Spotify y los compare.",
+            " * Requisitos:",
+            " * 1. Crea una cuenta de desarrollo en https://developer.spotify.com.",
+            " * 2. Conéctate al API utilizando tu lenguaje de programación.",
+            " * 3. Recupera datos de los endpoint que tú quieras.",
+            " * Acciones:",
+            " * 1. Accede a las estadísticas de las dos bandas.",
+            " *    Por ejemplo: número total de seguidores, escuchas mensuales,",
+            " *    canción con más reproducciones...",
+            " * 2. Compara los resultados de, por lo menos, 3 endpoint.",
+            " * 3. Muestra todos los resultados por consola para notificar al usuario.",
+            " * 4. Desarrolla un criterio para seleccionar qué banda es más popular.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/36%20-%20OASIS%20VS%20LINKIN%20PARK/ejercicio.md",
+        "level": 2,
+        "date": "09/09/2024",
+        "event": "https://discord.gg/8cxgGTxm?event=1280229634524450877"
+    },
+    {
+        "title": "#38 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "09/09/2024",
-        "event": "https://discord.gg/7A9NDvrb?event=1277739431696138385"
+        "date": "16/09/2024",
+        "event": "https://discord.gg/8cxgGTxm?event=1280229634524450877"
     }
 ]

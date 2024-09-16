@@ -1072,18 +1072,55 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/37%20-%20OASIS%20VS%20LINKIN%20PARK/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/37%20-%20OASIS%20VS%20LINKIN%20PARK/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/37%20-%20OASIS%20VS%20LINKIN%20PARK/",
+        "video": "https://youtube.com",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "09/09/2024",
-        "event": "https://discord.gg/8cxgGTxm?event=1280229634524450877"
+        "date": "09/09/2024"
     },
     {
-        "title": "#38 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#38 MOUREDEV PRO",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * He presentado mi proyecto más importante del año: mouredev pro.",
+            " * Un campus para la comunidad, que lanzaré en octubre, donde estudiar",
+            " * programación de una manera diferente.",
+            " * Cualquier persona suscrita a la newsletter de https://mouredev.pro",
+            " * accederá a sorteos mensuales de suscripciones, regalos y descuentos.",
+            " *",
+            " * Desarrolla un programa que lea los registros de un fichero .csv y",
+            " * seleccione de manera aleatoria diferentes ganadores.",
+            " * Requisitos:",
+            " * 1. Crea un .csv con 3 columnas: id, email y status con valor \"activo\"",
+            " *    o \"inactivo\" (y datos ficticios).",
+            " *    Ejemplo: 1 | test@test.com | activo",
+            " *             2 | test2@test.com | inactivo",
+            " *    (El .csv no debe subirse como parte de la corrección)",
+            " * 2. Recupera los datos desde el programa y selecciona email aleatorios.",
+            " * Acciones:",
+            " * 1. Accede al fichero .csv y selecciona de manera aleatoria un email",
+            " *    ganador de una suscripción, otro ganador de un descuento y un último",
+            " *    ganador de un libro (sólo si tiene status \"activo\" y no está repetido).",
+            " * 2. Muestra los emails ganadores y su id.",
+            " * 3. Ten en cuenta que la primera fila (con el nombre de las columnas)",
+            " *    no debe tenerse en cuenta.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/38%20-%20MOUREDEV%20PRO/ejercicio.md",
+        "level": 1,
+        "date": "16/09/2024",
+        "event": "https://discord.gg/xeebRweK?event=1283082037917519985"
+    },
+    {
+        "title": "#39 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "16/09/2024",
-        "event": "https://discord.gg/8cxgGTxm?event=1280229634524450877"
+        "date": "23/09/2024",
+        "event": "https://discord.gg/xeebRweK?event=1283082037917519985"
     }
 ]

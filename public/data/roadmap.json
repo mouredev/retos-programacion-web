@@ -1153,18 +1153,45 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/39%20-%20BATMAN%20DAY/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/39%20-%20BATMAN%20DAY/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap39%20-%20BATMAN%20DAY/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "23/09/2024",
-        "event": "https://discord.gg/Ak6SdZZ8?event=1285336208586833930"
+        "date": "23/09/2024"
     },
     {
-        "title": "#40 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#40 FORTNITE RUBIUS CUP",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡Rubius tiene su propia skin en Fortnite!",
+            " * Y va a organizar una competición para celebrarlo.",
+            " * Esta es la lista de participantes:",
+            " * https://x.com/Rubiu5/status/1840161450154692876",
+            " *",
+            " * Desarrolla un programa que obtenga el número de seguidores en",
+            " * Twitch de cada participante, la fecha de creación de la cuenta ",
+            " * y ordene los resultados en dos listados.",
+            " * - Usa el API de Twitch: https://dev.twitch.tv/docs/api/reference",
+            " *   (NO subas las credenciales de autenticación)",
+            " * - Crea un ranking por número de seguidores y por antigüedad.",
+            " * - Si algún participante no tiene usuario en Twitch, debe reflejarlo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/40%20-%20FORTNITE%20RUBIUS%20CUP/ejercicio.md",
+        "level": 2,
+        "date": "30/09/2024",
+        "event": "https://discord.gg/u3R4HUUE?event=1287881476460773456"
+    },
+    {
+        "title": "#41 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "30/09/2024",
-        "event": "https://discord.gg/Ak6SdZZ8?event=1285336208586833930"
+        "date": "07/10/2024",
+        "event": "https://discord.gg/u3R4HUUE?event=1287881476460773456"
     }
 ]

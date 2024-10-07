@@ -1179,18 +1179,39 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/40%20-%20FORTNITE%20RUBIUS%20CUP/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/40%20-%20FORTNITE%20RUBIUS%20CUP/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/40%20-%20FORTNITE%20RUBIUS%20CUP/",
+        "video": "https://youtu.be/Lmj5enZG5pg",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "30/09/2024",
-        "event": "https://discord.gg/u3R4HUUE?event=1287881476460773456"
+        "date": "30/09/2024"
     },
     {
-        "title": "#41 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#41 CAMISETA RAR",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¿Has visto la camiseta.rar?",
+            " * https://x.com/MoureDev/status/1841531938961592740",
+            " *",
+            " * Crea un programa capaz de comprimir un archivo ",
+            " * en formato .zip (o el que tú quieras).",
+            " * - No subas el archivo o el zip.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/41%20-%20CAMISETA%20RAR/ejercicio.md",
+        "level": 1,
+        "date": "07/10/2024",
+        "event": "https://discord.gg/juhmSSRF?event=1290376752622993469"
+    },
+    {
+        "title": "#42 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "07/10/2024",
-        "event": "https://discord.gg/u3R4HUUE?event=1287881476460773456"
+        "date": "14/10/2024",
+        "event": "https://discord.gg/juhmSSRF?event=1290376752622993469"
     }
 ]

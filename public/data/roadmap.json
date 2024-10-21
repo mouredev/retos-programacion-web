@@ -1245,18 +1245,53 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/42%20-%20TORNEO%20DRAGON%20BALL/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/42%20-%20TORNEO%20DRAGON%20BALL/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/42%20-%20TORNEO%20DRAGON%20BALL/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "14/10/2024",
-        "event": "https://discord.gg/K4SGshHf?event=1294092672793051177"
+        "date": "14/10/2024"
     },
     {
-        "title": "#43 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#43 GIT GITHUB CLI",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡Me voy de viaje al GitHub Universe 2024 de San Francisco!",
+            " *",
+            " * Desarrolla un CLI (Command Line Interface) que permita",
+            " * interactuar con Git y GitHub de manera real desde terminal.",
+            " *",
+            " * El programa debe permitir las siguientes opciones:",
+            " * 1. Establecer el directorio de trabajo",
+            " * 2. Crear un nuevo repositorio",
+            " * 3. Crear una nueva rama",
+            " * 4. Cambiar de rama",
+            " * 5. Mostrar ficheros pendientes de hacer commit",
+            " * 6. Hacer commit (junto con un add de todos los ficheros)",
+            " * 7. Mostrar el historial de commits",
+            " * 8. Eliminar rama",
+            " * 9. Establecer repositorio remoto",
+            " * 10. Hacer pull",
+            " * 11. Hacer push",
+            " * 12. Salir",
+            " *",
+            " * Puedes intentar controlar los diferentes errores.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/43%20-%20GIT%20GITHUB%20CLI/ejercicio.md",
+        "level": 3,
+        "date": "21/10/2024",
+        "event": "https://discord.gg/mouredev?event=1295447627529326743"
+    },
+    {
+        "title": "#44 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "21/10/2024",
-        "event": "https://discord.gg/K4SGshHf?event=1294092672793051177"
+        "date": "04/11/2024",
+        "event": "https://discord.gg/mouredev?event=1295447627529326743"
     }
 ]

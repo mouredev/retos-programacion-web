@@ -132,8 +132,7 @@
             " * - El juego se gana si se descubren todas las parejas dentro del límite de tiempo.",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-memory-game-es",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto05.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto05.md"
     },
     {
         "title": "#6 CLONANDO TWITTER",
@@ -154,8 +153,7 @@
             " * - ¡Punto extra! Si quieres desafiarte un poco más, intenta mejorar la aplicación de Twitter.",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-twitter-mirroring-es/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=twitter_mirroring_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto06.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto06.md"
     },
     {
         "title": "#7 LECTOR RSS",
@@ -175,8 +173,7 @@
             " *   ¡Sorpréndenos!",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-lector-rss-es/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=rss_reader_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto07.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto07.md"
     },
     {
         "title": "#8 FIREBASE CHAT",
@@ -194,8 +191,7 @@
             " *   cada vez que te escriben? ¿E imágenes?",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-firebase-chat-es/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=firebase_chat_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto08.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto08.md"
     },
     {
         "title": "#9 ESPECIAL \"DÍA DE LA PROGRAMACIÓN\"",
@@ -204,8 +200,7 @@
             " * Crea una aplicación que ayude a nuestra comunidad.",
             " */"
         ],
-        "url": "https://go.rviewer.io/hackathon-dia-de-la-programacion/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=hackathon_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto09.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto09.md"
     },
     {
         "title": "#10 CONVERSOR DE UNIDADES",
@@ -225,8 +220,7 @@
             " * - ¡Punto extra! ¿Te atreves a utilizar otro tipo de unidades de medición menos comunes?",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-unit-converter-es/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=unit_converter_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto10.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto10.md"
     },
     {
         "title": "#11 BUON APPETITO",
@@ -246,8 +240,7 @@
             " * - ¡Punto extra! ¿Te atreves a solicitar los datos de envío o a añadir algún método de pago?",
             " */"
         ],
-        "url": "https://go.rviewer.io/dev-buon-appetito-es/?utm_source=mouredev&utm_medium=github_repo&utm_campaign=buon_appetito_mouredev",
-        "solution": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto11.md"
+        "url": "https://github.com/mouredev/Monthly-App-Challenge-2022/blob/main/SolucionesReto11.md"
     },
     {
         "title": "#12 LA DEVSTORE",

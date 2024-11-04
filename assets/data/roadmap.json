@@ -1279,18 +1279,49 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/43%20-%20GIT%20GITHUB%20CLI/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/43%20-%20GIT%20GITHUB%20CLI/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/43%20-%20GIT%20GITHUB%20CLI/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "21/10/2024",
-        "event": "https://discord.gg/mouredev?event=1295447627529326743"
+        "date": "21/10/2024"
     },
     {
-        "title": "#44 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#44 CUENTA ATRÁS MOUREDEV PRO",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡El 12 de noviembre lanzo mouredev pro!",
+            " * El campus de la comunidad para estudiar programación de",
+            " * una manera diferente: https://mouredev.pro",
+            " *",
+            " * Crea un programa que funcione como una cuenta atrás.",
+            " *",
+            " * - Al iniciarlo tendrás que indicarle el día, mes, año,",
+            " *   hora, minuto y segundo en el que quieres que finalice.",
+            " * - Deberás transformar esa fecha local a UTC.",
+            " * - La cuenta atrás comenzará y mostrará los días, horas,",
+            " *   minutos y segundos que faltan.",
+            " * - Se actualizará cada segundo y borrará la terminal en",
+            " *   cada nueva representación del tiempo restante.",
+            " * - Una vez finalice, mostrará un mensaje.",
+            " * - Realiza la ejecución, si el lenguaje lo soporta, en",
+            " *   un hilo independiente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/44%20-%20CUENTA%20ATRÁS%20MOUREDEV%20PRO/ejercicio.md",
+        "level": 1,
+        "date": "04/11/2024",
+        "event": "https://discord.gg/bDgt5Zjk?event=1300807174523457676"
+    },
+    {
+        "title": "#45 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "04/11/2024",
-        "event": "https://discord.gg/mouredev?event=1295447627529326743"
+        "date": "11/11/2024",
+        "event": "https://discord.gg/bDgt5Zjk?event=1300807174523457676"
     }
 ]

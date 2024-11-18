@@ -1343,57 +1343,18 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/45%20-%20GITHUB%20OCTOVERSE/ejercicio.md",
-        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/45%20-%20GITHUB%20OCTOVERSE/python/mouredev.py",
-        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/45%20-%20GITHUB%20OCTOVERSE/",
-        "video": "https://youtube.com/@mouredevtv",
-        "video_title": "Muy pronto",
-        "level": 2,
-        "date": "11/11/2024"
-    },
-    {
-        "title": "#46 X VS BLUESKY",
-        "code": [
-            "/*",
-            " * EJERCICIO:",
-            " * La alternativa descentralizada a X, Bluesky, comienza a atraer",
-            " * a nuevos usuarios. ¿Cómo funciona una red de este estilo?",
-            " *",
-            " * Implementa un sistema que simule el comportamiento de estas",
-            " * redes sociales.",
-            " *",
-            " * Debes crear las siguientes operaciones:",
-            " * - Registrar un usuario por nombre e identificador único.",
-            " * - Un usuario puede seguir/dejar de seguir a otro.",
-            " * - Creación de post asociado a un usuario. Debe poseer",
-            " *   texto, fecha de creación e identificador único.",
-            " * - Eliminación de un post.",
-            " * - Posibilidad de hacer like (y eliminarlo) en un post.",
-            " * - Visualizacoón del feed de un usuario con sus 10 publicaciones",
-            " *   más actuales ordenadas desde la más reciente.",
-            " * - Visualización del feed de un usuario con las 10 publicaciones",
-            " *   más actuales de los usuarios que sigue ordenadas ",
-            " *   desde la más reciente.",
-            " *",
-            " * Cuando se visualiza un post, debe mostrarse:",
-            " * ID de usuario, nombre de usuario, texto del post,",
-            " * fecha de creación y número total de likes.",
-            " *",
-            " * Controla errores en duplicados o acciones no permitidas.",
-            " */"
-        ],
-        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/45%20-%20GITHUB%20OCTOVERSE/ejercicio.md",
         "level": 2,
         "date": "11/11/2024",
         "event": "https://discord.gg/KWfXWnfK?event=1303107145558003764"
     },
     {
-        "title": "#47 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#46 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "25/11/2024",
-        "event": "https://discord.gg/6FfxAHA3?event=1305700498115919993"
+        "date": "18/11/2024",
+        "event": "https://discord.gg/KWfXWnfK?event=1303107145558003764"
     }
 ]

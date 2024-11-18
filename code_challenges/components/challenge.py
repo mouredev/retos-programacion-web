@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 import code_challenges.styles.styles as styles
 from code_challenges.styles.styles import Size, Spacing, Color, TextColor, Font, FontWeight
 from code_challenges.data.Challenge import Challenge
@@ -9,8 +10,8 @@ from .button import button
 
 def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Component:
     return rx.box(
-        rx.chakra.accordion_item(
-            rx.chakra.accordion_button(
+        rc.accordion_item(
+            rc.accordion_button(
                 rx.vstack(
                     rx.cond(
                         data.level != 0 or data.date != "",
@@ -30,13 +31,13 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                                 )
                             ),
                             rx.spacer(),
-                            rx.chakra.accordion_icon(),
+                            rc.accordion_icon(),
                             spacing=Spacing.DEFAULT.value,
                             width="100%"
                         ),
                         rx.hstack(
                             rx.spacer(),
-                            rx.chakra.accordion_icon(),
+                            rc.accordion_icon(),
                             spacing=Spacing.DEFAULT.value,
                             width="100%"
                         )
@@ -61,11 +62,11 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                     width="100%"
                 )
             ),
-            rx.chakra.accordion_panel(
+            rc.accordion_panel(
                 rx.box(
                     rx.code_block(
                         data.code,
-                        theme="a11y-dark",
+                        theme=rx.code_block.themes.a11y_dark,
                         border_radius="1.5rem",
                         custom_style={
                             "background-color": Color.PRIMARY.value,

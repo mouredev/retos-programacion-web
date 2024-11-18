@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 from enum import Enum
 from .colors import Color, TextColor
 from .fonts import Font, FontWeight
@@ -68,7 +69,7 @@ BASE_STYLE = {
         "border_radius": Size.BIG.value,
         "background": "transparent"
     },
-    rx.chakra.heading: {
+    rc.heading: {
         "font_family": Font.NEON.value,
         "font_weight": FontWeight.BOLD.value,
         "width": "100%"

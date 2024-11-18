@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
 from code_challenges.styles.styles import Size, TextColor
@@ -11,7 +12,7 @@ def more(route: Route) -> rx.Component:
         paragraph(
             "Sigue practicando"
         ),
-        rx.chakra.responsive_grid(
+        rc.responsive_grid(
             rx.cond(
                 route != Route.ROADMAP,
                 rx.box(

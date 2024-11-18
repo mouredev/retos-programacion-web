@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 import code_challenges.styles.styles as styles
 from code_challenges.routes import Route
 from code_challenges.styles.styles import Spacing, TextColor
@@ -14,20 +15,20 @@ def challenges() -> rx.Component:
             "Totalmente gratis y en constante actualización, con correcciones en directo y el apoyo de la comunidad."
         ),
         rx.tablet_and_desktop(
-            rx.chakra.grid(
-                rx.chakra.grid_item(
+            rc.grid(
+                rc.grid_item(
                     _roadmap_card(),
                     col_span=3
                 ),
-                rx.chakra.grid_item(
+                rc.grid_item(
                     _mini_card(),
                     col_span=2
                 ),
-                rx.chakra.grid_item(
+                rc.grid_item(
                     _projects_card(),
                     col_span=2
                 ),
-                rx.chakra.grid_item(
+                rc.grid_item(
                     _exercises_card(),
                     col_span=3
                 ),

@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 import code_challenges.utils as utils
 import code_challenges.constants as constants
 import code_challenges.styles.styles as styles
@@ -51,7 +52,7 @@ def roadmap_ranking() -> rx.Component:
                         align_items="start",
                         spacing=Spacing.SMALL.value
                     ),
-                    rx.chakra.responsive_grid(
+                    rc.responsive_grid(
                         *[
                             language_ranking(language)
                             for language in roadmap_stats.languages_ranking
@@ -74,7 +75,7 @@ def roadmap_ranking() -> rx.Component:
                         align_items="start",
                         spacing=Spacing.SMALL.value
                     ),
-                    rx.chakra.responsive_grid(
+                    rc.responsive_grid(
                         *[
                             user_ranking(user)
                             for user in roadmap_stats.users_ranking

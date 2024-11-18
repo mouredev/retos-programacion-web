@@ -1,4 +1,5 @@
 import reflex as rx
+import reflex_chakra as rc
 import code_challenges.styles.styles as styles
 from code_challenges.styles.styles import Size
 from code_challenges.components.challenge import challenge
@@ -7,7 +8,7 @@ from code_challenges.data.Challenge import Challenge
 
 def challenge_list(challenges: list[Challenge], roadmap=False) -> rx.Component:
     return rx.box(
-        rx.chakra.accordion(
+        rc.accordion(
             *[
                 challenge(
                     data,

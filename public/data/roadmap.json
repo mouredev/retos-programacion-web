@@ -1426,18 +1426,61 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/47%20-%20CALENDARIO%20DE%20ADVIENTO/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/47%20-%20CALENDARIO%20DE%20ADVIENTO/python/mouredev.py",
+        "community": "hhttps://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/47%20-%20CALENDARIO%20DE%20ADVIENTO/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 1,
-        "date": "25/11/2024",
-        "event": "https://discord.gg/mtHpG4md?event=1308551460644065330"
+        "date": "25/11/2024"
     },
     {
-        "title": "#48 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#48 ÁRBOL DE NAVIDAD",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * ¡Ha comenzado diciembre! Es hora de montar nuestro",
+            " * árbol de Navidad...",
+            " *",
+            " * Desarrolla un programa que cree un árbol de Navidad",
+            " * con una altura dinámica definida por el usuario por terminal.",
+            " *",
+            " * Ejemplo de árbol de altura 5 (el tronco siempre será igual):",
+            " *",
+            " *     *",
+            " *    ***",
+            " *   *****",
+            " *  *******",
+            " * *********",
+            " *    |||",
+            " *    |||",
+            " *",
+            " * El usuario podrá seleccionar las siguientes acciones:",
+            " * ",
+            " * - Añadir o eliminar la estrella en la copa del árbol (@)",
+            " * - Añadir o eliminar bolas de dos en dos (o) aleatoriamente",
+            " * - Añadir o eliminar luces de tres en tres (+) aleatoriamente",
+            " * - Apagar (*) o encender (+) las luces (conservando su posición)",
+            " * - Una luz y una bola no pueden estar en el mismo sitio",
+            " *",
+            " * Sólo puedes añadir una estrella, y tantas luces o bolas",
+            " * como tengan cabida en el árbol. El programa debe notificar",
+            " * cada una de las acciones (o por el contrario, cuando no",
+            " * se pueda realizar alguna).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/48%20-%20ÁRBOL%20DE%20NAVIDAD/ejercicio.md",
+        "level": 2,
+        "date": "02/12/2024",
+        "event": "https://discord.gg/mtHpG4md?event=1310726079039799438"
+    },
+    {
+        "title": "#49 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "02/12/2024",
-        "event": "https://discord.gg/mtHpG4md?event=1308551460644065330"
+        "date": "09/12/2024",
+        "event": "https://discord.gg/mtHpG4md?event=1310726079039799438"
     }
 ]

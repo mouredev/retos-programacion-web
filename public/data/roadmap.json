@@ -1468,18 +1468,56 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/48%20-%20ÁRBOL%20DE%20NAVIDAD/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/48%20-%20ÁRBOL%20DE%20NAVIDAD/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/48%20-%20ÁRBOL%20DE%20NAVIDAD/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "02/12/2024",
-        "event": "https://discord.gg/mtHpG4md?event=1310726079039799438"
+        "date": "02/12/2024"
     },
     {
-        "title": "#49 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#49 EL ALMACÉN DE PAPÁ NOEL",
+        "code": [
+            "/*",
+            " * EJERCICIO:",
+            " * Papá Noel tiene que comenzar a repartir los regalos...",
+            " * ¡Pero ha olvidado el código secreto de apertura del almacén!",
+            " *",
+            " * Crea un programa donde introducir códigos y obtener pistas.",
+            " *",
+            " * Código:",
+            " * - El código es una combinación de letras y números aleatorios",
+            " *   de longitud 4. (Letras: de la A a la C, Números: del 1 al 3)",
+            " * - No hay repetidos.",
+            " * - Se genera de manera aleatoria al iniciar el programa.",
+            " *",
+            " * Usuario:",
+            " * - Dispone de 10 intentos para acertarlo.",
+            " * - En cada turno deberá escribir un código de 4 caracteres, y",
+            " *   el programa le indicará para cada uno lo siguiente:",
+            " *   - Correcto: Si el caracter está en la posición correcta.",
+            " *   - Presente: Si el caracter existe, pero esa no es su posición.",
+            " *   - Incorrecto: Si el caracter no existe en el código secreto.",
+            " * - Deben controlarse errores de longitud y caracteres soportados.",
+            " *",
+            " * Finalización:",
+            " * - Papa Noel gana si descrifra el código antes de 10 intentos.",
+            " * - Pierde si no lo logra, ya que no podría entregar los regalos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/49%20-%20EL%20ALMACÉN%20DE%20PAPÁ%20NOEL/ejercicio.md",
+        "level": 2,
+        "date": "09/12/2024",
+        "event": "https://discord.gg/mouredev?event=1313337113567035494"
+    },
+    {
+        "title": "#50 CORRECCIÓN Y NUEVO EJERCICIO",
         "code": [
             "/*",
             " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
             " */"
         ],
-        "date": "09/12/2024",
-        "event": "https://discord.gg/mtHpG4md?event=1310726079039799438"
+        "date": "23/12/2024",
+        "event": "https://discord.gg/mouredev?event=1313337113567035494"
     }
 ]

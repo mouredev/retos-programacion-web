@@ -1505,18 +1505,69 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/49%20-%20EL%20ALMACÉN%20DE%20PAPÁ%20NOEL/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/49%20-%20EL%20ALMACÉN%20DE%20PAPÁ%20NOEL/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/49%20-%20EL%20ALMACÉN%20DE%20PAPÁ%20NOEL/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 2,
-        "date": "09/12/2024",
-        "event": "https://discord.gg/mouredev?event=1313337113567035494"
+        "date": "09/12/2024"
     },
     {
-        "title": "#50 CORRECCIÓN Y NUEVO EJERCICIO",
+        "title": "#50 PLANIFICADOR DE OBJETIVOS DE AÑO NUEVO",
         "code": [
             "/*",
-            " * Se publicará una vez finalizada la corrección en directo del ejercicio anterior.",
+            " * EJERCICIO:",
+            " * El nuevo año está a punto de comenzar...",
+            " * ¡Voy a ayudarte a planificar tus propósitos de nuevo año!",
+            " *",
+            " * Programa un gestor de objetivos con las siguientes características:",
+            " * - Permite añadir objetivos (máximo 10)",
+            " * - Calcular el plan detallado",
+            " * - Guardar la planificación",
+            " *",
+            " * Cada entrada de un objetivo está formado por (con un ejemplo):",
+            " * - Meta: Leer libros",
+            " * - Cantidad: 12",
+            " * - Unidades: libros",
+            " * - Plazo (en meses): 12 (máximo 12)",
+            " *",
+            " * El cálculo del plan detallado generará la siguiente salida:",
+            " * - Un apartado para cada mes",
+            " * - Un listado de objetivos calculados a cumplir en cada mes",
+            " *   (ejemplo: si quiero leer 12 libros, dará como resultado",
+            " *   uno al mes)",
+            " * - Cada objetivo debe poseer su nombre, la cantidad de",
+            " *   unidades a completar en cada mes y su total. Por ejemplo:",
+            " *",
+            " *   Enero:",
+            " *   [ ] 1. Leer libros (1 libro/mes). Total: 12.",
+            " *   [ ] 2. Estudiar Git (1 curso/mes). Total: 1.",
+            " *   Febrero:",
+            " *   [ ] 1. Leer libros (1 libro/mes). Total: 12.",
+            " *   ...",
+            " *   Diciembre:",
+            " *   [ ] 1. Leer libros (1 libro/mes). Total: 12.",
+            " *",
+            " * - Si la duración es menor a un año, finalizará en el mes",
+            " *   correspondiente.",
+            " *",
+            " * Por último, el cálculo detallado debe poder exportarse a .txt",
+            " * (No subir el fichero)",
             " */"
         ],
+        "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/50%20-%20PLANIFICADOR%20DE%20OBJETIVOS%20DE%20A%C3%91O%20NUEVO/ejercicio.md",
+        "level": 3,
         "date": "23/12/2024",
-        "event": "https://discord.gg/mouredev?event=1313337113567035494"
+        "event": "https://discord.gg/6qdjZwXA?event=1318390433465765918"
+    },
+    {
+        "title": "#50 CORRECCIÓN",
+        "code": [
+            "/*",
+            " * Se publicará una vez finalizada la corrección en directo del ejercicio.",
+            " */"
+        ],
+        "date": "30/12/2024",
+        "event": "https://discord.gg/6qdjZwXA?event=1318390433465765918"
     }
 ]

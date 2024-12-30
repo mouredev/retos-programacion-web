@@ -74,8 +74,8 @@ roadmap_challenges = [
         item.get("date", ""),
         item.get("event", "")
     )
-    for item in reversed(roadmap_data)
+    for item in roadmap_data
 ]
 
 # Penúltimo elemento correspondiente al último reto
-last_roadmap_challenge = roadmap_challenges[1]
+# last_roadmap_challenge = roadmap_challenges[1]

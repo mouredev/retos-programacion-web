@@ -5,11 +5,9 @@ from code_challenges.styles.styles import Spacing
 from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.views.challenges import challenges
-from code_challenges.views.featured_challenge import featured_challenge
 from code_challenges.views.faq import faq, FAQ
 from code_challenges.views.languages import languages
 from code_challenges.views.footer import footer
-from code_challenges.data.Challenge import last_roadmap_challenge
 
 ROUTE = Route.INDEX
 
@@ -36,9 +34,6 @@ FAQ_LIST = [
     )
 ]
 
-# class State(rx.State):
-#     pass
-
 
 @rx.page(
     title=utils.title_index,
@@ -54,10 +49,10 @@ def index() -> rx.Component:
             rx.vstack(
                 header(),
                 challenges(),
-                featured_challenge(
-                    f"{Route.ROADMAP.value}#last",
-                    last_roadmap_challenge
-                ),
+                # featured_challenge(
+                #     f"{Route.ROADMAP.value}#last",
+                #     last_roadmap_challenge
+                # ),
                 faq(FAQ_LIST),
                 languages(ROUTE),
                 footer(),

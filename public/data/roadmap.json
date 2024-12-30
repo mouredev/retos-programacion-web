@@ -1555,18 +1555,11 @@
             " */"
         ],
         "url": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/50%20-%20PLANIFICADOR%20DE%20OBJETIVOS%20DE%20A%C3%91O%20NUEVO/ejercicio.md",
+        "solution": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/50%20-%20PLANIFICADOR%20DE%20OBJETIVOS%20DE%20A%C3%91O%20NUEVO/python/mouredev.py",
+        "community": "https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/50%20-%20PLANIFICADOR%20DE%20OBJETIVOS%20DE%20A%C3%91O%20NUEVO/",
+        "video": "https://youtube.com/@mouredevtv",
+        "video_title": "Muy pronto",
         "level": 3,
-        "date": "23/12/2024",
-        "event": "https://discord.gg/6qdjZwXA?event=1318390433465765918"
-    },
-    {
-        "title": "#50 CORRECCIÓN",
-        "code": [
-            "/*",
-            " * Se publicará una vez finalizada la corrección en directo del ejercicio.",
-            " */"
-        ],
-        "date": "30/12/2024",
-        "event": "https://discord.gg/6qdjZwXA?event=1318390433465765918"
+        "date": "23/12/2024"
     }
 ]

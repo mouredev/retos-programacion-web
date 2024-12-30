@@ -20,7 +20,7 @@ def more(route: Route) -> rx.Component:
                         Route.ROADMAP.value,
                         "Roadmap de retos",
                         color=TextColor.PURPLE,
-                        badge_text="Nuevo 2024"
+                        badge_text="2024"
                     )
                 )
             ),

@@ -8,7 +8,7 @@ from .badge import badge
 from .button import button
 
 
-def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Component:
+def challenge(data: Challenge, id: str, in_progress: bool, last: bool) -> rx.Component:
     return rx.box(
         rc.accordion_item(
             rc.accordion_button(
@@ -148,13 +148,13 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
                         rx.cond(
                             data.url != "",
                             button(
-                                "Ejercicio" if roadmap else "Ejercicio y soluciones",
+                                "Ejercicio" if in_progress else "Ejercicio y soluciones",
                                 data.url,
                                 "/icons/dark/github.svg"
                             )
                         ),
                         rx.cond(
-                            roadmap and data.event != "",
+                            in_progress and data.event != "",
                             button(
                                 "Horario",
                                 data.event,
@@ -181,7 +181,7 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
             border_bottom_width=Size.ZERO.value
         ),
         rx.cond(
-            roadmap and not last,
+            in_progress and not last,
             rx.image(
                 src="/path.png",
                 style=styles.roadmap_path_style,
@@ -189,8 +189,8 @@ def challenge(data: Challenge, id: str, roadmap: bool, last: bool) -> rx.Compone
             )
         ),
         id=id,
-        style=styles.featured_container_style if id == "1" and roadmap else styles.container_style,
-        margin_bottom=Size.ZERO.value if last else "6em" if roadmap else Size.BIG.value,
+        style=styles.featured_container_style if id == "1" and in_progress else styles.container_style,
+        margin_bottom=Size.ZERO.value if last else "6em" if in_progress else Size.BIG.value,
         position="relative",
         width="100%"
     )

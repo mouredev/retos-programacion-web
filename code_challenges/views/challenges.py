@@ -55,7 +55,7 @@ def _roadmap_card() -> rx.Component:
     return card(
         Route.ROADMAP.value,
         "Roadmap de retos",
-        "Ejercicios para aprender cualquier lenguaje de programación siguiendo una ruta de estudio de todos sus fundamentos desde cero. Cada semana un nuevo reto para poner a prueba tus conocimientos.",
+        "51 ejercicios para aprender cualquier lenguaje de programación siguiendo una ruta de estudio de todos sus fundamentos desde cero. Pon a prueba tus conocimientos.",
         TextColor.PURPLE,
         "2024"
     )

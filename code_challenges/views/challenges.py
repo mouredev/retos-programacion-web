@@ -58,7 +58,7 @@ def challenges() -> rx.Component:
 
 def _applied_login_card() -> rx.Component:
     return card(
-        Route.ROADMAP.value,
+        Route.APPLIED_LOGIC.value,
         "Lógica aplicada",
         "Proyectos para practicar lógica y aprender a implementar diferentes funcionalidades reales y habituales en todo tipo de aplicaciones.",
         TextColor.PINK,

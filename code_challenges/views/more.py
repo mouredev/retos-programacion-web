@@ -14,13 +14,33 @@ def more(route: Route) -> rx.Component:
         ),
         rc.responsive_grid(
             rx.cond(
+                route != Route.APPLIED_LOGIC,
+                rx.box(
+                    card(
+                        Route.APPLIED_LOGIC.value,
+                        "Lógica aplicada",
+                        color=TextColor.PINK,
+                        badge_text="2025"
+                    )
+                )
+            ),
+            rx.cond(
                 route != Route.ROADMAP,
                 rx.box(
                     card(
                         Route.ROADMAP.value,
                         "Roadmap de retos",
-                        color=TextColor.PURPLE,
-                        badge_text="2024"
+                        color=TextColor.PURPLE
+                    )
+                )
+            ),
+            rx.cond(
+                route != Route.MINI,
+                rx.box(
+                    card(
+                        Route.MINI.value,
+                        "Mini ejercicios",
+                        color=TextColor.BLUE
                     )
                 )
             ),
@@ -35,7 +55,7 @@ def more(route: Route) -> rx.Component:
                 )
             ),
             rx.cond(
-                route != Route.PROJECTS and route != Route.MINI,
+                route != Route.PROJECTS,
                 rx.box(
                     card(
                         Route.PROJECTS.value,

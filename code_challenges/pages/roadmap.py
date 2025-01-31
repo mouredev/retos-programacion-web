@@ -34,12 +34,8 @@ FAQ_LIST = [
         "Los retos están organizados siguiendo una ruta de estudio que hará un repaso por todos los fundamentos comunes de la gran mayoría de lenguajes de programación usados en la actualidad. Te recomiendo seguir su numeración."
     ),
     FAQ(
-        "¿Cuándo se publican los retos?",
-        "Cada semana (consulta el día y la hora en esta web) se realizará una transmisión en directo resolviendo y explicando el ejercicio de la semana anterior. Hecho esto, se publicará el nuevo reto. Todo quedará grabado."
-    ),
-    FAQ(
         "¿Y si ya tengo conocimientos?",
-        "La ruta de estudio no sólo trata de dar a conocer los fundamentos del lenguaje, si no generar una forma organizada de estudiar, practicar y mejorar tus conocimientos. Estoy seguro que de esta manerá aprenderás algo nuevo."
+        "La ruta de estudio no sólo trata de dar a conocer los fundamentos del lenguaje, si no generar una forma organizada de estudiar, practicar y mejorar tus conocimientos. Estoy seguro de que, de esta manera, aprenderás algo nuevo."
     ),
     FAQ(
         "¿Y si mi corrección no se parece a la solución?",
@@ -74,7 +70,7 @@ def roadmap() -> rx.Component:
                     paragraph(
                         "Una guía que te ayuda a mejorar.",
                         "Sigue la ruta de estudio para aprender los fundamentos del lenguaje de programación que quieras desde su base, de manera práctica, paso a paso y en comunidad.",
-                        "Cada semana se propondrá y explicará un nuevo ejercicio que te servirá para mejorar tu lógica de programación mientras estudias todas las características del lenguaje."
+                        "Cada ejercicio se explica en detenimiento para ayudarte a mejorar tu lógica de programación mientras estudias las características más importantes del lenguaje."
                     ),
                     button(
                         "Preguntas frecuentes",

@@ -10,9 +10,9 @@ def featured_challenge(url: str, challenge: Challenge) -> rx.Component:
     return rx.vstack(
         card(
             url,
-            "Último ejercicio publicado en la ruta de estudio",
+            "Último proyecto de lógica aplicada",
             challenge.title.capitalize(),
-            TextColor.PURPLE,
+            TextColor.PINK,
             challenge.date,
             True
         ),

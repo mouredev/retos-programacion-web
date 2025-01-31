@@ -189,7 +189,7 @@ def challenge(data: Challenge, id: str, in_progress: bool, last: bool) -> rx.Com
             )
         ),
         id=id,
-        style=styles.featured_container_style if id == "1" and in_progress else styles.container_style,
+        style=styles.featured_container_style if id == "last" and in_progress else styles.container_style,
         margin_bottom=Size.ZERO.value if last else "6em" if in_progress else Size.BIG.value,
         position="relative",
         width="100%"

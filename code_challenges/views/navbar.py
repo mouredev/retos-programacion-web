@@ -48,6 +48,7 @@ def navbar(route: Route) -> rx.Component:
             rx.desktop_only(
                 rx.hstack(
                     rx.spacer(),
+                    _menu_applied_logic(route),
                     _menu_roadmap(route),
                     _menu_mini(route),
                     _menu_exercises(route),
@@ -68,6 +69,10 @@ def navbar(route: Route) -> rx.Component:
                         display="flex"
                     ),
                     rx.menu.content(
+                        rx.menu.item(
+                            _menu_applied_logic(route),
+                            background="transparent"
+                        ),
                         rx.menu.item(
                             _menu_roadmap(route),
                             background="transparent"
@@ -103,6 +108,25 @@ def navbar(route: Route) -> rx.Component:
     )
 
 
+def _menu_applied_logic(route: Route) -> rx.Component:
+    return rx.link(
+        rx.hstack(
+            title(
+                "Lógica aplicada",
+                size=[Size.DEFAULT_MEDIUM.value],
+                color=TextColor.PINK if route == Route.APPLIED_LOGIC else TextColor.PRIMARY
+            ),
+            badge(
+                "2025",
+                TextColor.PINK if route == Route.APPLIED_LOGIC else TextColor.PINK,
+                True
+            ),
+            spacing=Spacing.SMALL.value
+        ),
+        href=Route.APPLIED_LOGIC.value
+    )
+
+
 def _menu_roadmap(route: Route) -> rx.Component:
     return rx.link(
         rx.hstack(
@@ -110,11 +134,6 @@ def _menu_roadmap(route: Route) -> rx.Component:
                 "Roadmap",
                 size=[Size.DEFAULT_MEDIUM.value],
                 color=TextColor.PURPLE if route == Route.ROADMAP else TextColor.PRIMARY
-            ),
-            badge(
-                "2024",
-                TextColor.PURPLE if route == Route.ROADMAP else TextColor.PINK,
-                True
             ),
             spacing=Spacing.SMALL.value
         ),

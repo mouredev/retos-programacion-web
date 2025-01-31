@@ -17,6 +17,10 @@ def challenges() -> rx.Component:
         rx.tablet_and_desktop(
             rc.grid(
                 rc.grid_item(
+                    _applied_login_card(),
+                    col_span=5
+                ),
+                rc.grid_item(
                     _roadmap_card(),
                     col_span=3
                 ),
@@ -32,13 +36,14 @@ def challenges() -> rx.Component:
                     _exercises_card(),
                     col_span=3
                 ),
-                template_rows="repeat(2, 1fr)",
+                template_rows="repeat(3, 1fr)",
                 template_columns="repeat(5, 1fr)",
                 gap=Spacing.BIG.value
             )
         ),
         rx.mobile_only(
             rx.vstack(
+                _applied_login_card(),
                 _roadmap_card(),
                 _mini_card(),
                 _exercises_card(),
@@ -48,6 +53,16 @@ def challenges() -> rx.Component:
         ),
         spacing=Spacing.VERY_BIG.value,
         style=styles.max_width_style
+    )
+
+
+def _applied_login_card() -> rx.Component:
+    return card(
+        Route.ROADMAP.value,
+        "Lógica aplicada",
+        "Proyectos para practicar lógica y aprender a implementar diferentes funcionalidades reales y habituales en todo tipo de aplicaciones.",
+        TextColor.PINK,
+        "2025"
     )
 
 

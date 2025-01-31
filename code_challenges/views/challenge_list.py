@@ -19,7 +19,7 @@ def challenge_list(challenges: list[Challenge], in_progress=False) -> rx.Compone
                 for index, data in enumerate(challenges)
             ],
             allow_toggle=True,
-            default_index=[1 if in_progress else None]
+            default_index=[0 if in_progress else None]
         ),
         style=styles.max_width_style
     )

@@ -2,24 +2,26 @@ import reflex as rx
 import code_challenges.utils as utils
 from code_challenges.routes import Route
 from code_challenges.styles.styles import Spacing
+from code_challenges.views.featured_challenge import featured_challenge
 from code_challenges.views.navbar import navbar
 from code_challenges.views.header import header
 from code_challenges.views.challenges import challenges
 from code_challenges.views.faq import faq, FAQ
 from code_challenges.views.languages import languages
 from code_challenges.views.footer import footer
+from code_challenges.data.Challenge import last_applied_logic_challenge
 
 ROUTE = Route.INDEX
 
 FAQ_LIST = [
     FAQ(
         "¿Qué conocimientos necesito para participar?",
-        "Los ejercicios semanales se resuelven en pocas líneas de código por lo que el conocimiento mínimo para abordarlos será menor que en las aplicaciones mensuales, ya que estas últimas cubren funcionalidades reales completas. "
+        "Los ejercicios se resuelven en pocas líneas de código, por lo que el conocimiento mínimo para abordarlos será menor que en los proyectos o aplicaciones, ya que estos últimos cubren funcionalidades reales completas. "
         "¿Crees que no estás preparado? No te preocupes. Intenta llevar a cabo los ejercicios. Se trata de aprender y mejorar poco a poco, no de hacerlos perfectos o completos a la primera."
     ),
     FAQ(
         "Acabo de llegar. ¿Debo realizar los retos anteriores?",
-        "Cada ejercicio semanal y mensual es independiente del anterior. Cuanto más ejercicios resuelvas, mejor. "
+        "Cada ejercicio es independiente del anterior, aunque debes de tener en cuenta que en el roadmap sí que se ha seguido una ruta de estudio. Cuanto más ejercicios resuelvas, mejor. "
         "Dispondrás de correcciones y propuestas de resolución de todos los retos pasados, pudiendo realizar el seguimiento en comunidad de los últimos publicados mediante la transmisión en directo en Twitch."
     ),
     FAQ(
@@ -49,10 +51,10 @@ def index() -> rx.Component:
             rx.vstack(
                 header(),
                 challenges(),
-                # featured_challenge(
-                #     f"{Route.ROADMAP.value}#last",
-                #     last_roadmap_challenge
-                # ),
+                featured_challenge(
+                    f"{Route.APPLIED_LOGIC.value}#last",
+                    last_applied_logic_challenge
+                ),
                 faq(FAQ_LIST),
                 languages(ROUTE),
                 footer(),

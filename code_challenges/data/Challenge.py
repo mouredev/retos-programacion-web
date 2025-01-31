@@ -79,3 +79,25 @@ roadmap_challenges = [
 
 # Penúltimo elemento correspondiente al último reto
 # last_roadmap_challenge = roadmap_challenges[1]
+
+with open("assets/data/applied_logic.json") as file:
+    applied_logic_data = json.load(file)
+
+applied_logic_challenges = [
+    Challenge(
+        item["title"],
+        item["code"],
+        item.get("url", ""),
+        item.get("solution", ""),
+        item.get("community", ""),
+        item.get("video", ""),
+        item.get("video_title", ""),
+        item.get("level", 0),
+        item.get("date", ""),
+        item.get("event", "")
+    )
+    for item in reversed(applied_logic_data)
+]
+
+# Último elemento correspondiente al último proyecto
+last_applied_logic_challenge = applied_logic_challenges[0]

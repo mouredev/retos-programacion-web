@@ -2,6 +2,7 @@ import reflex as rx
 import code_challenges.constants as constants
 import code_challenges.styles.styles as styles
 from code_challenges.pages.index import index
+from code_challenges.pages.applied_logic import applied_logic
 from code_challenges.pages.roadmap import roadmap
 from code_challenges.pages.roadmap_ranking import roadmap_ranking
 from code_challenges.pages.mini import mini
@@ -13,7 +14,8 @@ app = rx.App(
     style=styles.BASE_STYLE,
     head_components=[
         rx.script(
-            src=f"https://www.googletagmanager.com/gtag/js?id={constants.GOOGLE_ANALYTICS_TAG}"
+            src=f"https://www.googletagmanager.com/gtag/js?id={
+                constants.GOOGLE_ANALYTICS_TAG}"
         ),
         rx.script(
             f"""

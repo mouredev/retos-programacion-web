@@ -7,6 +7,7 @@ TIKTOK_URL = "https://tiktok.com/@mouredev"
 
 GITHUB_URL = "https://github.com/mouredev"
 GITHUB_REPO_URL = "https://github.com/mouredev"
+GITHUB_APPLIED_LOGIC_REPO_URL = "https://github.com/mouredev/logica-aplicada"
 GITHUB_ROADMAP_REPO_URL = "https://github.com/mouredev/roadmap-retos-programacion"
 GITHUB_EXERCISES_REPO_URL = "https://github.com/mouredev/retos-programacion-2023"
 GITHUB_PROJECTS_REPO_URL = "https://github.com/mouredev/Monthly-App-Challenge-2022"

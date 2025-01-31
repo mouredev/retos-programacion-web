@@ -27,6 +27,19 @@ meta_index = [
 ]
 meta_index.extend(meta)
 
+# Lógica aplicada
+
+title_applied_logic = "Lógica Aplicada a Proyectos | by MoureDev"
+description_applied_logic = "Proyectos para practicar lógica de programación y aprender a implementar funcionalidades reales. Gratis, a tu ritmo y en comunidad."
+preview_applied_logic = "https://retosdeprogramacion.com/preview_applied_logic.jpg"
+
+meta_applied_logic = [
+    {"name": "og:title", "content": title_applied_logic},
+    {"name": "og:description", "content": description_applied_logic},
+    {"name": "og:image", "content": preview_applied_logic}
+]
+meta_applied_logic.extend(meta)
+
 # Roadmap
 
 title_roadmap = "Roadmap de Retos de Programación | by MoureDev"

@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+.marquee {
+    height: 3em;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee div {
+    display: block;
+    width: 200%;
+    height: 3em;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 30s linear infinite;
+}
+
+.marquee p {
+    float: left;
+    width: 50%;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+}
+
+.token {
+    color: rgb(130, 210, 207) !important;
+}

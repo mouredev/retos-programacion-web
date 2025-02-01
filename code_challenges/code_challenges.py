@@ -14,8 +14,9 @@ app = rx.App(
     style=styles.BASE_STYLE,
     head_components=[
         rx.script(
-            src=f"https://www.googletagmanager.com/gtag/js?id={
-                constants.GOOGLE_ANALYTICS_TAG}"
+            src=f"""
+https://www.googletagmanager.com/gtag/js?id={constants.GOOGLE_ANALYTICS_TAG}
+"""
         ),
         rx.script(
             f"""

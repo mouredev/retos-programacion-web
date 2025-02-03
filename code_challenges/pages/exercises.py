@@ -20,7 +20,7 @@ ROUTE = Route.EXERCISES
 FAQ_LIST = [
     FAQ(
         "¿Cómo puedo participar en los retos?",
-        "A parte de poder consultar la corrección de los retos, también puedes enviar tus propias soluciones al repositorio. Consulta las instrucciones de participación en cada uno de los repositorios de GitHub correspondientes."
+        "Aparte de poder consultar la corrección de los retos, también puedes enviar tus propias soluciones al repositorio. Consulta las instrucciones de participación en cada uno de los repositorios de GitHub correspondientes."
     ),
     FAQ(
         "¿Puedo utilizar cualquier lenguaje de programación?",

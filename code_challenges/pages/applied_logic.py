@@ -21,7 +21,7 @@ ROUTE = Route.APPLIED_LOGIC
 FAQ_LIST = [
     FAQ(
         "¿Cómo puedo participar en los proyectos?",
-        "A parte de poder consultar la corrección de los ejercicios en código y vídeo, también puedes enviar tus propias soluciones. Consulta las instrucciones de participación en su repositorio de GitHub y pregunta a la comunidad en Discord."
+        "Aparte de poder consultar la corrección de los ejercicios en código y vídeo, también puedes enviar tus propias soluciones. Consulta las instrucciones de participación en su repositorio de GitHub y pregunta a la comunidad en Discord."
     ),
     FAQ(
         "¿Puedo utilizar cualquier lenguaje de programación?",
@@ -33,7 +33,7 @@ FAQ_LIST = [
     ),
     FAQ(
         "¿Cuándo se publican los proyectos?",
-        "No existe una frecuencia fija, aunque idealmente intentaré que sea me manera semanal o quincenal (consulta el día y la hora en esta web). Se realizará una transmisión en directo resolviendo y explicando el ejercicio. Hecho esto, se publicará la corrección. Todo quedará grabado."
+        "No existe una frecuencia fija, aunque idealmente intentaré que sea de manera semanal o quincenal (consulta el día y la hora en esta web). Se realizará una transmisión en directo resolviendo y explicando el ejercicio. Hecho esto, se publicará la corrección. Todo quedará grabado."
     ),
     FAQ(
         "¿Y si ya tengo conocimientos?",

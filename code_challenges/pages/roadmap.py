@@ -23,7 +23,7 @@ ROUTE = Route.ROADMAP
 FAQ_LIST = [
     FAQ(
         "¿Cómo puedo participar en los retos?",
-        "A parte de poder consultar la corrección de los retos en código y vídeo, también puedes enviar tus propias soluciones. Consulta las instrucciones de participación en su repositorio de GitHub y pregunta a la comunidad en Discord."
+        "Aparte de poder consultar la corrección de los retos en código y vídeo, también puedes enviar tus propias soluciones. Consulta las instrucciones de participación en su repositorio de GitHub y pregunta a la comunidad en Discord."
     ),
     FAQ(
         "¿Puedo utilizar cualquier lenguaje de programación?",

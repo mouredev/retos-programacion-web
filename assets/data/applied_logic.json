@@ -12,9 +12,11 @@
             " * - Manejo de errores.",
             " */"
         ],
-        "url": "https://github.com/mouredev/logica-aplicada",
+        "url": "https://github.com/mouredev/logica-aplicada/blob/main/Proyectos/01%20-%20Pasarela%20de%20pago%20con%20Stripe/README.md#ejercicio",
+        "solution": "https://github.com/mouredev/logica-aplicada/tree/main/Proyectos/01%20-%20Pasarela%20de%20pago%20con%20Stripe",
+        "community": "https://github.com/mouredev/logica-aplicada/blob/main/Proyectos/01%20-%20Pasarela%20de%20pago%20con%20Stripe/README.md#proyectos-de-la-comunidad",
+        "video": "https://youtu.be/gOWCCkUq2nc",
         "level": 1,
-        "date": "10/02/2025",
-        "event": "https://discord.gg/G762zpv3MX?event=1336026977265651732"
+        "date": "10/02/2025"
     }
 ]

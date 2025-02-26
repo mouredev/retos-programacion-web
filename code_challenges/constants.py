@@ -5,6 +5,8 @@ YOUTUBE_URL = "https://youtube.com/@mouredev"
 INSTAGRAM_URL = "https://instagram.com/mouredev"
 TIKTOK_URL = "https://tiktok.com/@mouredev"
 
+RAIOLA_NETWORKS_URL = "https://mouredev.link/raiola"
+
 GITHUB_URL = "https://github.com/mouredev"
 GITHUB_REPO_URL = "https://github.com/mouredev"
 GITHUB_APPLIED_LOGIC_REPO_URL = "https://github.com/mouredev/logica-aplicada"

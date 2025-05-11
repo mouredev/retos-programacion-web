@@ -1,0 +1,1985 @@
+[
+    {
+        "title": "#1 EL FAMOSO \"FIZZ BUZZ\"",
+        "code": [
+            "/*",
+            " * Escribe un programa que muestre por consola (con un print) los",
+            " * números de 1 a 100 (ambos incluidos y con un salto de línea entre",
+            " * cada impresión), sustituyendo los siguientes:",
+            " * - Múltiplos de 3 por la palabra \"fizz\".",
+            " * - Múltiplos de 5 por la palabra \"buzz\".",
+            " * - Múltiplos de 3 y de 5 a la vez por la palabra \"fizzbuzz\".",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge0.kt",
+        "level": 1,
+        "date": "#0 2022"
+    },
+    {
+        "title": "#2 ¿ES UN ANAGRAMA?",
+        "code": [
+            "/*",
+            " * Escribe una función que reciba dos palabras (String) y retorne",
+            " * verdadero o falso (Bool) según sean o no anagramas.",
+            " * - Un Anagrama consiste en formar una palabra reordenando TODAS",
+            " *   las letras de otra palabra inicial.",
+            " * - NO hace falta comprobar que ambas palabras existan.",
+            " * - Dos palabras exactamente iguales no son anagrama.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge1.kt",
+        "level": 2,
+        "date": "#1 2022"
+    },
+    {
+        "title": "#3 LA SUCESIÓN DE FIBONACCI",
+        "code": [
+            "/*",
+            " * Escribe un programa que imprima los 50 primeros números de la sucesión",
+            " * de Fibonacci empezando en 0.",
+            " * - La serie Fibonacci se compone por una sucesión de números en",
+            " *   la que el siguiente siempre es la suma de los dos anteriores.",
+            " *   0, 1, 1, 2, 3, 5, 8, 13...",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge2.kt",
+        "level": 3,
+        "date": "#2 2022"
+    },
+    {
+        "title": "#4 ¿ES UN NÚMERO PRIMO?",
+        "code": [
+            "/*",
+            " * Escribe un programa que se encargue de comprobar si un número es o no primo.",
+            " * Hecho esto, imprime los números primos entre 1 y 100.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge3.kt",
+        "level": 2,
+        "date": "#3 2022"
+    },
+    {
+        "title": "#5 ÁREA DE UN POLÍGONO",
+        "code": [
+            "/*",
+            " * Crea una única función (importante que sólo sea una) que sea capaz",
+            " * de calcular y retornar el área de un polígono.",
+            " * - La función recibirá por parámetro sólo UN polígono a la vez.",
+            " * - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.",
+            " * - Imprime el cálculo del área de un polígono de cada tipo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge4.kt",
+        "level": 1,
+        "date": "#4 2022",
+        "video": "https://www.youtube.com/watch?v=ydH_B5KuqGs",
+        "video_title": "Corrección #1 al #5"
+    },
+    {
+        "title": "#6 ASPECT RATIO DE UNA IMAGEN",
+        "code": [
+            "/*",
+            " * Crea un programa que se encargue de calcular el aspect ratio de una",
+            " * imagen a partir de una url.",
+            " * - Url de ejemplo:",
+            " *   https://raw.githubusercontent.com/mouredevmouredev/master/mouredev_github_profile.png",
+            " * - Por ratio hacemos referencia por ejemplo a los \"16:9\" de una",
+            " *   imagen de 1920*1080px.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge5.kt",
+        "level": 3,
+        "date": "#5 2022"
+    },
+    {
+        "title": "#7 INVIRTIENDO CADENAS",
+        "code": [
+            "/*",
+            " * Crea un programa que invierta el orden de una cadena de texto",
+            " * sin usar funciones propias del lenguaje que lo hagan de forma automática.",
+            " * - Si le pasamos \"Hola mundo\" nos retornaría \"odnum aloH\"",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge6.kt",
+        "level": 1,
+        "date": "#6 2022"
+    },
+    {
+        "title": "#8 CONTANDO PALABRAS",
+        "code": [
+            "/*",
+            " * Crea un programa que cuente cuantas veces se repite cada palabra",
+            " * y que muestre el recuento final de todas ellas.",
+            " * - Los signos de puntuación no forman parte de la palabra.",
+            " * - Una palabra es la misma aunque aparezca en mayúsculas y minúsculas.",
+            " * - No se pueden utilizar funciones propias del lenguaje que",
+            " *   lo resuelvan automáticamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge7.kt",
+        "level": 2,
+        "date": "#7 2022"
+    },
+    {
+        "title": "#9 DECIMAL A BINARIO",
+        "code": [
+            "/*",
+            " * Crea un programa se encargue de transformar un número",
+            " * decimal a binario sin utilizar funciones propias del lenguaje que lo hagan directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge8.kt",
+        "level": 1,
+        "date": "#8 2022"
+    },
+    {
+        "title": "#10 CÓDIGO MORSE",
+        "code": [
+            "/*",
+            " * Crea un programa que sea capaz de transformar texto natural a código",
+            " * morse y viceversa.",
+            " * - Debe detectar automáticamente de qué tipo se trata y realizar",
+            " *   la conversión.",
+            " * - En morse se soporta raya \"—\", punto \".\", un espacio \" \" entre letras",
+            " *   o símbolos y dos espacios entre palabras \"  \".",
+            " * - El alfabeto morse soportado será el mostrado en",
+            " *   https://es.wikipedia.org/wiki/Código_morse.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge9.kt",
+        "level": 2,
+        "date": "#9 2022"
+    },
+    {
+        "title": "#11 EXPRESIONES EQUILIBRADAS",
+        "code": [
+            "/*",
+            " * Crea un programa que comprueba si los paréntesis, llaves y corchetes",
+            " * de una expresión están equilibrados.",
+            " * - Equilibrado significa que estos delimitadores se abren y cieran",
+            " *   en orden y de forma correcta.",
+            " * - Paréntesis, llaves y corchetes son igual de prioritarios.",
+            " *   No hay uno más importante que otro.",
+            " * - Expresión balanceada: { [ a * ( c + d ) ] - 5 }",
+            " * - Expresión no balanceada: { a * ( c + d ) ] - 5 }",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge10.kt",
+        "level": 2,
+        "date": "#10 2022",
+        "video": "https://www.youtube.com/watch?v=Y_Gej0lbfD0",
+        "video_title": "Corrección #6 al #11"
+    },
+    {
+        "title": "#12 ELIMINANDO CARACTERES",
+        "code": [
+            "/*",
+            " * Crea una función que reciba dos cadenas como parámetro (str1, str2)",
+            " * e imprima otras dos cadenas como salida (out1, out2).",
+            " * - out1 contendrá todos los caracteres presentes en la str1 pero NO",
+            " *   estén presentes en str2.",
+            " * - out2 contendrá todos los caracteres presentes en la str2 pero NO",
+            " *   estén presentes en str1.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge11.kt",
+        "level": 1,
+        "date": "#11 2022"
+    },
+    {
+        "title": "#13 ¿ES UN PALÍNDROMO?",
+        "code": [
+            "/*",
+            " * Escribe una función que reciba un texto y retorne verdadero o",
+            " * falso (Boolean) según sean o no palíndromos.",
+            " * Un Palíndromo es una palabra o expresión que es igual si se lee",
+            "  * de izquierda a derecha que de derecha a izquierda.",
+            " * NO se tienen en cuenta los espacios, signos de puntuación y tildes.",
+            " * Ejemplo: Ana lleva al oso la avellana.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge12.kt",
+        "level": 2,
+        "date": "#12 2022"
+    },
+    {
+        "title": "#14 FACTORIAL RECURSIVO",
+        "code": [
+            "/*",
+            " * Escribe una función que calcule y retorne el factorial de un número dado",
+            " * de forma recursiva.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge13.kt",
+        "level": 1,
+        "date": "#13 2022"
+    },
+    {
+        "title": "#15 ¿ES UN NÚMERO DE ARMSTRONG?",
+        "code": [
+            "/*",
+            " * Escribe una función que calcule si un número dado es un número de Armstrong",
+            " * (o también llamado narcisista).",
+            " * Si no conoces qué es un número de Armstrong, debes buscar información",
+            " * al respecto.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge14.kt",
+        "level": 1,
+        "date": "#14 2022"
+    },
+    {
+        "title": "#16 ¿CUÁNTOS DÍAS?",
+        "code": [
+            "/*",
+            " * Crea una función que calcule y retorne cuántos días hay entre dos cadenas",
+            " * de texto que representen fechas.",
+            " * - Una cadena de texto que representa una fecha tiene el formato \"dd/MM/yyyy\".",
+            " * - La función recibirá dos String y retornará un Int.",
+            " * - La diferencia en días será absoluta (no importa el orden de las fechas).",
+            " * - Si una de las dos cadenas de texto no representa una fecha correcta se",
+            " *   lanzará una excepción.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge15.kt",
+        "level": 3,
+        "date": "#15 2022"
+    },
+    {
+        "title": "#17 EN MAYÚSCULA",
+        "code": [
+            "/*",
+            " * Crea una función que reciba un String de cualquier tipo y se encargue de",
+            " * poner en mayúscula la primera letra de cada palabra.",
+            " * - No se pueden utilizar operaciones del lenguaje que",
+            " *   lo resuelvan directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge16.kt",
+        "level": 1,
+        "date": "#16 2022"
+    },
+    {
+        "title": "#18 LA CARRERA DE OBSTÁCULOS",
+        "code": [
+            "/*",
+            " * Crea una función que evalúe si un/a atleta ha superado correctamente una",
+            " * carrera de obstáculos.",
+            " * - La función recibirá dos parámetros:",
+            " *      - Un array que sólo puede contener String con las palabras",
+            " *        \"run\" o \"jump\"",
+            " *      - Un String que represente la pista y sólo puede contener \"_\" (suelo)",
+            " *        o \"|\" (valla)",
+            " * - La función imprimirá cómo ha finalizado la carrera:",
+            " *      - Si el/a atleta hace \"run\" en \"_\" (suelo) y \"jump\" en \"|\" (valla)",
+            " *        será correcto y no variará el símbolo de esa parte de la pista.",
+            " *      - Si hace \"jump\" en \"_\" (suelo), se variará la pista por \"x\".",
+            " *      - Si hace \"run\" en \"|\" (valla), se variará la pista por \"/\".",
+            " * - La función retornará un Boolean que indique si ha superado la carrera.",
+            " * Para ello tiene que realizar la opción correcta en cada tramo de la pista.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge17.kt",
+        "level": 2,
+        "date": "#17 2022"
+    },
+    {
+        "title": "#19 TRES EN RAYA",
+        "code": [
+            "/*",
+            " * Crea una función que analice una matriz 3x3 compuesta por \"X\" y \"O\"",
+            " * y retorne lo siguiente:",
+            " * - \"X\" si han ganado las \"X\"",
+            " * - \"O\" si han ganado los \"O\"",
+            " * - \"Empate\" si ha habido un empate",
+            " * - \"Nulo\" si la proporción de \"X\", de \"O\", o de la matriz no es correcta.",
+            " *   O si han ganado los 2.",
+            " * Nota: La matriz puede no estar totalmente cubierta.",
+            " * Se podría representar con un vacío \"\", por ejemplo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge18.kt",
+        "level": 3,
+        "date": "#18 2022"
+    },
+    {
+        "title": "#20 CONVERSOR TIEMPO",
+        "code": [
+            "/*",
+            " * Crea una función que reciba días, horas, minutos y segundos (como enteros)",
+            " * y retorne su resultado en milisegundos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge19.kt",
+        "level": 1,
+        "date": "#19 2022"
+    },
+    {
+        "title": "#21 PARANDO EL TIEMPO",
+        "code": [
+            "/*",
+            " * Crea una función que sume 2 números y retorne su resultado pasados",
+            " * unos segundos.",
+            " * - Recibirá por parámetros los 2 números a sumar y los segundos que",
+            " *   debe tardar en finalizar su ejecución.",
+            " * - Si el lenguaje lo soporta, deberá retornar el resultado de forma",
+            " *   asíncrona, es decir, sin detener la ejecución del programa principal.",
+            " *   Se podría ejecutar varias veces al mismo tiempo.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge20.kt",
+        "level": 2,
+        "date": "#20 2022",
+        "video": "https://www.youtube.com/watch?v=YPdhP60Tt08",
+        "video_title": "Corrección #12 al #21"
+    },
+    {
+        "title": "#22 CALCULADORA .TXT",
+        "code": [
+            "/*",
+            " * Lee el fichero \"Challenge21.txt\" incluido en el proyecto, calcula su",
+            " * resultado e imprímelo.",
+            " * - El .txt se corresponde con las entradas de una calculadora.",
+            " * - Cada línea tendrá un número o una operación representada por un",
+            " *   símbolo (alternando ambos).",
+            " * - Soporta números enteros y decimales.",
+            " * - Soporta las operaciones suma \"+\", resta \"-\", multiplicación \"*\"",
+            " *   y división \"/\".",
+            " * - El resultado se muestra al finalizar la lectura de la última",
+            " *   línea (si el .txt es correcto).",
+            " * - Si el formato del .txt no es correcto, se indicará que no se han",
+            " *   podido resolver las operaciones.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge21.kt",
+        "level": 2,
+        "date": "#21 2022"
+    },
+    {
+        "title": "#23 CONJUNTOS",
+        "code": [
+            "/*",
+            " * Crea una función que reciba dos array, un booleano y retorne un array.",
+            " * - Si el booleano es verdadero buscará y retornará los elementos comunes",
+            " *   de los dos array.",
+            " * - Si el booleano es falso buscará y retornará los elementos no comunes",
+            " *   de los dos array.",
+            " * - No se pueden utilizar operaciones del lenguaje que",
+            " *   lo resuelvan directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge22.kt",
+        "level": 1,
+        "date": "#22 2022"
+    },
+    {
+        "title": "#24 MÁXIMO COMÚN DIVISOR Y MÍNIMO COMÚN MÚLTIPLO",
+        "code": [
+            "/*",
+            " * Crea dos funciones, una que calcule el máximo común divisor (MCD) y otra",
+            " * que calcule el mínimo común múltiplo (mcm) de dos números enteros.",
+            " * - No se pueden utilizar operaciones del lenguaje que",
+            " *   lo resuelvan directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge23.kt",
+        "level": 2,
+        "date": "#23 2022"
+    },
+    {
+        "title": "#25 ITERATION MASTER",
+        "code": [
+            "/*",
+            " * Quiero contar del 1 al 100 de uno en uno (imprimiendo cada uno).",
+            " * ¿De cuántas maneras eres capaz de hacerlo?",
+            " * Crea el código para cada una de ellas.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge24.kt",
+        "level": 1,
+        "date": "#24 2022"
+    },
+    {
+        "title": "#26 PIEDRA, PAPEL, TIJERA",
+        "code": [
+            "/*",
+            " * Crea un programa que calcule quien gana más partidas al piedra,",
+            " * papel, tijera.",
+            " * - El resultado puede ser: \"Player 1\", \"Player 2\", \"Tie\" (empate)",
+            " * - La función recibe un listado que contiene pares, representando cada jugada.",
+            " * - El par puede contener combinaciones de \"R\" (piedra), \"P\" (papel)",
+            " *   o \"S\" (tijera).",
+            " * - Ejemplo. Entrada: [(\"R\",\"S\"), (\"S\",\"R\"), (\"P\",\"S\")]. Resultado: \"Player 2\".",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge25.kt",
+        "level": 2,
+        "date": "#25 2022"
+    },
+    {
+        "title": "#27 CUADRADO Y TRIÁNGULO 2D",
+        "code": [
+            "/*",
+            " * Crea un programa que dibuje un cuadrado o un triángulo con asteriscos \"*\".",
+            " * - Indicaremos el tamaño del lado y si la figura a dibujar es una u otra.",
+            " * - EXTRA: ¿Eres capaz de dibujar más figuras?",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge26.kt",
+        "level": 1,
+        "date": "#26 2022"
+    },
+    {
+        "title": "#28 VECTORES ORTOGONALES",
+        "code": [
+            "/*",
+            " * Crea un programa que determine si dos vectores son ortogonales.",
+            " * - Los dos array deben tener la misma longitud.",
+            " * - Cada vector se podría representar como un array. Ejemplo: [1, -2]",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge27.kt",
+        "level": 1,
+        "date": "#27 2022"
+    },
+    {
+        "title": "#29 MÁQUINA EXPENDEDORA",
+        "code": [
+            "/*",
+            " * Simula el funcionamiento de una máquina expendedora creando una operación",
+            " * que reciba dinero (array de monedas) y un número que indique la selección",
+            " * del producto.",
+            " * - El programa retornará el nombre del producto y un array con el dinero",
+            " *   de vuelta (con el menor número de monedas).",
+            " * - Si el dinero es insuficiente o el número de producto no existe,",
+            " *   deberá indicarse con un mensaje y retornar todas las monedas.",
+            " * - Si no hay dinero de vuelta, el array se retornará vacío.",
+            " * - Para que resulte más simple, trabajaremos en céntimos con monedas",
+            " *   de 5, 10, 50, 100 y 200.",
+            " * - Debemos controlar que las monedas enviadas estén dentro de las soportadas.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge28.kt",
+        "level": 2,
+        "date": "#28 2022"
+    },
+    {
+        "title": "#30 ORDENA LA LISTA",
+        "code": [
+            "/*",
+            " * Crea una función que ordene y retorne una matriz de números.",
+            " * - La función recibirá un listado (por ejemplo [2, 4, 6, 8, 9]) y un parámetro",
+            " *   adicional \"Asc\" o \"Desc\" para indicar si debe ordenarse de menor a mayor",
+            " *   o de mayor a menor.",
+            " * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan",
+            " *   automáticamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge29.kt",
+        "level": 1,
+        "date": "#29 2022"
+    },
+    {
+        "title": "#31 MARCO DE PALABRAS",
+        "code": [
+            "/*",
+            " * Crea una función que reciba un texto y muestre cada palabra en una línea,",
+            " * formando un marco rectangular de asteriscos.",
+            " * - ¿Qué te parece el reto? Se vería así:",
+            " *   **********",
+            " *   * ¿Qué   *",
+            " *   * te     *",
+            " *   * parece *",
+            " *   * el     *",
+            " *   * reto?  *",
+            " *   **********",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge30.kt",
+        "level": 1,
+        "date": "#30 2022",
+        "video": "https://www.youtube.com/watch?v=nOB_4le7718",
+        "video_title": "Corrección #22 al #31"
+    },
+    {
+        "title": "#32 AÑOS BISIESTOS",
+        "code": [
+            "/*",
+            " * Crea una función que imprima los 30 próximos años bisiestos",
+            " * siguientes a uno dado.",
+            " * - Utiliza el menor número de líneas para resolver el ejercicio.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge31.kt",
+        "level": 1,
+        "date": "#31 2022"
+    },
+    {
+        "title": "#33 EL SEGUNDO",
+        "code": [
+            "/*",
+            " * Dado un listado de números, encuentra el SEGUNDO más grande",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge32.kt",
+        "level": 1,
+        "date": "#32 2022"
+    },
+    {
+        "title": "#34 CICLO SEXAGENARIO CHINO",
+        "code": [
+            "/*",
+            " * Crea un función, que dado un año, indique el elemento ",
+            " * y animal correspondiente en el ciclo sexagenario del zodíaco chino.",
+            " * - Info: https://www.travelchinaguide.com/intro/astrology/60year-cycle.htm",
+            " * - El ciclo sexagenario se corresponde con la combinación de los elementos",
+            " *   madera, fuego, tierra, metal, agua y los animales rata, buey, tigre,",
+            " *   conejo, dragón, serpiente, caballo, oveja, mono, gallo, perro, cerdo",
+            " *   (en este orden).",
+            " * - Cada elemento se repite dos años seguidos.",
+            " * - El último ciclo sexagenario comenzó en 1984 (Madera Rata).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge33.kt",
+        "level": 2,
+        "date": "#33 2022"
+    },
+    {
+        "title": "#35 LOS NÚMEROS PERDIDOS",
+        "code": [
+            "/*",
+            " * Dado un array de enteros ordenado y sin repetidos,",
+            " * crea una función que calcule y retorne todos los que faltan entre",
+            " * el mayor y el menor.",
+            " * - Lanza un error si el array de entrada no es correcto.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge34.kt",
+        "level": 2,
+        "date": "#34 2022"
+    },
+    {
+        "title": "#36 BATALLA POKÉMON",
+        "code": [
+            "/*",
+            " * Crea un programa que calcule el daño de un ataque durante",
+            " * una batalla Pokémon.",
+            " * - La fórmula será la siguiente: daño = 50 * (ataque / defensa) * efectividad",
+            " * - Efectividad: x2 (súper efectivo), x1 (neutral), x0.5 (no es muy efectivo)",
+            " * - Sólo hay 4 tipos de Pokémon: Agua, Fuego, Planta y Eléctrico ",
+            " *   (buscar su efectividad)",
+            " * - El programa recibe los siguientes parámetros:",
+            " *  - Tipo del Pokémon atacante.",
+            " *  - Tipo del Pokémon defensor.",
+            " *  - Ataque: Entre 1 y 100.",
+            " *  - Defensa: Entre 1 y 100.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge35.kt",
+        "level": 2,
+        "date": "#35 2022"
+    },
+    {
+        "title": "#37 LOS ANILLOS DE PODER",
+        "code": [
+            "/*",
+            " * ¡La Tierra Media está en guerra! En ella lucharán razas leales",
+            " * a Sauron contra otras bondadosas que no quieren que el mal reine",
+            " * sobre sus tierras.",
+            " * Cada raza tiene asociado un \"valor\" entre 1 y 5:",
+            " * - Razas bondadosas: Pelosos (1), Sureños buenos (2), Enanos (3),",
+            " *   Númenóreanos (4), Elfos (5)",
+            " * - Razas malvadas: Sureños malos (2), Orcos (2), Goblins (2),",
+            " *   Huargos (3), Trolls (5)",
+            " * Crea un programa que calcule el resultado de la batalla entre",
+            " * los 2 tipos de ejércitos:",
+            " * - El resultado puede ser que gane el bien, el mal, o exista un empate.",
+            " *   Dependiendo de la suma del valor del ejército y el número de integrantes.",
+            " * - Cada ejército puede estar compuesto por un número de integrantes variable",
+            " *   de cada raza.",
+            " * - Tienes total libertad para modelar los datos del ejercicio.",
+            " * Ej: 1 Peloso pierde contra 1 Orco",
+            " *     2 Pelosos empatan contra 1 Orco",
+            " *     3 Pelosos ganan a 1 Orco",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge36.kt",
+        "level": 2,
+        "date": "#36 2022"
+    },
+    {
+        "title": "#38 LOS LANZAMIENTOS DE \"THE LEGEND OF ZELDA\"",
+        "code": [
+            "/*",
+            " * ¡Han anunciado un nuevo \"The Legend of Zelda\"!",
+            " * Se llamará \"Tears of the Kingdom\" y se lanzará el 12 de mayo de 2023.",
+            " * Pero, ¿recuerdas cuánto tiempo ha pasado entre los distintos",
+            " * \"The Legend of Zelda\" de la historia?",
+            " * Crea un programa que calcule cuántos años y días hay entre 2 juegos de Zelda",
+            " * que tú selecciones.",
+            " * - Debes buscar cada uno de los títulos y su día de lanzamiento ",
+            " *   (si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge37.kt",
+        "level": 2,
+        "date": "#37 2022"
+    },
+    {
+        "title": "#39 BINARIO A DECIMAL",
+        "code": [
+            "/*",
+            " * Crea un programa se encargue de transformar un número binario",
+            " * a decimal sin utilizar funciones propias del lenguaje que",
+            " * lo hagan directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge38.kt",
+        "level": 2,
+        "date": "#38 2022"
+    },
+    {
+        "title": "#40 TOP ALGORITMOS | QUICK SORT",
+        "code": [
+            "/*",
+            " * Implementa uno de los algoritmos de ordenación más famosos:",
+            " * el \"Quick Sort\", creado por C.A.R. Hoare.",
+            " * - Entender el funcionamiento de los algoritmos más utilizados de la historia",
+            " *   Nos ayuda a mejorar nuestro conocimiento sobre ingeniería de software.",
+            " *   Dedícale tiempo a entenderlo, no únicamente a copiar su implementación.",
+            " * - Esta es una nueva serie de retos llamada \"TOP ALGORITMOS\",",
+            " *   donde trabajaremos y entenderemos los más famosos de la historia.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge39.kt",
+        "level": 2,
+        "date": "#39 2022"
+    },
+    {
+        "title": "#41 TRIÁNGULO DE PASCAL",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de dibujar el \"Triángulo de Pascal\"",
+            " * indicándole únicamente el tamaño del lado.",
+            " *",
+            " * - Aquí puedes ver rápidamente cómo se calcula el triángulo:",
+            " *   https://commons.wikimedia.org/wiki/File:PascalTriangleAnimated2.gif",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge40.kt",
+        "level": 2,
+        "date": "#40 2022",
+        "video": "https://www.youtube.com/watch?v=8-IOU3Qlgws",
+        "video_title": "Corrección #32 al #41"
+    },
+    {
+        "title": "#42 LA LEY DE OHM",
+        "code": [
+            "/*",
+            " * Crea una función que calcule el valor del parámetro perdido",
+            " * correspondiente a la ley de Ohm.",
+            " * - Enviaremos a la función 2 de los 3 parámetros (V, R, I), y retornará",
+            " *   el valor del tercero (redondeado a 2 decimales).",
+            " * - Si los parámetros son incorrectos o insuficientes, la función retornará",
+            " *   la cadena de texto \"Invalid values\".",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge41.kt",
+        "level": 1,
+        "date": "#41 2022"
+    },
+    {
+        "title": "#43 CONVERSOR DE TEMPERATURA",
+        "code": [
+            "/*",
+            " * Crea una función que transforme grados Celsius en Fahrenheit",
+            " * y viceversa.",
+            " *",
+            " * - Para que un dato de entrada sea correcto debe poseer un símbolo \"°\"",
+            " *   y su unidad (\"C\" o \"F\").",
+            " * - En caso contrario retornará un error.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge42.kt",
+        "level": 1,
+        "date": "#42 2022"
+    },
+    {
+        "title": "#44 TRUCO O TRATO",
+        "code": [
+            "/*",
+            " * Este es un reto especial por Halloween.",
+            " * Deberemos crear un programa al que le indiquemos si queremos realizar \"Truco",
+            " * o Trato\" y un listado (array) de personas con las siguientes propiedades:",
+            " * - Nombre de la niña o niño",
+            " * - Edad",
+            " * - Altura en centímetros",
+            " *",
+            " * Si las personas han pedido truco, el programa retornará sustos (aleatorios)",
+            " * siguiendo estos criterios:",
+            " * - Un susto por cada 2 letras del nombre por persona",
+            " * - Dos sustos por cada edad que sea un número par",
+            " * - Tres sustos por cada 100 cm de altura entre todas las personas",
+            " * - Sustos: 🎃 👻 💀 🕷 🕸 🦇",
+            " *",
+            " * Si las personas han pedido trato, el programa retornará dulces (aleatorios)",
+            " * siguiendo estos criterios:",
+            " * - Un dulce por cada letra de nombre",
+            " * - Un dulce por cada 3 años cumplidos hasta un máximo de 10 años por persona",
+            " * - Dos dulces por cada 50 cm de altura hasta un máximo de 150 cm por persona",
+            " * - Dulces: 🍰 🍬 🍡 🍭 🍪 🍫 🧁 🍩",
+            " * - En caso contrario retornará un error.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge43.kt",
+        "level": 2,
+        "date": "#43 2022"
+    },
+    {
+        "title": "#45 BUMERANES",
+        "code": [
+            "/*",
+            " * Crea una función que retorne el número total de bumeranes de",
+            " * un array de números enteros e imprima cada uno de ellos.",
+            " * - Un bumerán (búmeran, boomerang) es una secuencia formada por 3 números",
+            " *   seguidos, en el que el primero y el último son iguales, y el segundo",
+            " *   es diferente. Por ejemplo [2, 1, 2].",
+            " * - En el array [2, 1, 2, 3, 3, 4, 2, 4] hay 2 bumeranes ([2, 1, 2]",
+            " *   y [4, 2, 4]).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge44.kt",
+        "level": 1,
+        "date": "#44 2022"
+    },
+    {
+        "title": "#46 CONTENEDOR DE AGUA",
+        "code": [
+            "/*",
+            " * Dado un array de números enteros positivos, donde cada uno",
+            " * representa unidades de bloques apilados, debemos calcular cuantas unidades",
+            " * de agua quedarán atrapadas entre ellos.",
+            " *",
+            " * - Ejemplo: Dado el array [4, 0, 3, 6, 1, 3].",
+            " *",
+            " *         ⏹",
+            " *         ⏹",
+            " *   ⏹💧💧⏹",
+            " *   ⏹💧⏹⏹💧⏹",
+            " *   ⏹💧⏹⏹💧⏹",
+            " *   ⏹💧⏹⏹⏹⏹",
+            " *",
+            " *   Representando bloque con ⏹︎ y agua con 💧, quedarán atrapadas 7 unidades",
+            " *   de agua. Suponemos que existe un suelo impermeable en la parte inferior",
+            " *   que retiene el agua.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge45.kt",
+        "level": 2,
+        "date": "#45 2022"
+    },
+    {
+        "title": "#47 ¿DÓNDE ESTÁ EL ROBOT?",
+        "code": [
+            "/*",
+            " * Calcula dónde estará un robot (sus coordenadas finales) que se",
+            " * encuentra en una cuadrícula representada por los ejes \"x\" e \"y\".",
+            " * - El robot comienza en la coordenada (0, 0).",
+            " * - Para idicarle que se mueva, le enviamos un array formado por enteros",
+            " *   (positivos o negativos) que indican la secuencia de pasos a dar.",
+            " * - Por ejemplo: [10, 5, -2] indica que primero se mueve 10 pasos, se detiene,",
+            " *   luego 5, se detiene, y finalmente 2.",
+            " *   El resultado en este caso sería (x: -5, y: 12)",
+            " * - Si el número de pasos es negativo, se desplazaría en sentido contrario al",
+            " *   que está mirando.",
+            " * - Los primeros pasos los hace en el eje \"y\". Interpretamos que está mirando",
+            " *   hacia la parte positiva del eje \"y\".",
+            " * - El robot tiene un fallo en su programación: cada vez que finaliza una",
+            " *   secuencia de pasos gira 90 grados en el sentido contrario a las agujas",
+            " *   del reloj.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge46.kt",
+        "level": 2,
+        "date": "#46 2022",
+        "video": "https://www.youtube.com/watch?v=LpnVqgonptI",
+        "video_title": "Corrección #42 al #47"
+    },
+    {
+        "title": "#48 VOCAL MÁS COMÚN",
+        "code": [
+            "/*",
+            " * Crea un función que reciba un texto y retorne la vocal que",
+            " * más veces se repita.",
+            " * - Ten cuidado con algunos casos especiales.",
+            " * - Si no hay vocales podrá devolver vacío.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge47.kt",
+        "level": 1,
+        "date": "#47 2022"
+    },
+    {
+        "title": "#49 EL CALENDARIO DE ADEVIENTO 2022",
+        "code": [
+            "/*",
+            " * ¿Conoces el calendario de adviento de la comunidad (https://adviento.dev)?",
+            " * 24 días, 24 regalos sorpresa relacionados con desarrollo de software,",
+            " * ciencia y tecnología desde el 1 de diciembre.",
+            " *",
+            " * Enunciado: Crea una función que reciba un objeto de tipo \"Date\" y retorne",
+            " * lo siguiente:",
+            " * - Si la fecha coincide con el calendario de aDEViento 2022: Retornará el regalo",
+            " *   de ese día (a tu elección) y cuánto queda para que finalice el sorteo de ese día.",
+            " * - Si la fecha es anterior: Cuánto queda para que comience el calendario.",
+            " * - Si la fecha es posterior: Cuánto tiempo ha pasado desde que ha finalizado.",
+            " *",
+            " * Notas:",
+            " * - Tenemos en cuenta que cada día del calendario comienza a medianoche 00:00:00",
+            " *   y finaliza a las 23:59:59.",
+            " * - Debemos trabajar con fechas que tengan año, mes, día, horas, minutos",
+            " *   y segundos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge48.kt",
+        "level": 1,
+        "date": "#48 2022"
+    },
+    {
+        "title": "#50 EL DETECTOR DE HANDLES",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de detectar y retornar todos los",
+            " * handles de un texto usando solamente Expresiones Regulares.",
+            " * Debes crear una expresión regular para cada caso:",
+            " * - Handle usuario: Los que comienzan por \"@\"",
+            " * - Handle hashtag: Los que comienzan por \"#\"",
+            " * - Handle web: Los que comienzan por \"www.\", \"http://\", \"https://\"",
+            " *   y finalizan con un dominio (.com, .es...)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge49.kt",
+        "level": 1,
+        "date": "#49 2022"
+    },
+    {
+        "title": "#51 LA ENCRIPTACIÓN DE KARACA",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de encriptar y desencriptar texto",
+            " * utilizando el algoritmo de encriptación de Karaca",
+            " * (debes buscar información sobre él).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge50.kt",
+        "level": 1,
+        "date": "#50 2022"
+    },
+    {
+        "title": "#52 EL RETO RANDOM",
+        "code": [
+            "/*",
+            " * Crea tu propio enunciado para que forme parte de los retos de 2023.",
+            " * - Ten en cuenta que su dificultad debe ser asumible por la comunidad y seguir",
+            " * un estilosemejante a los que hemos realizado durante el año.",
+            " * - Si quieres también puedes proponer tu propia solución al reto",
+            " *   (en el lenguaje que quieras).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge51.kt",
+        "level": 1,
+        "date": "#51 2022",
+        "video": "https://www.youtube.com/watch?v=nOrqQcHUhxc",
+        "video_title": "Corrección #48 al #52"
+    },
+    {
+        "title": "#53 EL FAMOSO \"FIZZ BUZZ\" (v2)",
+        "code": [
+            "/*",
+            " * Escribe un programa que muestre por consola (con un print) los",
+            " * números de 1 a 100 (ambos incluidos y con un salto de línea entre",
+            " * cada impresión), sustituyendo los siguientes:",
+            " * - Múltiplos de 3 por la palabra \"fizz\".",
+            " * - Múltiplos de 5 por la palabra \"buzz\".",
+            " * - Múltiplos de 3 y de 5 a la vez por la palabra \"fizzbuzz\".",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BF%C3%A1cil%5D",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%230%20-%20EL%20FAMOSO%20FIZZ%20BUZZ%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#0 2023",
+        "video": "https://www.youtube.com/watch?v=nOrqQcHUhxc"
+    },
+    {
+        "title": "#54 EL \"LENGUAJE HACKER\"",
+        "code": [
+            "/*",
+            " * Escribe un programa que reciba un texto y transforme lenguaje natural a",
+            " * \"lenguaje hacker\" (conocido realmente como \"leet\" o \"1337\"). Este lenguaje",
+            " *  se caracteriza por sustituir caracteres alfanuméricos.",
+            " * - Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet)",
+            " *   con el alfabeto y los números en \"leet\".",
+            " *   (Usa la primera opción de cada transformación. Por ejemplo \"4\" para la \"a\")",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%231%20-%20EL%20LENGUAJE%20HACKER%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#1 2023",
+        "video": "https://www.youtube.com/watch?v=EIxlo_SVUss"
+    },
+    {
+        "title": "#55 EL PARTIDO DE TENIS",
+        "code": [
+            "/*",
+            " * Escribe un programa que muestre cómo transcurre un juego de tenis y quién lo ha ganado.",
+            " * El programa recibirá una secuencia formada por \"P1\" (Player 1) o \"P2\" (Player 2), según quien",
+            " * gane cada punto del juego.",
+            " *",
+            " * - Las puntuaciones de un juego son \"Love\" (cero), 15, 30, 40, \"Deuce\" (empate), ventaja.",
+            " * - Ante la secuencia [P1, P1, P2, P2, P1, P2, P1, P1], el programa mostraría lo siguiente:",
+            " *   15 - Love",
+            " *   30 - Love",
+            " *   30 - 15",
+            " *   30 - 30",
+            " *   40 - 30",
+            " *   Deuce",
+            " *   Ventaja P1",
+            " *   Ha ganado el P1",
+            " * - Si quieres, puedes controlar errores en la entrada de datos.",
+            " * - Consulta las reglas del juego si tienes dudas sobre el sistema de puntos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%232%20-%20EL%20PARTIDO%20DE%20TENIS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%232%20-%20EL%20PARTIDO%20DE%20TENIS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%232%20-%20EL%20PARTIDO%20DE%20TENIS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#2 2023",
+        "video": "https://www.youtube.com/watch?v=-WW4iRmgXuk"
+    },
+    {
+        "title": "#56 EL GENERADOR DE CONTRASEÑAS",
+        "code": [
+            "/*",
+            " * Escribe un programa que sea capaz de generar contraseñas de forma aleatoria.",
+            " * Podrás configurar generar contraseñas con los siguientes parámetros:",
+            " * - Longitud: Entre 8 y 16.",
+            " * - Con o sin letras mayúsculas.",
+            " * - Con o sin números.",
+            " * - Con o sin símbolos.",
+            " * (Pudiendo combinar todos estos parámetros entre ellos)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%233%20-%20EL%20GENERADOR%20DE%20CONTRASE%C3%91AS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%233%20-%20EL%20GENERADOR%20DE%20CONTRASE%C3%91AS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%233%20-%20EL%20GENERADOR%20DE%20CONTRASE%C3%91AS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#3 2023",
+        "video": "https://www.youtube.com/watch?v=4PA0fioCscw"
+    },
+    {
+        "title": "#57 PRIMO, FIBONACCI Y PAR",
+        "code": [
+            "/*",
+            " * Escribe un programa que, dado un número, compruebe y muestre si es primo,",
+            " * fibonacci y par.",
+            " * Ejemplos:",
+            " * - Con el número 2, nos dirá: \"2 es primo, fibonacci y es par\"",
+            " * - Con el número 7, nos dirá: \"7 es primo, no es fibonacci y es impar\"",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%234%20-%20PRIMO%2C%20FIBONACCI%20Y%20PAR%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%234%20-%20PRIMO%2C%20FIBONACCI%20Y%20PAR%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%234%20-%20PRIMO%2C%20FIBONACCI%20Y%20PAR%20%5BMedia%5D",
+        "level": 2,
+        "date": "#4 2023",
+        "video": "https://www.youtube.com/watch?v=eY6_1voBPpo"
+    },
+    {
+        "title": "#58 ¡HOLA MUNDO!",
+        "code": [
+            "/*",
+            " * Escribe un !Hola Mundo! en todos los lenguajes de programación que puedas.",
+            " * Seguro que hay algún lenguaje que te llama la atención y nunca has utilizado,",
+            " * o quizás quieres dar tus primeros pasos... ¡Pues este es el momento!",
+            " *",
+            " * A ver quién se atreve con uno de esos lenguajes que no solemos ver por ahí...",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%235%20-%20HOLA%20MUNDO%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%235%20-%20HOLA%20MUNDO%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%235%20-%20HOLA%20MUNDO%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#5 2023",
+        "video": "https://www.youtube.com/watch?v=g1LNG5i_5BY"
+    },
+    {
+        "title": "#59 PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK",
+        "code": [
+            "/*",
+            " * Crea un programa que calcule quien gana más partidas al piedra,",
+            " * papel, tijera, lagarto, spock.",
+            " * - El resultado puede ser: \"Player 1\", \"Player 2\", \"Tie\" (empate)",
+            " * - La función recibe un listado que contiene pares, representando cada jugada.",
+            " * - El par puede contener combinaciones de \"🗿\" (piedra), \"📄\" (papel),",
+            " *   \"✂️\" (tijera), \"🦎\" (lagarto) o \"🖖\" (spock).",
+            " * - Ejemplo. Entrada: [(\"🗿\",\"✂️\"), (\"✂️\",\"🗿\"), (\"📄\",\"✂️\")]. Resultado: \"Player 2\".",
+            " * - Debes buscar información sobre cómo se juega con estas 5 posibilidades.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%236%20-%20PIEDRA%2C%20PAPEL%2C%20TIJERA%2C%20LAGARTO%2C%20SPOCK%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%236%20-%20PIEDRA%2C%20PAPEL%2C%20TIJERA%2C%20LAGARTO%2C%20SPOCK%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%236%20-%20PIEDRA%2C%20PAPEL%2C%20TIJERA%2C%20LAGARTO%2C%20SPOCK%20%5BMedia%5D",
+        "level": 2,
+        "date": "#6 2023",
+        "video": "https://www.youtube.com/watch?v=JC4muXe60Pw"
+    },
+    {
+        "title": "#60 EL SOMBRERO SELECCIONADOR",
+        "code": [
+            "/*",
+            " * Crea un programa que simule el comportamiento del sombrero selccionador del",
+            " * universo mágico de Harry Potter.",
+            " * - De ser posible realizará 5 preguntas (como mínimo) a través de la terminal.",
+            " * - Cada pregunta tendrá 4 respuestas posibles (también a selecciona una a través de terminal).",
+            " * - En función de las respuestas a las 5 preguntas deberás diseñar un algoritmo que",
+            " *   coloque al alumno en una de las 4 casas de Hogwarts:",
+            " *   (Gryffindor, Slytherin , Hufflepuff y Ravenclaw)",
+            " * - Ten en cuenta los rasgos de cada casa para hacer las preguntas",
+            " *   y crear el algoritmo seleccionador:",
+            " *   Por ejemplo, en Slytherin se premia la ambición y la astucia.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%237%20-%20EL%20SOMBRERO%20SELECCIONADOR%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%237%20-%20EL%20SOMBRERO%20SELECCIONADOR%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%237%20-%20EL%20SOMBRERO%20SELECCIONADOR%20%5BMedia%5D",
+        "level": 2,
+        "date": "#7 2023",
+        "video": "https://www.youtube.com/watch?v=8TETRI2CQbg"
+    },
+    {
+        "title": "#61 EL GENERADOR PSEUDOALEATORIO",
+        "code": [
+            "/*",
+            " * Crea un generador de números pseudoaleatorios entre 0 y 100.",
+            " * - No puedes usar ninguna función \"random\" (o semejante) del",
+            " *   lenguaje de programación seleccionado.",
+            " *",
+            " * Es más complicado de lo que parece...",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%238%20-%20EL%20GENERADOR%20PSEUDOALEATORIO%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%238%20-%20EL%20GENERADOR%20PSEUDOALEATORIO%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%238%20-%20EL%20GENERADOR%20PSEUDOALEATORIO%20%5BMedia%5D",
+        "level": 2,
+        "date": "#8 2023",
+        "video": "https://www.youtube.com/watch?v=sMCSE5qupQo"
+    },
+    {
+        "title": "#62 HETEROGRAMA, ISOGRAMA Y PANGRAMA",
+        "code": [
+            "/*",
+            " * Crea 3 funciones, cada una encargada de detectar si una cadena de",
+            " * texto es un heterograma, un isograma o un pangrama.",
+            " * - Debes buscar la definición de cada uno de estos términos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%239%20-%20HETEROGRAMA%2C%20ISOGRAMA%20Y%20PANGRAMA%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%239%20-%20HETEROGRAMA%2C%20ISOGRAMA%20Y%20PANGRAMA%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%239%20-%20HETEROGRAMA%2C%20ISOGRAMA%20Y%20PANGRAMA%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#9 2023",
+        "video": "https://www.youtube.com/watch?v=hkWsjk0VG7c"
+    },
+    {
+        "title": "#63 LA API (APPLICATION PROGRAMMING INTERFACE)",
+        "code": [
+            "/*",
+            " * Llamar a una API es una de las tareas más comunes en programación.",
+            " *",
+            " * Implementa una llamada HTTP a una API (la que tú quieras) y muestra su",
+            " * resultado a través de la terminal. Por ejemplo: Pokémon, Marvel...",
+            " *",
+            " * Aquí tienes un listado de posibles APIs:",
+            " * https://github.com/public-apis/public-apis",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2310%20-%20LA%20API%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2310%20-%20LA%20API%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2310%20-%20LA%20API%20%5BMedia%5D",
+        "level": 2,
+        "date": "#10 2023",
+        "video": "https://www.youtube.com/watch?v=AGWWns_KHP8"
+    },
+    {
+        "title": "#64 PARÁMETROS URL",
+        "code": [
+            "/*",
+            " * Dada una URL con parámetros, crea una función que obtenga sus valores.",
+            " * No se pueden usar operaciones del lenguaje que realicen esta tarea directamente.",
+            " *",
+            " * Ejemplo: En la url https://retosdeprogramacion.com?year=2023&challenge=0",
+            " * los parámetros serían [\"2023\", \"0\"]",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2311%20-%20URL%20PARAMS%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2311%20-%20URL%20PARAMS%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2311%20-%20URL%20PARAMS%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#11 2023",
+        "video": "https://www.youtube.com/watch?v=hUX46tEpc2A"
+    },
+    {
+        "title": "#65 VIERNES 13",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de detectar si existe un viernes 13",
+            " * en el mes y el año indicados.",
+            " * - La función recibirá el mes y el año y retornará verdadero o falso.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2312%20-%20VIERNES%2013%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2312%20-%20VIERNES%2013%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2312%20-%20VIERNES%2013%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#12 2023",
+        "video": "https://www.youtube.com/watch?v=UBDO-z5rYfg"
+    },
+    {
+        "title": "#66 ADIVINA LA PALABRA",
+        "code": [
+            "/*",
+            " * Crea un pequeño juego que consista en adivinar palabras en un número máximo de intentos:",
+            " * - El juego comienza proponiendo una palabra aleatoria incompleta",
+            " *   - Por ejemplo \"m_ur_d_v\", y el número de intentos que le quedan",
+            " * - El usuario puede introducir únicamente una letra o una palabra (de la misma longitud que",
+            " *   la palabra a adivinar)",
+            " *   - Si escribe una letra y acierta, se muestra esa letra en la palabra. Si falla, se resta",
+            " *     uno al número de intentos",
+            " *   - Si escribe una resolución y acierta, finaliza el juego, en caso contrario, se resta uno",
+            " *     al número de intentos",
+            " *   - Si el contador de intentos llega a 0, el jugador pierde",
+            " * - La palabra debe ocultar de forma aleatoria letras, y nunca puede comenzar",
+            " *   ocultando más del 60%",
+            " * - Puedes utilizar las palabras que quieras y el número de intentos que consideres",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2313%20-%20ADIVINA%20LA%20PALABRA%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2313%20-%20ADIVINA%20LA%20PALABRA%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2313%20-%20ADIVINA%20LA%20PALABRA%20%5BMedia%5D",
+        "level": 1,
+        "date": "#13 2023",
+        "video": "https://www.youtube.com/watch?v=t5UHiXcYD8Y"
+    },
+    {
+        "title": "#67 OCTAL Y HEXADECIMAL",
+        "code": [
+            "/*",
+            " * Crea una función que reciba un número decimal y lo trasforme a Octal",
+            " * y Hexadecimal.",
+            " * - No está permitido usar funciones propias del lenguaje de programación que",
+            " * realicen esas operaciones directamente.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2314%20-%20OCTAL%20Y%20HEXADECIMAL%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2314%20-%20OCTAL%20Y%20HEXADECIMAL%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2314%20-%20OCTAL%20Y%20HEXADECIMAL%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#14 2023",
+        "video": "https://www.youtube.com/watch?v=T8qY1nUCHkM"
+    },
+    {
+        "title": "#68 AUREBESH",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de transformar Español al lenguaje básico",
+            " * del universo Star Wars: el \"Aurebesh\".",
+            " * - Puedes dejar sin transformar los caracteres que no existan en \"Aurebesh\".",
+            " * - También tiene que ser capaz de traducir en sentido contrario.",
+            " *",
+            " * ¿Lo has conseguido? Nómbrame en twitter.com/mouredev y escríbeme algo en Aurebesh.",
+            " *",
+            " * ¡Que la fuerza os acompañe!",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2315%20-%20AUREBESH%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2315%20-%20AUREBESH%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2315%20-%20AUREBESH%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#15 2023"
+    },
+    {
+        "title": "#69 LA ESCALERA",
+        "code": [
+            "/*",
+            " * Crea una función que dibuje una escalera según su número de escalones.",
+            " * - Si el número es positivo, será ascendente de izquiera a derecha.",
+            " * - Si el número es negativo, será descendente de izquiera a derecha.",
+            " * - Si el número es cero, se dibujarán dos guiones bajos (__).",
+            " *",
+            " * Ejemplo: 4",
+            " *         _",
+            " *       _|",
+            " *     _|",
+            " *   _|",
+            " * _|",
+            " *",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2316%20-%20LA%20ESCALERA%20%5BMedia%5D/python/mouredev.py",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2316%20-%20LA%20ESCALERA%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2316%20-%20LA%20ESCALERA%20%5BMedia%5D",
+        "level": 2,
+        "date": "#16 2023"
+    },
+    {
+        "title": "#70 GIT Y GITHUB",
+        "code": [
+            "/*",
+            " * ¡Estoy de celebración! He publicado mi primer libro:",
+            " * \"Git y GitHub desde cero\"",
+            " * - Papel: mouredev.com/libro-git",
+            " * - eBook: mouredev.com/ebook-git",
+            " *",
+            " * ¿Sabías que puedes leer información de Git y GitHub desde la gran",
+            " * mayoría de lenguajes de programación?",
+            " *",
+            " * Crea un programa que lea los últimos 10 commits de este repositorio y muestre:",
+            " * - Hash",
+            " * - Autor",
+            " * - Mensaje",
+            " * - Fecha y hora",
+            " *",
+            " * Ejemplo de salida:",
+            " * Commit 1 (el más reciente) | 12345A | MoureDev | Este es un commit | 24/04/2023 21:00",
+            " *",
+            " * Se permite utilizar librerías que nos faciliten esta tarea.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2317%20-%20GIT%20Y%20GITHUB%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2317%20-%20GIT%20Y%20GITHUB%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2317%20-%20GIT%20Y%20GITHUB%20%5BDif%C3%ADcil%5D",
+        "level": 3,
+        "date": "#17 2023"
+    },
+    {
+        "title": "#71 WEB SCRAPING",
+        "code": [
+            "/*",
+            " * El día 128 del año celebramos en la comunidad el \"Hola Mundo day\"",
+            " * Vamos a hacer \"web scraping\" sobre su sitio web: https://holamundo.day",
+            " *",
+            " * Crea un programa que se conecte a la web del evento e imprima únicamente la agenda de eventos",
+            " * del día 8. Mostrando hora e información de cada uno.",
+            " * Ejemplo: \"16:00 | Bienvenida\"",
+            " *",
+            " * Se permite utilizar librerías que nos faciliten esta tarea.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2318%20-%20WEB%20SCRAPING%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2318%20-%20WEB%20SCRAPING%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2318%20-%20WEB%20SCRAPING%20%5BDif%C3%ADcil%5D",
+        "level": 3,
+        "date": "#18 2023"
+    },
+    {
+        "title": "#72 ANÁLISIS DE TEXTO",
+        "code": [
+            "/*",
+            " * Crea un programa que analice texto y obtenga:",
+            " * - Número total de palabras.",
+            " * - Longitud media de las palabras.",
+            " * - Número de oraciones del texto (cada vez que aparecen un punto).",
+            " * - Encuentre la palabra más larga.",
+            " *",
+            " * Todo esto utilizando un único bucle.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2319%20-%20AN%C3%81LISIS%20DE%20TEXTO%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2319%20-%20AN%C3%81LISIS%20DE%20TEXTO%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2319%20-%20AN%C3%81LISIS%20DE%20TEXTO%20%5BMedia%5D",
+        "level": 2,
+        "date": "#19 2023"
+    },
+    {
+        "title": "#73 LA TRIFUERZA",
+        "code": [
+            "/*",
+            " * ¡El nuevo \"The Legend of Zelda: Tears of the Kingdom\" ya está disponible! ",
+            " *",
+            " * Crea un programa que dibuje una Trifuerza de \"Zelda\"",
+            " * formada por asteriscos.",
+            " * - Debes indicarle el número de filas de los triángulos con un entero positivo (n).",
+            " * - Cada triángulo calculará su fila mayor utilizando la fórmula 2n-1.",
+            " *",
+            " * Ejemplo: Trifuerza 2",
+            " *",
+            " *    *",
+            " *   ***",
+            " *  *   *",
+            " * *** ***",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2320%20-%20LA%20TRIFUERZA%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2320%20-%20LA%20TRIFUERZA%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2320%20-%20LA%20TRIFUERZA%20%5BMedia%5D",
+        "level": 2,
+        "date": "#20 2023"
+    },
+    {
+        "title": "#74 NÚMEROS PRIMOS GEMELOS",
+        "code": [
+            "/*",
+            " * Crea un programa que encuentre y muestre todos los pares de números primos",
+            " * gemelos en un rango concreto.",
+            " * El programa recibirá el rango máximo como número entero positivo.",
+            " *",
+            " * - Un par de números primos se considera gemelo si la diferencia entre",
+            " *   ellos es exactamente 2. Por ejemplo (3, 5), (11, 13)",
+            " *",
+            " * - Ejemplo: Rango 14",
+            " *   (3, 5), (5, 7), (11, 13)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2321%20-%20N%C3%9AMEROS%20PRIMOS%20GEMELOS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2321%20-%20N%C3%9AMEROS%20PRIMOS%20GEMELOS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2321%20-%20N%C3%9AMEROS%20PRIMOS%20GEMELOS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#21 2023"
+    },
+    {
+        "title": "#75 LA ESPIRAL",
+        "code": [
+            "/*",
+            " * Crea una función que dibuje una espiral como la del ejemplo.",
+            " * - Únicamente se indica de forma dinámica el tamaño del lado.",
+            " * - Símbolos permitidos: ═ ║ ╗ ╔ ╝ ╚",
+            " *",
+            " * Ejemplo espiral de lado 5 (5 filas y 5 columnas):",
+            " * ════╗",
+            " * ╔══╗║",
+            " * ║╔╗║║",
+            " * ║╚═╝║",
+            " * ╚═══╝",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2322%20-%20LA%20ESPIRAL%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2322%20-%20LA%20ESPIRAL%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2322%20-%20LA%20ESPIRAL%20%5BMedia%5D",
+        "level": 2,
+        "date": "#22 2023"
+    },
+    {
+        "title": "#76 LA BASE DE DATOS",
+        "code": [
+            "/*",
+            " * Realiza una conexión desde el lenguaje que hayas seleccionado a la siguiente",
+            "  * base de datos MySQL:",
+            " * - Host: mysql-5707.dinaserver.com",
+            " * - Port: 3306",
+            " * - User: mouredev_read",
+            " * - Password: mouredev_pass",
+            " * - Database: moure_test",
+            " *",
+            " * Una vez realices la conexión, lanza la siguiente consulta e imprime el resultado:",
+            " * - SELECT * FROM `challenges`",
+            " *",
+            " * Se pueden usar librerías para realizar la lógica de conexión a la base de datos.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2323%20-%20LA%20BASE%20DE%20DATOS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2323%20-%20LA%20BASE%20DE%20DATOS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2323%20-%20LA%20BASE%20DE%20DATOS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#23 2023"
+    },
+    {
+        "title": "#77 CIFRADO CÉSAR",
+        "code": [
+            "/*",
+            " * Crea un programa que realize el cifrado César de un texto y lo imprima.",
+            " * También debe ser capaz de descifrarlo cuando así se lo indiquemos.",
+            " *",
+            " * Te recomiendo que busques información para conocer en profundidad cómo",
+            " * realizar el cifrado. Esto también forma parte del reto.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2324%20-%20CIFRADO%20C%C3%89SAR%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2324%20-%20CIFRADO%20C%C3%89SAR%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2324%20-%20CIFRADO%20C%C3%89SAR%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#24 2023"
+    },
+    {
+        "title": "#78 EL CÓDIGO KONAMI",
+        "code": [
+            "/*",
+            " * Crea un programa que detecte cuando el famoso \"Código Konami\" se ha",
+            " * introducido correctamente desde el teclado.",
+            " * Si sucede esto, debe notificarse mostrando un mensaje en la terminal.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2325%20-%20EL%20C%C3%93DIGO%20KONAMI%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2325%20-%20EL%20C%C3%93DIGO%20KONAMI%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2325%20-%20EL%20C%C3%93DIGO%20KONAMI%20%5BMedia%5D",
+        "level": 2,
+        "date": "#25 2023"
+    },
+    {
+        "title": "#79 TESTING",
+        "code": [
+            "/*",
+            " * Crea tres test sobre el reto 12: \"Viernes 13\".",
+            " * - Puedes copiar una solución ya creada por otro usuario en",
+            " *   el lenguaje que estés utilizando.",
+            " * - Debes emplear un mecanismo de ejecución de test que posea",
+            " *   el lenguaje de programación que hayas seleccionado.",
+            " * - Los tres test deben de funcionar y comprobar",
+            " *   diferentes situaciones (a tu elección).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2326%20-%20TESTING%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2326%20-%20TESTING%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2326%20-%20TESTING%20%5BMedia%5D",
+        "level": 2,
+        "date": "#26 2023"
+    },
+    {
+        "title": "#80 CUENTA ATRÁS",
+        "code": [
+            "/*",
+            " * Crea una función que reciba dos parámetros para crear una cuenta atrás.",
+            " * - El primero, representa el número en el que comienza la cuenta.",
+            " * - El segundo, los segundos que tienen que transcurrir entre cada cuenta.",
+            " * - Sólo se aceptan números enteros positivos.",
+            " * - El programa finaliza al llegar a cero.",
+            " * - Debes imprimir cada número de la cuenta atrás.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2327%20-%20CUENTA%20ATR%C3%81S%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2327%20-%20CUENTA%20ATR%C3%81S%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2327%20-%20CUENTA%20ATR%C3%81S%20%5BMedia%5D",
+        "level": 2,
+        "date": "#27 2023"
+    },
+    {
+        "title": "#81 EXPRESIÓN MATEMÁTICA",
+        "code": [
+            "/*",
+            " * Crea una función que reciba una expresión matemática (String)",
+            " * y compruebe si es correcta. Retornará true o false.",
+            " * - Para que una expresión matemática sea correcta debe poseer",
+            " *   un número, una operación y otro número separados por espacios.",
+            " *   Tantos números y operaciones como queramos.",
+            " * - Números positivos, negativos, enteros o decimales.",
+            " * - Operaciones soportadas: + - * / %",
+            " *",
+            " * Ejemplos:",
+            " * \"5 + 6 / 7 - 4\" -> true",
+            " * \"5 a 6\" -> false",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2328%20-%20EXPRESI%C3%93N%20MATEM%C3%81TICA%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2328%20-%20EXPRESI%C3%93N%20MATEM%C3%81TICA%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2328%20-%20EXPRESI%C3%93N%20MATEM%C3%81TICA%20%5BMedia%5D",
+        "level": 2,
+        "date": "#28 2023"
+    },
+    {
+        "title": "#82 EL CARÁCTER INFILTRADO",
+        "code": [
+            "/*",
+            " * Crea una función que reciba dos cadenas de texto casi iguales,",
+            " * a excepción de uno o varios caracteres.",
+            " * La función debe encontrarlos y retornarlos en formato lista/array.",
+            " * - Ambas cadenas de texto deben ser iguales en longitud.",
+            " * - Las cadenas de texto son iguales elemento a elemento.",
+            " * - No se pueden utilizar operaciones propias del lenguaje",
+            " *   que lo resuelvan directamente.",
+            " *",
+            " * Ejemplos:",
+            " * - Me llamo mouredev / Me llemo mouredov -> [\"e\", \"o\"]",
+            " * - Me llamo.Brais Moure / Me llamo brais moure -> [\" \", \"b\", \"m\"]",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2329%20-%20EL%20CAR%C3%81CTER%20INFILTRADO%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2329%20-%20EL%20CAR%C3%81CTER%20INFILTRADO%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2329%20-%20EL%20CAR%C3%81CTER%20INFILTRADO%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#29 2023"
+    },
+    {
+        "title": "#83 EL TECLADO T9",
+        "code": [
+            "/*",
+            " * Los primeros dispositivos móviles tenían un teclado llamado T9",
+            " * con el que se podía escribir texto utilizando únicamente su",
+            " * teclado numérico (del 0 al 9).",
+            " *",
+            " * Crea una función que transforme las pulsaciones del T9 a su",
+            " * representación con letras.",
+            " * - Debes buscar cuál era su correspondencia original",
+            " * - Cada bloque de pulsaciones va separado por un guión.",
+            " * - Si un bloque tiene más de un número, debe ser siempre el mismo.",
+            " * - Ejemplo:",
+            " *     Entrada: 6-666-88-777-33-3-33-888",
+            " *     Salida: MOUREDEV",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2330%20-%20EL%20TECLADO%20T9%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2330%20-%20EL%20TECLADO%20T9%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2330%20-%20EL%20TECLADO%20T9%20%5BMedia%5D",
+        "level": 2,
+        "date": "#30 2023"
+    },
+    {
+        "title": "#84 EL ÁBACO",
+        "code": [
+            "/*",
+            " * Crea una función que sea capaz de leer el número representado por el ábaco.",
+            " * - El ábaco se representa por un array con 7 elementos.",
+            " * - Cada elemento tendrá 9 \"O\" (aunque habitualmente tiene 10 para realizar",
+            " *   operaciones) para las cuentas y una secuencia de \"---\" para el alambre.",
+            " * - El primer elemento del array representa los millones, y el último las unidades.",
+            " * - El número en cada elemento se representa por las cuentas que están a",
+            " *   la izquierda del alambre.",
+            " *",
+            " * Ejemplo de array y resultado:",
+            " * [\"O---OOOOOOOO\",",
+            " *  \"OOO---OOOOOO\",",
+            " *  \"---OOOOOOOOO\",",
+            " *  \"OO---OOOOOOO\",",
+            " *  \"OOOOOOO---OO\",",
+            " *  \"OOOOOOOOO---\",",
+            " *  \"---OOOOOOOOO\"]",
+            " *",
+            " *  Resultado: 1.302.790",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2331%20-%20EL%20%C3%81BACO%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2331%20-%20EL%20%C3%81BACO%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2331%20-%20EL%20%C3%81BACO%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#31 2023"
+    },
+    {
+        "title": "#85 LA COLUMNA DE EXCEL",
+        "code": [
+            "/*",
+            " * Crea una función que calcule el número de la columna de una hoja de Excel",
+            " * teniendo en cuenta su nombre.",
+            " * - Las columnas se designan por letras de la \"A\" a la \"Z\" de forma infinita.",
+            " * - Ejemplos: A = 1, Z = 26, AA = 27, CA = 79.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2332%20-%20LA%20COLUMNA%20DE%20EXCEL%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2332%20-%20LA%20COLUMNA%20DE%20EXCEL%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2332%20-%20LA%20COLUMNA%20DE%20EXCEL%20%5BMedia%5D",
+        "level": 2,
+        "date": "#32 2023"
+    },
+    {
+        "title": "#86 TETRIS",
+        "code": [
+            "/*",
+            " * Crea un programa capaz de gestionar una pieza de Tetris.",
+            " * - La pantalla de juego tiene 10 filas y 10 columnas representadas por símbolos 🔲",
+            " * - La pieza de tetris a manejar será la siguiente (si quieres, puedes elegir otra):",
+            " *   🔳",
+            " *   🔳🔳🔳",
+            " * - La pieza aparecerá por primera vez en la parte superior izquierda de la pantalla de juego.",
+            " *   🔳🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔳🔳🔳🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲",
+            " * - Debes desarrollar una función capaz de desplazar y rotar la pieza en el tablero,",
+            " *   recibiendo una acción cada vez que se llame, mostrando cómo se visualiza en",
+            " *   la pantalla de juego.",
+            " * - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda, abajo, rotar.",
+            " * - Debes tener en cuenta los límites de la pantalla de juego.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2333%20-%20TETRIS%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2333%20-%20TETRIS%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2333%20-%20TETRIS%20%5BDif%C3%ADcil%5D",
+        "level": 2,
+        "date": "#33 2023",
+        "video": "https://www.youtube.com/watch?v=3UCZltG8iCY"
+    },
+    {
+        "title": "#87 TXT",
+        "code": [
+            "/*",
+            " * Crea un programa capaz de interactuar con un fichero TXT.",
+            " * IMPORTANTE: El fichero TXT NO debe subirse como parte de la corrección.",
+            " * Únicamente el código.",
+            " *",
+            " * - Si no existe, debe crear un fichero llamado \"text.txt\".",
+            " * - Desde el programa debes ser capaz de introducir texto por consola y guardarlo",
+            " *   en una nueva línea cada vez que se pulse el botón \"Enter\".",
+            " * - Si el fichero existe, el programa tiene que dar la opción de seguir escribiendo",
+            " *   a continuación o borrar su contenido y comenzar desde el principio.",
+            " * - Si se selecciona continuar escribiendo, se tiene que mostrar por consola",
+            " *   el texto que ya posee el fichero. ",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2334%20-%20EL%20TXT%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2334%20-%20EL%20TXT%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2334%20-%20EL%20TXT%20%5BMedia%5D",
+        "level": 2,
+        "date": "#34 2023"
+    },
+    {
+        "title": "#88 PRIMEROS PASOS",
+        "code": [
+            "/*",
+            " * Como cada año, el día 256 se celebra el \"Día de la Programación\".",
+            " * En nuestra comunidad siempre hacemos una gran fiesta donde repartirmos",
+            " * 256 regalos para seguir aprendiendo programación:",
+            " * https://diadelaprogramacion.com",
+            " *",
+            " * Para seguir ayudando, te propongo este reto:",
+            " * Mostrar la sintaxis de los principales elementos de un lenguaje",
+            " * en TODOS los lenguajes de programación que podamos. ¿Llegaremos a 50?",
+            " *",
+            " * En un fichero, haz lo siguiente (si el lenguaje lo soporta),",
+            " * y comenta cada bloque para identificar con qué se corresponde:",
+            " * - Haz un \"Hola, mundo!\"",
+            " * - Crea variables de tipo String, numéricas (enteras y decimales)",
+            " *   y Booleanas (o cualquier tipo de dato primitivo).",
+            " * - Crea una constante.",
+            " * - Usa un if, else if y else.",
+            " * - Crea estructuras como un array, lista, tupla, set y diccionario.",
+            " * - Usa un for, foreach y un while.",
+            " * - Crea diferentes funciones (con/sin parámetros y con/sin retorno).",
+            " * - Crea una clase.",
+            " * - Muestra el control de excepciones.",
+            " *",
+            " * Así, cualquier persona podrá consultar rápidamente diferentes ejemplos",
+            " * de sintaxis básica de muchos lenguajes.",
+            " *",
+            " * ¡Muchas gracias!",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2335%20-%20PRIMEROS%20PASOS%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2335%20-%20PRIMEROS%20PASOS%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2335%20-%20PRIMEROS%20PASOS%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#35 2023"
+    },
+    {
+        "title": "#89 PERMUTACIONES",
+        "code": [
+            "/*",
+            " * Crea un programa que sea capaz de generar e imprimir todas las",
+            " * permutaciones disponibles formadas por las letras de una palabra.",
+            " * - Las palabras generadas no tienen por qué existir.",
+            " * - Deben usarse todas las letras en cada permutación.",
+            " * - Ejemplo: sol, slo, ols, osl, los, lso",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2336%20-%20PERMUTACIONES%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2336%20-%20PERMUTACIONES%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2336%20-%20PERMUTACIONES%20%5BMedia%5D",
+        "level": 2,
+        "date": "#36 2023"
+    },
+    {
+        "title": "#90 COLORES HEX Y RGB",
+        "code": [
+            "/*",
+            " * Crea las funciones capaces de transformar colores HEX",
+            " * a RGB y viceversa.",
+            " * Ejemplos:",
+            " * RGB a HEX: r: 0, g: 0, b: 0 -> #000000",
+            " * HEX a RGB: hex: #000000 -> (r: 0, g: 0, b: 0)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2337%20-%20COLORES%20HEX%20Y%20RGB%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2337%20-%20COLORES%20HEX%20Y%20RGB%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2337%20-%20COLORES%20HEX%20Y%20RGB%20%5BMedia%5D",
+        "level": 2,
+        "date": "#37 2023"
+    },
+    {
+        "title": "#91 LAS SUMAS",
+        "code": [
+            "/*",
+            " * Crea una función que encuentre todas las combinaciones de los números",
+            " * de una lista que suman el valor objetivo.",
+            " * - La función recibirá una lista de números enteros positivos",
+            " *   y un valor objetivo.",
+            " * - Para obtener las combinaciones sólo se puede usar",
+            " *   una vez cada elemento de la lista (pero pueden existir",
+            " *   elementos repetidos en ella).",
+            " * - Ejemplo: Lista = [1, 5, 3, 2],  Objetivo = 6",
+            " *   Soluciones: [1, 5] y [1, 3, 2] (ambas combinaciones suman 6)",
+            " *   (Si no existen combinaciones, retornar una lista vacía)",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2338%20-%20LAS%20SUMAS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2338%20-%20LAS%20SUMAS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2338%20-%20LAS%20SUMAS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#38 2023",
+        "video": "https://www.youtube.com/watch?v=G0ga_YVQOaw"
+    },
+    {
+        "title": "#92 TRIPLES PITAGÓRICOS",
+        "code": [
+            "/*",
+            " * Crea una función que encuentre todos los triples pitagóricos",
+            " * (ternas) menores o iguales a un número dado.",
+            " * - Debes buscar información sobre qué es un triple pitagórico.",
+            " * - La función únicamente recibe el número máximo que puede",
+            " *   aparecer en el triple.",
+            " * - Ejemplo: Los triples menores o iguales a 10 están",
+            " *   formados por (3, 4, 5) y (6, 8, 10).",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2339%20-%20TRIPLES%20PITAG%C3%93RICOS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2339%20-%20TRIPLES%20PITAG%C3%93RICOS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2339%20-%20TRIPLES%20PITAG%C3%93RICOS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#39 2023"
+    },
+    {
+        "title": "#93 TABLA DE MULTIPLICAR",
+        "code": [
+            "/*",
+            " * Crea un programa que sea capaz de solicitarte un número y se",
+            " * encargue de imprimir su tabla de multiplicar entre el 1 y el 10.",
+            " * - Debe visualizarse qué operación se realiza y su resultado.",
+            " *   Ej: 1 x 1 = 1",
+            " *       1 x 2 = 2",
+            " *       1 x 3 = 3",
+            " *       ...",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2340%20-%20TABLA%20DE%20MULTIPLICAR%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2340%20-%20TABLA%20DE%20MULTIPLICAR%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2340%20-%20TABLA%20DE%20MULTIPLICAR%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#40 2023"
+    },
+    {
+        "title": "#94 LA CASA ENCANTADA",
+        "code": [
+            "/*",
+            " * Este es un reto especial por Halloween.",
+            " * Te encuentras explorando una mansión abandonada llena de habitaciones.",
+            " * En cada habitación tendrás que resolver un acertijo para poder avanzar a la siguiente.",
+            " * Tu misión es encontrar la habitación de los dulces.",
+            " *",
+            " * Se trata de implementar un juego interactivo de preguntas y respuestas por terminal.",
+            " * (Tienes total libertad para ser creativo con los textos)",
+            " *",
+            " * - 🏰 Casa: La mansión se corresponde con una estructura cuadrada 4 x 4",
+            " *   que deberás modelar. Las habitaciones de puerta y dulces no tienen enigma.",
+            " *   (16 habitaciones, siendo una de entrada y otra donde están los dulces)",
+            " *   Esta podría ser una representación:",
+            " *   🚪⬜️⬜️⬜️",
+            " *   ⬜️👻⬜️⬜️",
+            " *   ⬜️⬜️⬜️👻",
+            " *   ⬜️⬜️🍭⬜️",
+            " * - ❓ Enigmas: Cada habitación propone un enigma aleatorio que deberás responder con texto.",
+            " *   Si no lo aciertas no podrás desplazarte.",
+            " * - 🧭 Movimiento: Si resuelves el enigma se te preguntará a donde quieres desplazarte.",
+            " *   (Ejemplo: norte/sur/este/oeste. Sólo deben proporcionarse las opciones posibles)",
+            " * - 🍭 Salida: Sales de la casa si encuentras la habitación de los dulces.",
+            " * - 👻 (Bonus) Fantasmas: Existe un 10% de que en una habitación aparezca un fantasma y",
+            " *   tengas que responder dos preguntas para salir de ella.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2341%20-%20LA%20CASA%20ENCANTADA%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2341%20-%20LA%20CASA%20ENCANTADA%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2341%20-%20LA%20CASA%20ENCANTADA%20%5BDif%C3%ADcil%5D",
+        "level": 3,
+        "date": "#41 2023",
+        "video": "https://www.youtube.com/watch?v=EzCj7XCtxEQ"
+    },
+    {
+        "title": "#95 PUNTO DE ENCUENTRO",
+        "code": [
+            "/*",
+            " * Crea una función que calcule el punto de encuentro de dos objetos en movimiento",
+            " * en dos dimensiones.",
+            " * - Cada objeto está compuesto por una coordenada xy y una velocidad de desplazamiento",
+            " *   (vector de desplazamiento) por unidad de tiempo (también en formato xy).",
+            " * - La función recibirá las coordenadas de inicio de ambos objetos y sus velocidades.",
+            " * - La función calculará y mostrará el punto en el que se encuentran y el tiempo que",
+            " *   tardarn en lograrlo.",
+            " * - La función debe tener en cuenta que los objetos pueden no llegar a encontrarse.",
+            " */"
+        ],
+        "url": "hhttps://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2342%20-%20PUNTO%20DE%20ENCUENTRO%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2342%20-%20PUNTO%20DE%20ENCUENTRO%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2342%20-%20PUNTO%20DE%20ENCUENTRO%20%5BDif%C3%ADcil%5D",
+        "level": 3,
+        "date": "#42 2023",
+        "video": "https://www.youtube.com/watch?v=WMjN4zQGwBg"
+    },
+    {
+        "title": "#96 SIMULADOR DE CLIMA",
+        "code": [
+            "/*",
+            " * Crea una función que simule las condiciones climáticas (temperatura y probabilidad de lluvia)",
+            " * de un lugar ficticio al pasar un número concreto de días según estas reglas:",
+            " * - La temperatura inicial y el % de probabilidad de lluvia lo define el usuario.",
+            " * - Cada día que pasa:",
+            " *   - 10% de posibilidades de que la temperatura aumente o disminuya 2 grados.",
+            " *   - Si la temperatura supera los 25 grados, la probabilidad de lluvia al día",
+            " *     siguiente aumenta en un 20%.",
+            " *   - Si la temperatura baja de 5 grados, la probabilidad de lluvia al día",
+            " *     siguiente disminuya en un 20%.",
+            " *   - Si llueve (100%), la temperatura del día siguiente disminuye en 1 grado.",
+            " * - La función recibe el número de días de la predicción y muestra la temperatura",
+            " *   y si llueve durante todos esos días.",
+            " * - También mostrará la temperatura máxima y mínima de ese periodo y cuántos días va a llover.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2343%20-%20SIMULADOR%20DE%20CLIMA%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2343%20-%20SIMULADOR%20DE%20CLIMA%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2343%20-%20SIMULADOR%20DE%20CLIMA%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#43 2023"
+    },
+    {
+        "title": "#97 ADIVINANZAS MATEMÁTICAS",
+        "code": [
+            "/*",
+            " * Crea un juego interactivo por terminal en el que tendrás que adivinar",
+            " * el resultado de diferentes operaciones matemáticas aleatorias",
+            " * (suma, resta, multiplicación o división de dos números enteros).",
+            " * - Tendrás 3 segundos para responder correctamente.",
+            " * - El juego finaliza si no se logra responder en ese tiempo.",
+            " * - Al finalizar el juego debes mostrar cuántos cálculos has acertado.",
+            " * - Cada 5 aciertos debes aumentar en uno el posible número de cifras",
+            " *   de la operación (cada vez en un operando):",
+            " *   - Preguntas 1 a 5: X (entre 0 y 9) operación Y (entre 0 y 9)",
+            " *   - Preguntas 6 a 10: XX (entre 0 y 99) operación Y (entre 0 y 9)",
+            " *   - Preguntas 11 a 15: XX operación YY",
+            " *   - Preguntas 16 a 20: XXX (entre 0 y 999) operación YY",
+            " *   ..",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2344%20-%20ADIVINANZAS%20MATEM%C3%81TICAS%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2344%20-%20ADIVINANZAS%20MATEM%C3%81TICAS%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2344%20-%20ADIVINANZAS%20MATEM%C3%81TICAS%20%5BMedia%5D",
+        "level": 2,
+        "date": "#44 2023"
+    },
+    {
+        "title": "#98 EL CALENDARIO DE ADEVIENTO 2023",
+        "code": [
+            "/*",
+            " * ¿Conoces el calendario de aDEViento de la comunidad (https://adviento.dev)?",
+            " * 24 días, 24 regalos sorpresa relacionados con desarrollo de software.",
+            " * Desde el 1 al 24 de diciembre.",
+            " *",
+            " * Crea un programa que simule el mecanismo de participación:",
+            " * - Mediante la terminal, el programa te preguntará si quieres añadir y borrar",
+            " *   participantes, mostrarlos, lanzar el sorteo o salir.",
+            " * - Si seleccionas añadir un participante, podrás escribir su nombre y pulsar enter.",
+            " * - Si seleccionas añadir un participante, y este ya existe, avisarás de ello.",
+            " *   (Y no lo duplicarás)",
+            " * - Si seleccionas mostrar los participantes, se listarán todos.",
+            " * - Si seleccionas eliminar un participante, podrás escribir su nombre y pulsar enter.",
+            " *   (Avisando de si lo has eliminado o el nombre no existe)",
+            " * - Si seleccionas realizar el sorteo, elegirás una persona al azar",
+            " *   y se eliminará del listado.",
+            " * - Si seleccionas salir, el programa finalizará.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2345%20-%20EL%20CALENDARIO%20DE%20ADEVIENTO%202023%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2345%20-%20EL%20CALENDARIO%20DE%20ADEVIENTO%202023%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2345%20-%20EL%20CALENDARIO%20DE%20ADEVIENTO%202023%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#45 2023"
+    },
+    {
+        "title": "#99 LA CARRERA DE COCHES",
+        "code": [
+            "/*",
+            " * Crea un programa que simule la competición de dos coches en una pista.",
+            " * - Los dos coches estarán representados por 🚙 y 🚗. Y la meta por 🏁.",
+            " * - Cada pista tendrá entre 1 y 3 árboles 🌲 colocados de forma aleatoria.",
+            " * - Las dos pistas tendrán una longitud configurable de guiones bajos \"_\".",
+            " * - Los coches comenzarán en la parte derecha de las pistas. Ejemplo:",
+            " *   🏁____🌲_____🚙",
+            " *   🏁_🌲____🌲___🚗",
+            " *",
+            " * El juego se desarrolla por turnos de forma automática, y cada segundo",
+            " * se realiza una acción sobre los coches (moviéndose a la vez), hasta que",
+            " * uno de ellos (o los dos a la vez) llega a la meta.",
+            " * - Acciones:",
+            " *   - Avanzar entre 1 a 3 posiciones hacia la meta.",
+            " *   - Si al avanzar, el coche finaliza en la posición de un árbol,",
+            " *     se muestra 💥 y no avanza durante un turno.",
+            " *   - Cada turno se imprimen las pistas y sus elementos.",
+            " *   - Cuando la carrera finalice, se muestra el coche ganador o el empate.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2346%20-%20LA%20CARRERA%20DE%20COCHES%20%5BMedia%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2346%20-%20LA%20CARRERA%20DE%20COCHES%20%5BMedia%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2346%20-%20LA%20CARRERA%20DE%20COCHES%20%5BMedia%5D",
+        "level": 2,
+        "date": "#46 2023"
+    },
+    {
+        "title": "#100 LA PALABRA DE 100 PUNTOS",
+        "code": [
+            "/*",
+            " * La última semana de 2021 comenzamos la actividad de retos de programación,",
+            " * con la intención de resolver un ejercicio cada semana para mejorar",
+            " * nuestra lógica... ¡Hemos llegado al EJERCICIO 100! Gracias 🙌",
+            " *",
+            " * Crea un programa que calcule los puntos de una palabra.",
+            " * - Cada letra tiene un valor asignado. Por ejemplo, en el abecedario",
+            " *   español de 27 letras, la A vale 1 y la Z 27.",
+            " * - El programa muestra el valor de los puntos de cada palabra introducida.",
+            " * - El programa finaliza si logras introducir una palabra de 100 puntos.",
+            " * - Puedes usar la terminal para interactuar con el usuario y solicitarle",
+            " *   cada palabra.",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2347%20-%20LA%20PALABRA%20DE%20100%20PUNTOS%20%5BF%C3%A1cil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2347%20-%20LA%20PALABRA%20DE%20100%20PUNTOS%20%5BF%C3%A1cil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2347%20-%20LA%20PALABRA%20DE%20100%20PUNTOS%20%5BF%C3%A1cil%5D",
+        "level": 1,
+        "date": "#47 2023"
+    },
+    {
+        "title": "#101 EL RANKING",
+        "code": [
+            "/*",
+            " * Todo llega a su fin... Este es el último reto de programación",
+            " * semanal de 2023.",
+            " *",
+            " * Crea un programa que muestre un listado calculado en tiempo real",
+            " * con todos los usuarios que han resuelto algún reto de programación",
+            " * de este año.",
+            " * - El listado debe estar ordenado por el número de ejercicios resueltos",
+            " *   por cada usuario (y mostrar ese contador al lado de su nombre).",
+            " * - También se debe de mostrar el número de usuarios que han participado",
+            " *   y el número de correcciones enviadas.",
+            " *",
+            " * Muchísimas gracias por ayudar a crear este gran recurso",
+            " * para la comunidad... ¡Prepárate para 2024!",
+            " */"
+        ],
+        "url": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2348%20-%20EL%20RANKING%20%5BDif%C3%ADcil%5D/ejercicio.md",
+        "solution": "https://github.com/mouredev/retos-programacion-2023/blob/main/Retos/Reto%20%2348%20-%20EL%20RANKING%20%5BDif%C3%ADcil%5D/python/mouredev.py",
+        "community": "https://github.com/mouredev/retos-programacion-2023/tree/main/Retos/Reto%20%2348%20-%20EL%20RANKING%20%5BDif%C3%ADcil%5D",
+        "level": 3,
+        "date": "#48 2023"
+    }
+]
